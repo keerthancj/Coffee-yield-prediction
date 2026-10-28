@@ -1,0 +1,1434 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>
+        Coffee Yield Prediction System
+    </title>
+
+    <link
+        rel="stylesheet"
+        href="{{ url_for('static', filename='style.css') }}"
+    >
+
+</head>
+
+
+<body>
+
+
+<!-- =====================================================
+HEADER
+===================================================== -->
+
+<header>
+
+    <div class="logo">
+
+        ☕ CoffeeAI
+
+    </div>
+
+
+    <div class="subtitle">
+
+        Smart Coffee Yield Prediction & Climate Suitability System
+
+    </div>
+
+</header>
+
+
+
+<!-- =====================================================
+MAIN CONTAINER
+===================================================== -->
+
+<div class="container">
+
+
+    <!-- HERO -->
+
+    <section class="hero">
+
+        <h1>
+            Coffee Yield Prediction
+        </h1>
+
+
+        <p>
+
+            Predict coffee yield, production,
+            disease impact and climate suitability
+            using Machine Learning.
+
+        </p>
+
+    </section>
+
+
+
+    <!-- =================================================
+    FORM
+    ================================================= -->
+
+    <section class="prediction-card">
+
+
+        <h2>
+
+            🌱 Farm & Climate Details
+
+        </h2>
+
+
+        <form id="predictionForm">
+
+
+            <div class="form-grid">
+
+
+                <!-- STATE -->
+
+                <div class="form-group">
+
+                    <label>
+                        State
+                    </label>
+
+
+                    <select
+                        id="state"
+                        name="state"
+                        required
+                    >
+
+                        <option value="">
+
+                            Select State
+
+                        </option>
+
+
+                        {% for state in states %}
+
+                        <option
+                            value="{{ state }}"
+                        >
+
+                            {{ state }}
+
+                        </option>
+
+                        {% endfor %}
+
+                    </select>
+
+                </div>
+
+
+
+                <!-- DISTRICT -->
+
+                <div class="form-group">
+
+                    <label>
+                        District
+                    </label>
+
+
+                    <select
+                        id="district"
+                        name="district"
+                        required
+                    >
+
+                        <option value="">
+
+                            Select State First
+
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+
+                <!-- COFFEE TYPE -->
+
+                <div class="form-group">
+
+                    <label>
+                        Coffee Type
+                    </label>
+
+
+                    <select
+                        name="coffee_type"
+                        required
+                    >
+
+                        <option value="Arabica">
+
+                            Arabica
+
+                        </option>
+
+
+                        <option value="Robusta">
+
+                            Robusta
+
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+
+                <!-- QUARTER -->
+
+                <div class="form-group">
+
+                    <label>
+                        Quarter
+                    </label>
+
+
+                    <select
+                        name="quarter"
+                        required
+                    >
+
+                        <option value="1">
+                            Quarter 1
+                        </option>
+
+
+                        <option value="2">
+                            Quarter 2
+                        </option>
+
+
+                        <option value="3">
+                            Quarter 3
+                        </option>
+
+
+                        <option value="4">
+                            Quarter 4
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+
+                <!-- AREA -->
+
+                <div class="form-group">
+
+                    <label>
+                        Coffee Growing Area
+                    </label>
+
+
+                    <input
+                        type="number"
+                        name="area"
+                        step="0.01"
+                        min="0.01"
+                        placeholder="Enter area"
+                        required
+                    >
+
+                </div>
+
+
+
+                <!-- AREA UNIT -->
+
+                <div class="form-group">
+
+                    <label>
+                        Area Unit
+                    </label>
+
+
+                    <select
+                        name="area_unit"
+                    >
+
+                        <option value="Acre">
+                            Acre
+                        </option>
+
+
+                        <option value="Hectare">
+                            Hectare
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+
+                <!-- RAINFALL -->
+
+                <div class="form-group">
+
+                    <label>
+                        Quarterly Rainfall (mm)
+                    </label>
+
+
+                    <input
+                        type="number"
+                        name="rainfall"
+                        step="0.01"
+                        min="0"
+                        placeholder="Example: 500"
+                        required
+                    >
+
+                </div>
+
+
+
+                <!-- TMAX -->
+
+                <div class="form-group">
+
+                    <label>
+                        Average Maximum Temperature (°C)
+                    </label>
+
+
+                    <input
+                        type="number"
+                        name="tmax"
+                        step="0.1"
+                        placeholder="Example: 30"
+                        required
+                    >
+
+                </div>
+
+
+
+                <!-- TMIN -->
+
+                <div class="form-group">
+
+                    <label>
+                        Average Minimum Temperature (°C)
+                    </label>
+
+
+                    <input
+                        type="number"
+                        name="tmin"
+                        step="0.1"
+                        placeholder="Example: 20"
+                        required
+                    >
+
+                </div>
+
+
+
+                <!-- SEASON -->
+
+                <div class="form-group">
+
+                    <label>
+                        Prediction Season
+                    </label>
+
+
+                    <select
+                        name="prediction_season"
+                    >
+
+                        <option value="Post Blossom">
+
+                            Post Blossom
+
+                        </option>
+
+
+                        <option value="Post Monsoon">
+
+                            Post Monsoon
+
+                        </option>
+
+                    </select>
+
+                </div>
+
+
+
+                <!-- DISEASE -->
+
+                <div class="form-group">
+
+                    <label>
+                        Disease Type
+                    </label>
+
+
+                    <select
+                        id="disease"
+                        name="disease"
+                    >
+
+                        {% for disease in diseases %}
+
+                        <option
+                            value="{{ disease }}"
+                        >
+
+                            {{ disease }}
+
+                        </option>
+
+                        {% endfor %}
+
+                    </select>
+
+                </div>
+
+
+
+                <!-- DISEASE PERCENTAGE -->
+
+                <div
+                    class="form-group"
+                    id="diseasePercentageGroup"
+                >
+
+                    <label>
+                        Crop Affected (%)
+                    </label>
+
+
+                    <input
+                        type="number"
+                        id="disease_percentage"
+                        name="disease_percentage"
+                        min="0"
+                        max="100"
+                        value="0"
+                    >
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- BUTTON -->
+
+            <button
+                type="submit"
+                id="predictButton"
+            >
+
+                🚀 Predict Coffee Yield
+
+            </button>
+
+
+        </form>
+
+
+    </section>
+
+
+
+    <!-- =================================================
+    LOADING
+    ================================================= -->
+
+    <div
+        id="loading"
+        class="loading hidden"
+    >
+
+        <div class="spinner"></div>
+
+        <p>
+
+            Analyzing coffee farm data...
+
+        </p>
+
+    </div>
+
+
+
+    <!-- =================================================
+    ERROR
+    ================================================= -->
+
+    <div
+        id="errorBox"
+        class="error hidden"
+    >
+
+    </div>
+
+
+
+    <!-- =================================================
+    RESULTS
+    ================================================= -->
+
+    <section
+        id="results"
+        class="hidden"
+    >
+
+
+        <h2 class="results-title">
+
+            ☕ Prediction Results
+
+        </h2>
+
+
+
+        <!-- YIELD CARDS -->
+
+        <div class="result-grid">
+
+
+            <div class="result-card">
+
+                <span>
+                    Predicted Yield
+                </span>
+
+
+                <h3
+                    id="predictedYield"
+                >
+                </h3>
+
+
+                <small>
+                    MT / hectare
+                </small>
+
+            </div>
+
+
+
+            <div class="result-card">
+
+                <span>
+                    Total Production
+                </span>
+
+
+                <h3
+                    id="totalProduction"
+                >
+                </h3>
+
+
+                <small>
+                    Metric Tonnes
+                </small>
+
+            </div>
+
+
+
+            <div class="result-card">
+
+                <span>
+                    Disease Loss
+                </span>
+
+
+                <h3
+                    id="diseaseLoss"
+                >
+                </h3>
+
+
+                <small>
+                    Metric Tonnes
+                </small>
+
+            </div>
+
+
+
+            <div class="result-card highlight">
+
+                <span>
+                    Adjusted Production
+                </span>
+
+
+                <h3
+                    id="adjustedProduction"
+                >
+                </h3>
+
+
+                <small>
+                    Metric Tonnes
+                </small>
+
+            </div>
+
+
+        </div>
+
+
+
+        <!-- =================================================
+        SUITABILITY
+        ================================================= -->
+
+        <div class="suitability-section">
+
+
+            <h2>
+
+                🌱 Coffee Growth Suitability Analysis
+
+            </h2>
+
+
+
+            <div class="suitability-summary">
+
+
+                <div class="score-circle">
+
+                    <span
+                        id="suitabilityScore"
+                    >
+                    </span>
+
+
+                    <small>
+                        /100
+                    </small>
+
+                </div>
+
+
+
+                <div>
+
+                    <h3
+                        id="suitabilityResult"
+                    >
+                    </h3>
+
+
+                    <p>
+
+                        Raw Classification:
+
+                        <strong
+                            id="rawSuitability"
+                        >
+                        </strong>
+
+                    </p>
+
+
+                    <p>
+
+                        Climate Risk:
+
+                        <strong
+                            id="climateRisk"
+                        >
+                        </strong>
+
+                    </p>
+
+
+                    <p>
+
+                        Major Limiting Factor:
+
+                        <strong
+                            id="majorFactor"
+                        >
+                        </strong>
+
+                    </p>
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- FACTORS -->
+
+            <div class="factor-section">
+
+
+                <h3>
+
+                    Factor-Wise Analysis
+
+                </h3>
+
+
+
+                <div class="factor">
+
+                    <div>
+
+                        <span>
+                            Rainfall
+                        </span>
+
+
+                        <span
+                            id="rainfallValue"
+                        >
+                        </span>
+
+                    </div>
+
+
+                    <div class="progress">
+
+                        <div
+                            id="rainfallBar"
+                        ></div>
+
+                    </div>
+
+
+                    <small
+                        id="rainfallStatus"
+                    ></small>
+
+                </div>
+
+
+
+                <div class="factor">
+
+                    <div>
+
+                        <span>
+                            Maximum Temperature
+                        </span>
+
+
+                        <span
+                            id="tmaxValue"
+                        >
+                        </span>
+
+                    </div>
+
+
+                    <div class="progress">
+
+                        <div
+                            id="tmaxBar"
+                        ></div>
+
+                    </div>
+
+
+                    <small
+                        id="tmaxStatus"
+                    ></small>
+
+                </div>
+
+
+
+                <div class="factor">
+
+                    <div>
+
+                        <span>
+                            Minimum Temperature
+                        </span>
+
+
+                        <span
+                            id="tminValue"
+                        >
+                        </span>
+
+                    </div>
+
+
+                    <div class="progress">
+
+                        <div
+                            id="tminBar"
+                        ></div>
+
+                    </div>
+
+
+                    <small
+                        id="tminStatus"
+                    ></small>
+
+                </div>
+
+
+
+                <div class="factor">
+
+                    <div>
+
+                        <span>
+                            Coffee Type Compatibility
+                        </span>
+
+
+                        <span
+                            id="coffeeValue"
+                        >
+                        </span>
+
+                    </div>
+
+
+                    <div class="progress">
+
+                        <div
+                            id="coffeeBar"
+                        ></div>
+
+                    </div>
+
+
+                    <small
+                        id="coffeeStatus"
+                    ></small>
+
+                </div>
+
+
+            </div>
+
+
+
+            <!-- LIMITING FACTORS -->
+
+            <div class="analysis-grid">
+
+
+                <div>
+
+                    <h3>
+
+                        ⚠ Limiting Factors
+
+                    </h3>
+
+
+                    <ul
+                        id="limitingFactors"
+                    ></ul>
+
+                </div>
+
+
+
+                <!-- RECOMMENDATIONS -->
+
+                <div>
+
+                    <h3>
+
+                        💡 Recommendations
+
+                    </h3>
+
+
+                    <ul
+                        id="recommendations"
+                    ></ul>
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+    </section>
+
+
+</div>
+
+
+
+<!-- =====================================================
+JAVASCRIPT
+===================================================== -->
+
+<script>
+
+
+// =========================================================
+// STATE → DISTRICT
+// =========================================================
+
+const stateSelect = document.getElementById(
+    "state"
+)
+
+
+const districtSelect = document.getElementById(
+    "district"
+)
+
+
+stateSelect.addEventListener(
+
+    "change",
+
+    async function() {
+
+
+        const state = stateSelect.value
+
+
+        districtSelect.innerHTML =
+
+            "<option>Loading...</option>"
+
+
+        if (!state) {
+
+            districtSelect.innerHTML =
+
+                "<option value=''>Select State First</option>"
+
+            return
+
+        }
+
+
+        const response = await fetch(
+
+            `/districts?state=${encodeURIComponent(state)}`
+
+        )
+
+
+        const districts = await response.json()
+
+
+        districtSelect.innerHTML =
+
+            "<option value=''>Select District</option>"
+
+
+        districts.forEach(
+
+            district => {
+
+                districtSelect.innerHTML +=
+
+                    `<option value="${district}">
+
+                        ${district}
+
+                    </option>`
+
+            }
+
+        )
+
+    }
+
+)
+
+
+// =========================================================
+// DISEASE
+// =========================================================
+
+const diseaseSelect = document.getElementById(
+    "disease"
+)
+
+
+const diseasePercentageGroup =
+    document.getElementById(
+        "diseasePercentageGroup"
+    )
+
+
+const diseasePercentage =
+    document.getElementById(
+        "disease_percentage"
+    )
+
+
+function updateDiseaseInput() {
+
+    if (
+
+        diseaseSelect.value ===
+        "No Disease"
+
+    ) {
+
+        diseasePercentage.value = 0
+
+        diseasePercentage.disabled = true
+
+    }
+
+    else {
+
+        diseasePercentage.disabled = false
+
+    }
+
+}
+
+
+diseaseSelect.addEventListener(
+
+    "change",
+
+    updateDiseaseInput
+
+)
+
+
+updateDiseaseInput()
+
+
+
+// =========================================================
+// FORM SUBMIT
+// =========================================================
+
+const form = document.getElementById(
+    "predictionForm"
+)
+
+
+const loading = document.getElementById(
+    "loading"
+)
+
+
+const results = document.getElementById(
+    "results"
+)
+
+
+const errorBox = document.getElementById(
+    "errorBox"
+)
+
+
+form.addEventListener(
+
+    "submit",
+
+    async function(event) {
+
+
+        event.preventDefault()
+
+
+        results.classList.add(
+            "hidden"
+        )
+
+
+        errorBox.classList.add(
+            "hidden"
+        )
+
+
+        loading.classList.remove(
+            "hidden"
+        )
+
+
+        try {
+
+
+            const formData = new FormData(
+                form
+            )
+
+
+            const response = await fetch(
+
+                "/predict",
+
+                {
+
+                    method: "POST",
+
+                    body: formData
+
+                }
+
+            )
+
+
+            const data =
+                await response.json()
+
+
+            loading.classList.add(
+                "hidden"
+            )
+
+
+            if (!data.success) {
+
+                throw new Error(
+                    data.error
+                )
+
+            }
+
+
+            displayResults(
+                data
+            )
+
+
+        }
+
+        catch (error) {
+
+
+            loading.classList.add(
+                "hidden"
+            )
+
+
+            errorBox.innerText =
+                error.message
+
+
+            errorBox.classList.remove(
+                "hidden"
+            )
+
+        }
+
+
+    }
+
+)
+
+
+
+// =========================================================
+// DISPLAY RESULTS
+// =========================================================
+
+function displayResults(data) {
+
+
+    const y = data.yield
+
+    const d = data.disease
+
+    const a =
+        data.adjusted_production
+
+    const s =
+        data.suitability
+
+
+
+    // YIELD
+
+    document.getElementById(
+        "predictedYield"
+    ).innerText =
+        y.predicted_yield
+
+
+    document.getElementById(
+        "totalProduction"
+    ).innerText =
+        y.predicted_production_mt
+
+
+    document.getElementById(
+        "diseaseLoss"
+    ).innerText =
+        d.loss_mt
+
+
+    document.getElementById(
+        "adjustedProduction"
+    ).innerText =
+        a.mt
+
+
+
+    // SUITABILITY
+
+    document.getElementById(
+        "suitabilityScore"
+    ).innerText =
+        s.total_score
+
+
+    document.getElementById(
+        "suitabilityResult"
+    ).innerText =
+        s.suitability
+
+
+    document.getElementById(
+        "rawSuitability"
+    ).innerText =
+        s.raw_suitability
+
+
+    document.getElementById(
+        "climateRisk"
+    ).innerText =
+        s.climate_risk_level
+
+
+    document.getElementById(
+        "majorFactor"
+    ).innerText =
+        s.major_limiting_factor
+
+
+
+    // FACTORS
+
+    updateFactor(
+
+        "rainfall",
+
+        s.rainfall_score,
+
+        30,
+
+        s.rainfall_status
+
+    )
+
+
+    updateFactor(
+
+        "tmax",
+
+        s.tmax_score,
+
+        25,
+
+        s.tmax_status
+
+    )
+
+
+    updateFactor(
+
+        "tmin",
+
+        s.tmin_score,
+
+        25,
+
+        s.tmin_status
+
+    )
+
+
+    updateFactor(
+
+        "coffee",
+
+        s.coffee_type_score,
+
+        20,
+
+        s.coffee_type_status
+
+    )
+
+
+
+    // LIMITING FACTORS
+
+    const limitingList =
+        document.getElementById(
+            "limitingFactors"
+        )
+
+
+    limitingList.innerHTML = ""
+
+
+    if (
+
+        s.limiting_factors.length === 0
+
+    ) {
+
+        limitingList.innerHTML =
+
+            "<li>No major limiting factors found.</li>"
+
+    }
+
+    else {
+
+
+        s.limiting_factors.forEach(
+
+            factor => {
+
+                limitingList.innerHTML +=
+
+                    `<li>${factor}</li>`
+
+            }
+
+        )
+
+    }
+
+
+
+    // RECOMMENDATIONS
+
+    const recommendationList =
+        document.getElementById(
+            "recommendations"
+        )
+
+
+    recommendationList.innerHTML = ""
+
+
+    s.recommendations.forEach(
+
+        recommendation => {
+
+            recommendationList.innerHTML +=
+
+                `<li>${recommendation}</li>`
+
+        }
+
+    )
+
+
+
+    results.classList.remove(
+        "hidden"
+    )
+
+
+    results.scrollIntoView({
+
+        behavior: "smooth"
+
+    })
+
+}
+
+
+
+// =========================================================
+// UPDATE FACTOR
+// =========================================================
+
+function updateFactor(
+
+    name,
+
+    score,
+
+    max,
+
+    status
+
+) {
+
+
+    document.getElementById(
+
+        `${name}Value`
+
+    ).innerText =
+
+        `${score} / ${max}`
+
+
+
+    document.getElementById(
+
+        `${name}Status`
+
+    ).innerText =
+        status
+
+
+
+    const percentage =
+
+        (score / max) * 100
+
+
+
+    document.getElementById(
+
+        `${name}Bar`
+
+    ).style.width =
+
+        `${percentage}%`
+
+}
+
+
+</script>
+
+
+</body>
+
+</html>

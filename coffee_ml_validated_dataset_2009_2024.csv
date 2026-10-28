@@ -1,0 +1,1817 @@
+Year,Quarter,State,District,Area_ha,Quarterly_Rainfall_mm,Quarterly_Avg_Tmax_C,Quarterly_Avg_Tmin_C,Coffee_Type,Prediction_Season,Production_MT,Yield_MT_per_ha,Avg_Temperature_C,Temperature_Range_C
+2009,1,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,40648.0,4.68,32.29,18.67,Arabica,Post Blossom,4800.0,0.1181,25.48,13.62
+2009,1,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,40648.0,4.68,32.29,18.67,Arabica,Post Monsoon,4800.0,0.1181,25.48,13.62
+2009,1,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,268.0,4.68,32.29,18.67,Robusta,Post Blossom,80.0,0.2985,25.48,13.62
+2009,1,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,268.0,4.68,32.29,18.67,Robusta,Post Monsoon,70.0,0.2612,25.48,13.62
+2009,1,Karnataka,Chikkamagaluru,56590.0,48.1,32.11,17.43,Arabica,Post Blossom,38850.0,0.6865,24.77,14.68
+2009,1,Karnataka,Chikkamagaluru,56590.0,48.1,32.11,17.43,Arabica,Post Monsoon,34450.0,0.6088,24.77,14.68
+2009,1,Karnataka,Chikkamagaluru,31078.0,48.1,32.11,17.43,Robusta,Post Blossom,32900.0,1.0586,24.77,14.68
+2009,1,Karnataka,Chikkamagaluru,31078.0,48.1,32.11,17.43,Robusta,Post Monsoon,30950.0,0.9959,24.77,14.68
+2009,1,Karnataka,Hassan,24475.0,16.0,31.8,16.7,Arabica,Post Blossom,18050.0,0.7375,24.25,15.1
+2009,1,Karnataka,Hassan,24475.0,16.0,31.8,16.7,Arabica,Post Monsoon,14650.0,0.5986,24.25,15.1
+2009,1,Karnataka,Hassan,9990.0,16.0,31.8,16.7,Robusta,Post Blossom,10000.0,1.001,24.25,15.1
+2009,1,Karnataka,Hassan,9990.0,16.0,31.8,16.7,Robusta,Post Monsoon,7725.0,0.7733,24.25,15.1
+2009,1,Karnataka,Kodagu,28830.0,127.64,31.74,18.51,Arabica,Post Blossom,24370.0,0.8453,25.125,13.23
+2009,1,Karnataka,Kodagu,28830.0,127.64,31.74,18.51,Arabica,Post Monsoon,22400.0,0.777,25.125,13.23
+2009,1,Karnataka,Kodagu,74495.0,127.64,31.74,18.51,Robusta,Post Blossom,90000.0,1.2081,25.125,13.23
+2009,1,Karnataka,Kodagu,74495.0,127.64,31.74,18.51,Robusta,Post Monsoon,87800.0,1.1786,25.125,13.23
+2009,1,Kerala,Nelliampathies,1800.0,59.68,29.91,17.98,Arabica,Post Blossom,600.0,0.3333,23.945,11.93
+2009,1,Kerala,Nelliampathies,1800.0,59.68,29.91,17.98,Arabica,Post Monsoon,600.0,0.3333,23.945,11.93
+2009,1,Kerala,Nelliampathies,2850.0,59.68,29.91,17.98,Robusta,Post Blossom,1275.0,0.4474,23.945,11.93
+2009,1,Kerala,Nelliampathies,2850.0,59.68,29.91,17.98,Robusta,Post Monsoon,1275.0,0.4474,23.945,11.93
+2009,1,Kerala,Travancore,1930.0,53.85,32.44,21.36,Arabica,Post Blossom,815.0,0.4223,26.9,11.08
+2009,1,Kerala,Travancore,1930.0,53.85,32.44,21.36,Arabica,Post Monsoon,815.0,0.4223,26.9,11.08
+2009,1,Kerala,Travancore,10750.0,53.85,32.44,21.36,Robusta,Post Blossom,7000.0,0.6512,26.9,11.08
+2009,1,Kerala,Travancore,10750.0,53.85,32.44,21.36,Robusta,Post Monsoon,7000.0,0.6512,26.9,11.08
+2009,1,Kerala,Wayanad,32.0,23.73,30.31,17.11,Arabica,Post Blossom,10.0,0.3125,23.71,13.2
+2009,1,Kerala,Wayanad,32.0,23.73,30.31,17.11,Arabica,Post Monsoon,10.0,0.3125,23.71,13.2
+2009,1,Kerala,Wayanad,67354.0,23.73,30.31,17.11,Robusta,Post Blossom,47500.0,0.7052,23.71,13.2
+2009,1,Kerala,Wayanad,67354.0,23.73,30.31,17.11,Robusta,Post Monsoon,47500.0,0.7052,23.71,13.2
+2009,1,Northeastern Region,Northeastern Region,4405.0,21.1,26.56,13.14,Arabica,Post Blossom,80.0,0.0182,19.85,13.42
+2009,1,Northeastern Region,Northeastern Region,4405.0,21.1,26.56,13.14,Arabica,Post Monsoon,70.0,0.0159,19.85,13.42
+2009,1,Northeastern Region,Northeastern Region,1356.0,21.1,26.56,13.14,Robusta,Post Blossom,45.0,0.0332,19.85,13.42
+2009,1,Northeastern Region,Northeastern Region,1356.0,21.1,26.56,13.14,Robusta,Post Monsoon,45.0,0.0332,19.85,13.42
+2009,1,Tamil Nadu,Anamalais,2470.0,123.69,29.91,17.98,Arabica,Post Blossom,2000.0,0.8097,23.945,11.93
+2009,1,Tamil Nadu,Anamalais,2470.0,123.69,29.91,17.98,Arabica,Post Monsoon,2000.0,0.8097,23.945,11.93
+2009,1,Tamil Nadu,Anamalais,338.0,123.69,29.91,17.98,Robusta,Post Blossom,500.0,1.4793,23.945,11.93
+2009,1,Tamil Nadu,Anamalais,338.0,123.69,29.91,17.98,Robusta,Post Monsoon,500.0,1.4793,23.945,11.93
+2009,1,Tamil Nadu,Nilgiris,3610.0,113.87,30.31,17.11,Arabica,Post Blossom,1875.0,0.5194,23.71,13.2
+2009,1,Tamil Nadu,Nilgiris,3610.0,113.87,30.31,17.11,Arabica,Post Monsoon,1825.0,0.5055,23.71,13.2
+2009,1,Tamil Nadu,Nilgiris,4175.0,113.87,30.31,17.11,Robusta,Post Blossom,3325.0,0.7964,23.71,13.2
+2009,1,Tamil Nadu,Nilgiris,4175.0,113.87,30.31,17.11,Robusta,Post Monsoon,3320.0,0.7952,23.71,13.2
+2009,1,Tamil Nadu,Pulneys,14028.0,86.26,31.07,18.66,Arabica,Post Blossom,5500.0,0.3921,24.865,12.41
+2009,1,Tamil Nadu,Pulneys,14028.0,86.26,31.07,18.66,Arabica,Post Monsoon,5380.0,0.3835,24.865,12.41
+2009,1,Tamil Nadu,Pulneys,1023.0,86.26,31.07,18.66,Robusta,Post Blossom,325.0,0.3177,24.865,12.41
+2009,1,Tamil Nadu,Pulneys,1023.0,86.26,31.07,18.66,Robusta,Post Monsoon,325.0,0.3177,24.865,12.41
+2009,1,Tamil Nadu,Shevroys,5600.0,26.75,33.55,21.02,Arabica,Post Blossom,3050.0,0.5446,27.285,12.53
+2009,1,Tamil Nadu,Shevroys,5600.0,26.75,33.55,21.02,Arabica,Post Monsoon,3050.0,0.5446,27.285,12.53
+2009,1,Tamil Nadu,Shevroys,100.0,26.75,33.55,21.02,Robusta,Post Blossom,50.0,0.5,27.285,12.53
+2009,1,Tamil Nadu,Shevroys,100.0,26.75,33.55,21.02,Robusta,Post Monsoon,40.0,0.4,27.285,12.53
+2009,2,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,40648.0,130.65,36.76,25.61,Arabica,Post Blossom,4800.0,0.1181,31.185,11.15
+2009,2,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,40648.0,130.65,36.76,25.61,Arabica,Post Monsoon,4800.0,0.1181,31.185,11.15
+2009,2,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,268.0,130.65,36.76,25.61,Robusta,Post Blossom,80.0,0.2985,31.185,11.15
+2009,2,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,268.0,130.65,36.76,25.61,Robusta,Post Monsoon,70.0,0.2612,31.185,11.15
+2009,2,Karnataka,Chikkamagaluru,56590.0,188.71,31.39,21.29,Arabica,Post Blossom,38850.0,0.6865,26.34,10.1
+2009,2,Karnataka,Chikkamagaluru,56590.0,188.71,31.39,21.29,Arabica,Post Monsoon,34450.0,0.6088,26.34,10.1
+2009,2,Karnataka,Chikkamagaluru,31078.0,188.71,31.39,21.29,Robusta,Post Blossom,32900.0,1.0586,26.34,10.1
+2009,2,Karnataka,Chikkamagaluru,31078.0,188.71,31.39,21.29,Robusta,Post Monsoon,30950.0,0.9959,26.34,10.1
+2009,2,Karnataka,Hassan,24475.0,19.0,32.36,20.54,Arabica,Post Blossom,18050.0,0.7375,26.45,11.82
+2009,2,Karnataka,Hassan,24475.0,19.0,32.36,20.54,Arabica,Post Monsoon,14650.0,0.5986,26.45,11.82
+2009,2,Karnataka,Hassan,9990.0,19.0,32.36,20.54,Robusta,Post Blossom,10000.0,1.001,26.45,11.82
+2009,2,Karnataka,Hassan,9990.0,19.0,32.36,20.54,Robusta,Post Monsoon,7725.0,0.7733,26.45,11.82
+2009,2,Karnataka,Kodagu,28830.0,711.9,31.04,21.66,Arabica,Post Blossom,24370.0,0.8453,26.35,9.38
+2009,2,Karnataka,Kodagu,28830.0,711.9,31.04,21.66,Arabica,Post Monsoon,22400.0,0.777,26.35,9.38
+2009,2,Karnataka,Kodagu,74495.0,711.9,31.04,21.66,Robusta,Post Blossom,90000.0,1.2081,26.35,9.38
+2009,2,Karnataka,Kodagu,74495.0,711.9,31.04,21.66,Robusta,Post Monsoon,87800.0,1.1786,26.35,9.38
+2009,2,Kerala,Nelliampathies,1800.0,381.26,30.08,20.93,Arabica,Post Blossom,600.0,0.3333,25.505,9.15
+2009,2,Kerala,Nelliampathies,1800.0,381.26,30.08,20.93,Arabica,Post Monsoon,600.0,0.3333,25.505,9.15
+2009,2,Kerala,Nelliampathies,2850.0,381.26,30.08,20.93,Robusta,Post Blossom,1275.0,0.4474,25.505,9.15
+2009,2,Kerala,Nelliampathies,2850.0,381.26,30.08,20.93,Robusta,Post Monsoon,1275.0,0.4474,25.505,9.15
+2009,2,Kerala,Travancore,1930.0,706.37,32.12,23.5,Arabica,Post Blossom,815.0,0.4223,27.81,8.62
+2009,2,Kerala,Travancore,1930.0,706.37,32.12,23.5,Arabica,Post Monsoon,815.0,0.4223,27.81,8.62
+2009,2,Kerala,Travancore,10750.0,706.37,32.12,23.5,Robusta,Post Blossom,7000.0,0.6512,27.81,8.62
+2009,2,Kerala,Travancore,10750.0,706.37,32.12,23.5,Robusta,Post Monsoon,7000.0,0.6512,27.81,8.62
+2009,2,Kerala,Wayanad,32.0,213.11,30.62,20.63,Arabica,Post Blossom,10.0,0.3125,25.625,9.99
+2009,2,Kerala,Wayanad,32.0,213.11,30.62,20.63,Arabica,Post Monsoon,10.0,0.3125,25.625,9.99
+2009,2,Kerala,Wayanad,67354.0,213.11,30.62,20.63,Robusta,Post Blossom,47500.0,0.7052,25.625,9.99
+2009,2,Kerala,Wayanad,67354.0,213.11,30.62,20.63,Robusta,Post Monsoon,47500.0,0.7052,25.625,9.99
+2009,2,Northeastern Region,Northeastern Region,4405.0,195.49,30.93,21.66,Arabica,Post Blossom,80.0,0.0182,26.295,9.27
+2009,2,Northeastern Region,Northeastern Region,4405.0,195.49,30.93,21.66,Arabica,Post Monsoon,70.0,0.0159,26.295,9.27
+2009,2,Northeastern Region,Northeastern Region,1356.0,195.49,30.93,21.66,Robusta,Post Blossom,45.0,0.0332,26.295,9.27
+2009,2,Northeastern Region,Northeastern Region,1356.0,195.49,30.93,21.66,Robusta,Post Monsoon,45.0,0.0332,26.295,9.27
+2009,2,Tamil Nadu,Anamalais,2470.0,474.73,30.08,20.93,Arabica,Post Blossom,2000.0,0.8097,25.505,9.15
+2009,2,Tamil Nadu,Anamalais,2470.0,474.73,30.08,20.93,Arabica,Post Monsoon,2000.0,0.8097,25.505,9.15
+2009,2,Tamil Nadu,Anamalais,338.0,474.73,30.08,20.93,Robusta,Post Blossom,500.0,1.4793,25.505,9.15
+2009,2,Tamil Nadu,Anamalais,338.0,474.73,30.08,20.93,Robusta,Post Monsoon,500.0,1.4793,25.505,9.15
+2009,2,Tamil Nadu,Nilgiris,3610.0,261.55,30.62,20.63,Arabica,Post Blossom,1875.0,0.5194,25.625,9.99
+2009,2,Tamil Nadu,Nilgiris,3610.0,261.55,30.62,20.63,Arabica,Post Monsoon,1825.0,0.5055,25.625,9.99
+2009,2,Tamil Nadu,Nilgiris,4175.0,261.55,30.62,20.63,Robusta,Post Blossom,3325.0,0.7964,25.625,9.99
+2009,2,Tamil Nadu,Nilgiris,4175.0,261.55,30.62,20.63,Robusta,Post Monsoon,3320.0,0.7952,25.625,9.99
+2009,2,Tamil Nadu,Pulneys,14028.0,257.14,33.05,22.35,Arabica,Post Blossom,5500.0,0.3921,27.7,10.7
+2009,2,Tamil Nadu,Pulneys,14028.0,257.14,33.05,22.35,Arabica,Post Monsoon,5380.0,0.3835,27.7,10.7
+2009,2,Tamil Nadu,Pulneys,1023.0,257.14,33.05,22.35,Robusta,Post Blossom,325.0,0.3177,27.7,10.7
+2009,2,Tamil Nadu,Pulneys,1023.0,257.14,33.05,22.35,Robusta,Post Monsoon,325.0,0.3177,27.7,10.7
+2009,2,Tamil Nadu,Shevroys,5600.0,229.0,37.43,25.57,Arabica,Post Blossom,3050.0,0.5446,31.5,11.86
+2009,2,Tamil Nadu,Shevroys,5600.0,229.0,37.43,25.57,Arabica,Post Monsoon,3050.0,0.5446,31.5,11.86
+2009,2,Tamil Nadu,Shevroys,100.0,229.0,37.43,25.57,Robusta,Post Blossom,50.0,0.5,31.5,11.86
+2009,2,Tamil Nadu,Shevroys,100.0,229.0,37.43,25.57,Robusta,Post Monsoon,40.0,0.4,31.5,11.86
+2009,3,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,45728.0,772.13,31.3,24.32,Arabica,Post Blossom,5500.0,0.1203,27.81,6.98
+2009,3,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,45728.0,772.13,31.3,24.32,Arabica,Post Monsoon,4800.0,0.105,27.81,6.98
+2009,3,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,268.0,772.13,31.3,24.32,Robusta,Post Blossom,95.0,0.3545,27.81,6.98
+2009,3,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,268.0,772.13,31.3,24.32,Robusta,Post Monsoon,70.0,0.2612,27.81,6.98
+2009,3,Karnataka,Chikkamagaluru,56995.0,569.01,26.79,20.44,Arabica,Post Blossom,40600.0,0.7123,23.615,6.35
+2009,3,Karnataka,Chikkamagaluru,56995.0,569.01,26.79,20.44,Arabica,Post Monsoon,29000.0,0.5088,23.615,6.35
+2009,3,Karnataka,Chikkamagaluru,31565.0,569.01,26.79,20.44,Robusta,Post Blossom,35400.0,1.1215,23.615,6.35
+2009,3,Karnataka,Chikkamagaluru,31565.0,569.01,26.79,20.44,Robusta,Post Monsoon,28300.0,0.8966,23.615,6.35
+2009,3,Karnataka,Hassan,24475.0,615.5,27.69,19.66,Arabica,Post Blossom,16270.0,0.6648,23.675,8.03
+2009,3,Karnataka,Hassan,24475.0,615.5,27.69,19.66,Arabica,Post Monsoon,12700.0,0.5189,23.675,8.03
+2009,3,Karnataka,Hassan,10540.0,615.5,27.69,19.66,Robusta,Post Blossom,11230.0,1.0655,23.675,8.03
+2009,3,Karnataka,Hassan,10540.0,615.5,27.69,19.66,Robusta,Post Monsoon,7450.0,0.7068,23.675,8.03
+2009,3,Karnataka,Kodagu,28828.0,2269.06,26.87,20.7,Arabica,Post Blossom,22850.0,0.7926,23.785,6.17
+2009,3,Karnataka,Kodagu,28828.0,2269.06,26.87,20.7,Arabica,Post Monsoon,19435.0,0.6742,23.785,6.17
+2009,3,Karnataka,Kodagu,74497.0,2269.06,26.87,20.7,Robusta,Post Blossom,95125.0,1.2769,23.785,6.17
+2009,3,Karnataka,Kodagu,74497.0,2269.06,26.87,20.7,Robusta,Post Monsoon,86975.0,1.1675,23.785,6.17
+2009,3,Kerala,Nelliampathies,1800.0,1308.68,27.44,20.09,Arabica,Post Blossom,600.0,0.3333,23.765,7.35
+2009,3,Kerala,Nelliampathies,1800.0,1308.68,27.44,20.09,Arabica,Post Monsoon,600.0,0.3333,23.765,7.35
+2009,3,Kerala,Nelliampathies,2850.0,1308.68,27.44,20.09,Robusta,Post Blossom,1275.0,0.4474,23.765,7.35
+2009,3,Kerala,Nelliampathies,2850.0,1308.68,27.44,20.09,Robusta,Post Monsoon,1275.0,0.4474,23.765,7.35
+2009,3,Kerala,Travancore,1930.0,975.55,30.02,22.71,Arabica,Post Blossom,775.0,0.4016,26.365,7.31
+2009,3,Kerala,Travancore,1930.0,975.55,30.02,22.71,Arabica,Post Monsoon,815.0,0.4223,26.365,7.31
+2009,3,Kerala,Travancore,10750.0,975.55,30.02,22.71,Robusta,Post Blossom,6650.0,0.6186,26.365,7.31
+2009,3,Kerala,Travancore,10750.0,975.55,30.02,22.71,Robusta,Post Monsoon,7000.0,0.6512,26.365,7.31
+2009,3,Kerala,Wayanad,12.0,362.42,27.31,19.75,Arabica,Post Blossom,0.0,0.0,23.53,7.56
+2009,3,Kerala,Wayanad,12.0,362.42,27.31,19.75,Arabica,Post Monsoon,10.0,0.8333,23.53,7.56
+2009,3,Kerala,Wayanad,67354.0,362.42,27.31,19.75,Robusta,Post Blossom,50250.0,0.7461,23.53,7.56
+2009,3,Kerala,Wayanad,67354.0,362.42,27.31,19.75,Robusta,Post Monsoon,47500.0,0.7052,23.53,7.56
+2009,3,Northeastern Region,Northeastern Region,4035.0,460.35,31.87,24.2,Arabica,Post Blossom,80.0,0.0198,28.035,7.67
+2009,3,Northeastern Region,Northeastern Region,4035.0,460.35,31.87,24.2,Arabica,Post Monsoon,70.0,0.0173,28.035,7.67
+2009,3,Northeastern Region,Northeastern Region,1381.0,460.35,31.87,24.2,Robusta,Post Blossom,50.0,0.0362,28.035,7.67
+2009,3,Northeastern Region,Northeastern Region,1381.0,460.35,31.87,24.2,Robusta,Post Monsoon,45.0,0.0326,28.035,7.67
+2009,3,Tamil Nadu,Anamalais,2470.0,1460.9,27.44,20.09,Arabica,Post Blossom,2000.0,0.8097,23.765,7.35
+2009,3,Tamil Nadu,Anamalais,2470.0,1460.9,27.44,20.09,Arabica,Post Monsoon,2000.0,0.8097,23.765,7.35
+2009,3,Tamil Nadu,Anamalais,338.0,1460.9,27.44,20.09,Robusta,Post Blossom,500.0,1.4793,23.765,7.35
+2009,3,Tamil Nadu,Anamalais,338.0,1460.9,27.44,20.09,Robusta,Post Monsoon,500.0,1.4793,23.765,7.35
+2009,3,Tamil Nadu,Nilgiris,3610.0,349.19,27.31,19.75,Arabica,Post Blossom,1950.0,0.5402,23.53,7.56
+2009,3,Tamil Nadu,Nilgiris,3610.0,349.19,27.31,19.75,Arabica,Post Monsoon,1825.0,0.5055,23.53,7.56
+2009,3,Tamil Nadu,Nilgiris,4175.0,349.19,27.31,19.75,Robusta,Post Blossom,3800.0,0.9102,23.53,7.56
+2009,3,Tamil Nadu,Nilgiris,4175.0,349.19,27.31,19.75,Robusta,Post Monsoon,3320.0,0.7952,23.53,7.56
+2009,3,Tamil Nadu,Pulneys,14028.0,467.09,30.76,21.86,Arabica,Post Blossom,6900.0,0.4919,26.31,8.9
+2009,3,Tamil Nadu,Pulneys,14028.0,467.09,30.76,21.86,Arabica,Post Monsoon,5245.0,0.3739,26.31,8.9
+2009,3,Tamil Nadu,Pulneys,1023.0,467.09,30.76,21.86,Robusta,Post Blossom,350.0,0.3421,26.31,8.9
+2009,3,Tamil Nadu,Pulneys,1023.0,467.09,30.76,21.86,Robusta,Post Monsoon,325.0,0.3177,26.31,8.9
+2009,3,Tamil Nadu,Shevroys,5600.0,291.16,35.1,25.03,Arabica,Post Blossom,4000.0,0.7143,30.065,10.07
+2009,3,Tamil Nadu,Shevroys,5600.0,291.16,35.1,25.03,Arabica,Post Monsoon,3000.0,0.5357,30.065,10.07
+2009,3,Tamil Nadu,Shevroys,100.0,291.16,35.1,25.03,Robusta,Post Blossom,50.0,0.5,30.065,10.07
+2009,3,Tamil Nadu,Shevroys,100.0,291.16,35.1,25.03,Robusta,Post Monsoon,40.0,0.4,30.065,10.07
+2009,4,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,45728.0,149.9,29.95,18.84,Arabica,Post Blossom,5500.0,0.1203,24.395,11.11
+2009,4,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,45728.0,149.9,29.95,18.84,Arabica,Post Monsoon,4800.0,0.105,24.395,11.11
+2009,4,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,268.0,149.9,29.95,18.84,Robusta,Post Blossom,95.0,0.3545,24.395,11.11
+2009,4,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,268.0,149.9,29.95,18.84,Robusta,Post Monsoon,70.0,0.2612,24.395,11.11
+2009,4,Karnataka,Chikkamagaluru,56995.0,144.06,29.37,19.01,Arabica,Post Blossom,40600.0,0.7123,24.19,10.36
+2009,4,Karnataka,Chikkamagaluru,56995.0,144.06,29.37,19.01,Arabica,Post Monsoon,29000.0,0.5088,24.19,10.36
+2009,4,Karnataka,Chikkamagaluru,31565.0,144.06,29.37,19.01,Robusta,Post Blossom,35400.0,1.1215,24.19,10.36
+2009,4,Karnataka,Chikkamagaluru,31565.0,144.06,29.37,19.01,Robusta,Post Monsoon,28300.0,0.8966,24.19,10.36
+2009,4,Karnataka,Hassan,24475.0,128.77,28.21,18.01,Arabica,Post Blossom,16270.0,0.6648,23.11,10.2
+2009,4,Karnataka,Hassan,24475.0,128.77,28.21,18.01,Arabica,Post Monsoon,12700.0,0.5189,23.11,10.2
+2009,4,Karnataka,Hassan,10540.0,128.77,28.21,18.01,Robusta,Post Blossom,11230.0,1.0655,23.11,10.2
+2009,4,Karnataka,Hassan,10540.0,128.77,28.21,18.01,Robusta,Post Monsoon,7450.0,0.7068,23.11,10.2
+2009,4,Karnataka,Kodagu,28828.0,472.63,29.38,19.64,Arabica,Post Blossom,22850.0,0.7926,24.51,9.74
+2009,4,Karnataka,Kodagu,28828.0,472.63,29.38,19.64,Arabica,Post Monsoon,19435.0,0.6742,24.51,9.74
+2009,4,Karnataka,Kodagu,74497.0,472.63,29.38,19.64,Robusta,Post Blossom,95125.0,1.2769,24.51,9.74
+2009,4,Karnataka,Kodagu,74497.0,472.63,29.38,19.64,Robusta,Post Monsoon,86975.0,1.1675,24.51,9.74
+2009,4,Kerala,Nelliampathies,1800.0,460.19,27.9,19.29,Arabica,Post Blossom,600.0,0.3333,23.595,8.61
+2009,4,Kerala,Nelliampathies,1800.0,460.19,27.9,19.29,Arabica,Post Monsoon,600.0,0.3333,23.595,8.61
+2009,4,Kerala,Nelliampathies,2850.0,460.19,27.9,19.29,Robusta,Post Blossom,1275.0,0.4474,23.595,8.61
+2009,4,Kerala,Nelliampathies,2850.0,460.19,27.9,19.29,Robusta,Post Monsoon,1275.0,0.4474,23.595,8.61
+2009,4,Kerala,Travancore,1930.0,619.61,30.63,22.4,Arabica,Post Blossom,775.0,0.4016,26.515,8.23
+2009,4,Kerala,Travancore,1930.0,619.61,30.63,22.4,Arabica,Post Monsoon,815.0,0.4223,26.515,8.23
+2009,4,Kerala,Travancore,10750.0,619.61,30.63,22.4,Robusta,Post Blossom,6650.0,0.6186,26.515,8.23
+2009,4,Kerala,Travancore,10750.0,619.61,30.63,22.4,Robusta,Post Monsoon,7000.0,0.6512,26.515,8.23
+2009,4,Kerala,Wayanad,12.0,87.3,27.88,18.66,Arabica,Post Blossom,0.0,0.0,23.27,9.22
+2009,4,Kerala,Wayanad,12.0,87.3,27.88,18.66,Arabica,Post Monsoon,10.0,0.8333,23.27,9.22
+2009,4,Kerala,Wayanad,67354.0,87.3,27.88,18.66,Robusta,Post Blossom,50250.0,0.7461,23.27,9.22
+2009,4,Kerala,Wayanad,67354.0,87.3,27.88,18.66,Robusta,Post Monsoon,47500.0,0.7052,23.27,9.22
+2009,4,Northeastern Region,Northeastern Region,4035.0,107.57,26.73,16.01,Arabica,Post Blossom,80.0,0.0198,21.37,10.72
+2009,4,Northeastern Region,Northeastern Region,4035.0,107.57,26.73,16.01,Arabica,Post Monsoon,70.0,0.0173,21.37,10.72
+2009,4,Northeastern Region,Northeastern Region,1381.0,107.57,26.73,16.01,Robusta,Post Blossom,50.0,0.0362,21.37,10.72
+2009,4,Northeastern Region,Northeastern Region,1381.0,107.57,26.73,16.01,Robusta,Post Monsoon,45.0,0.0326,21.37,10.72
+2009,4,Tamil Nadu,Anamalais,2470.0,710.15,27.9,19.29,Arabica,Post Blossom,2000.0,0.8097,23.595,8.61
+2009,4,Tamil Nadu,Anamalais,2470.0,710.15,27.9,19.29,Arabica,Post Monsoon,2000.0,0.8097,23.595,8.61
+2009,4,Tamil Nadu,Anamalais,338.0,710.15,27.9,19.29,Robusta,Post Blossom,500.0,1.4793,23.595,8.61
+2009,4,Tamil Nadu,Anamalais,338.0,710.15,27.9,19.29,Robusta,Post Monsoon,500.0,1.4793,23.595,8.61
+2009,4,Tamil Nadu,Nilgiris,3610.0,879.1,27.88,18.66,Arabica,Post Blossom,1950.0,0.5402,23.27,9.22
+2009,4,Tamil Nadu,Nilgiris,3610.0,879.1,27.88,18.66,Arabica,Post Monsoon,1825.0,0.5055,23.27,9.22
+2009,4,Tamil Nadu,Nilgiris,4175.0,879.1,27.88,18.66,Robusta,Post Blossom,3800.0,0.9102,23.27,9.22
+2009,4,Tamil Nadu,Nilgiris,4175.0,879.1,27.88,18.66,Robusta,Post Monsoon,3320.0,0.7952,23.27,9.22
+2009,4,Tamil Nadu,Pulneys,14028.0,863.54,28.82,20.31,Arabica,Post Blossom,6900.0,0.4919,24.565,8.51
+2009,4,Tamil Nadu,Pulneys,14028.0,863.54,28.82,20.31,Arabica,Post Monsoon,5245.0,0.3739,24.565,8.51
+2009,4,Tamil Nadu,Pulneys,1023.0,863.54,28.82,20.31,Robusta,Post Blossom,350.0,0.3421,24.565,8.51
+2009,4,Tamil Nadu,Pulneys,1023.0,863.54,28.82,20.31,Robusta,Post Monsoon,325.0,0.3177,24.565,8.51
+2009,4,Tamil Nadu,Shevroys,5600.0,232.13,31.16,22.85,Arabica,Post Blossom,4000.0,0.7143,27.005,8.31
+2009,4,Tamil Nadu,Shevroys,5600.0,232.13,31.16,22.85,Arabica,Post Monsoon,3000.0,0.5357,27.005,8.31
+2009,4,Tamil Nadu,Shevroys,100.0,232.13,31.16,22.85,Robusta,Post Blossom,50.0,0.5,27.005,8.31
+2009,4,Tamil Nadu,Shevroys,100.0,232.13,31.16,22.85,Robusta,Post Monsoon,40.0,0.4,27.005,8.31
+2010,1,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,45728.0,64.55,31.35,18.89,Arabica,Post Blossom,5500.0,0.1203,25.12,12.46
+2010,1,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,45728.0,64.55,31.35,18.89,Arabica,Post Monsoon,5100.0,0.1115,25.12,12.46
+2010,1,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,268.0,64.55,31.35,18.89,Robusta,Post Blossom,95.0,0.3545,25.12,12.46
+2010,1,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,268.0,64.55,31.35,18.89,Robusta,Post Monsoon,85.0,0.3172,25.12,12.46
+2010,1,Karnataka,Chikkamagaluru,56995.0,31.21,32.16,18.4,Arabica,Post Blossom,40600.0,0.7123,25.28,13.76
+2010,1,Karnataka,Chikkamagaluru,56995.0,31.21,32.16,18.4,Arabica,Post Monsoon,37450.0,0.6571,25.28,13.76
+2010,1,Karnataka,Chikkamagaluru,31565.0,31.21,32.16,18.4,Robusta,Post Blossom,35400.0,1.1215,25.28,13.76
+2010,1,Karnataka,Chikkamagaluru,31565.0,31.21,32.16,18.4,Robusta,Post Monsoon,32700.0,1.036,25.28,13.76
+2010,1,Karnataka,Hassan,24475.0,0.0,31.82,17.52,Arabica,Post Blossom,16270.0,0.6648,24.67,14.3
+2010,1,Karnataka,Hassan,24475.0,0.0,31.82,17.52,Arabica,Post Monsoon,14400.0,0.5884,24.67,14.3
+2010,1,Karnataka,Hassan,10540.0,0.0,31.82,17.52,Robusta,Post Blossom,11230.0,1.0655,24.67,14.3
+2010,1,Karnataka,Hassan,10540.0,0.0,31.82,17.52,Robusta,Post Monsoon,9950.0,0.944,24.67,14.3
+2010,1,Karnataka,Kodagu,28828.0,9.69,31.91,19.13,Arabica,Post Blossom,22850.0,0.7926,25.52,12.78
+2010,1,Karnataka,Kodagu,28828.0,9.69,31.91,19.13,Arabica,Post Monsoon,21550.0,0.7475,25.52,12.78
+2010,1,Karnataka,Kodagu,74497.0,9.69,31.91,19.13,Robusta,Post Blossom,95125.0,1.2769,25.52,12.78
+2010,1,Karnataka,Kodagu,74497.0,9.69,31.91,19.13,Robusta,Post Monsoon,89650.0,1.2034,25.52,12.78
+2010,1,Kerala,Nelliampathies,1800.0,53.1,30.29,18.72,Arabica,Post Blossom,600.0,0.3333,24.505,11.57
+2010,1,Kerala,Nelliampathies,1800.0,53.1,30.29,18.72,Arabica,Post Monsoon,600.0,0.3333,24.505,11.57
+2010,1,Kerala,Nelliampathies,2850.0,53.1,30.29,18.72,Robusta,Post Blossom,1275.0,0.4474,24.505,11.57
+2010,1,Kerala,Nelliampathies,2850.0,53.1,30.29,18.72,Robusta,Post Monsoon,1275.0,0.4474,24.505,11.57
+2010,1,Kerala,Travancore,1930.0,146.87,32.73,22.23,Arabica,Post Blossom,775.0,0.4016,27.48,10.5
+2010,1,Kerala,Travancore,1930.0,146.87,32.73,22.23,Arabica,Post Monsoon,775.0,0.4016,27.48,10.5
+2010,1,Kerala,Travancore,10750.0,146.87,32.73,22.23,Robusta,Post Blossom,6650.0,0.6186,27.48,10.5
+2010,1,Kerala,Travancore,10750.0,146.87,32.73,22.23,Robusta,Post Monsoon,6650.0,0.6186,27.48,10.5
+2010,1,Kerala,Wayanad,12.0,15.71,30.71,17.84,Arabica,Post Blossom,0.0,0.0,24.275,12.87
+2010,1,Kerala,Wayanad,12.0,15.71,30.71,17.84,Arabica,Post Monsoon,0.0,0.0,24.275,12.87
+2010,1,Kerala,Wayanad,67354.0,15.71,30.71,17.84,Robusta,Post Blossom,50250.0,0.7461,24.275,12.87
+2010,1,Kerala,Wayanad,67354.0,15.71,30.71,17.84,Robusta,Post Monsoon,49950.0,0.7416,24.275,12.87
+2010,1,Northeastern Region,Northeastern Region,4035.0,57.38,26.08,12.55,Arabica,Post Blossom,80.0,0.0198,19.315,13.53
+2010,1,Northeastern Region,Northeastern Region,4035.0,57.38,26.08,12.55,Arabica,Post Monsoon,75.0,0.0186,19.315,13.53
+2010,1,Northeastern Region,Northeastern Region,1381.0,57.38,26.08,12.55,Robusta,Post Blossom,50.0,0.0362,19.315,13.53
+2010,1,Northeastern Region,Northeastern Region,1381.0,57.38,26.08,12.55,Robusta,Post Monsoon,40.0,0.029,19.315,13.53
+2010,1,Tamil Nadu,Anamalais,2470.0,70.88,30.29,18.72,Arabica,Post Blossom,2000.0,0.8097,24.505,11.57
+2010,1,Tamil Nadu,Anamalais,2470.0,70.88,30.29,18.72,Arabica,Post Monsoon,2000.0,0.8097,24.505,11.57
+2010,1,Tamil Nadu,Anamalais,338.0,70.88,30.29,18.72,Robusta,Post Blossom,500.0,1.4793,24.505,11.57
+2010,1,Tamil Nadu,Anamalais,338.0,70.88,30.29,18.72,Robusta,Post Monsoon,500.0,1.4793,24.505,11.57
+2010,1,Tamil Nadu,Nilgiris,3610.0,40.98,30.71,17.84,Arabica,Post Blossom,1950.0,0.5402,24.275,12.87
+2010,1,Tamil Nadu,Nilgiris,3610.0,40.98,30.71,17.84,Arabica,Post Monsoon,1950.0,0.5402,24.275,12.87
+2010,1,Tamil Nadu,Nilgiris,4175.0,40.98,30.71,17.84,Robusta,Post Blossom,3800.0,0.9102,24.275,12.87
+2010,1,Tamil Nadu,Nilgiris,4175.0,40.98,30.71,17.84,Robusta,Post Monsoon,3800.0,0.9102,24.275,12.87
+2010,1,Tamil Nadu,Pulneys,14028.0,27.11,31.49,19.47,Arabica,Post Blossom,6900.0,0.4919,25.48,12.02
+2010,1,Tamil Nadu,Pulneys,14028.0,27.11,31.49,19.47,Arabica,Post Monsoon,6700.0,0.4776,25.48,12.02
+2010,1,Tamil Nadu,Pulneys,1023.0,27.11,31.49,19.47,Robusta,Post Blossom,350.0,0.3421,25.48,12.02
+2010,1,Tamil Nadu,Pulneys,1023.0,27.11,31.49,19.47,Robusta,Post Monsoon,350.0,0.3421,25.48,12.02
+2010,1,Tamil Nadu,Shevroys,5600.0,1.13,34.01,21.79,Arabica,Post Blossom,4000.0,0.7143,27.9,12.22
+2010,1,Tamil Nadu,Shevroys,5600.0,1.13,34.01,21.79,Arabica,Post Monsoon,4000.0,0.7143,27.9,12.22
+2010,1,Tamil Nadu,Shevroys,100.0,1.13,34.01,21.79,Robusta,Post Blossom,50.0,0.5,27.9,12.22
+2010,1,Tamil Nadu,Shevroys,100.0,1.13,34.01,21.79,Robusta,Post Monsoon,50.0,0.5,27.9,12.22
+2010,2,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,45728.0,344.0,35.89,25.84,Arabica,Post Blossom,5500.0,0.1203,30.865,10.05
+2010,2,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,45728.0,344.0,35.89,25.84,Arabica,Post Monsoon,5100.0,0.1115,30.865,10.05
+2010,2,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,268.0,344.0,35.89,25.84,Robusta,Post Blossom,95.0,0.3545,30.865,10.05
+2010,2,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,268.0,344.0,35.89,25.84,Robusta,Post Monsoon,85.0,0.3172,30.865,10.05
+2010,2,Karnataka,Chikkamagaluru,56995.0,271.53,31.72,21.79,Arabica,Post Blossom,40600.0,0.7123,26.755,9.93
+2010,2,Karnataka,Chikkamagaluru,56995.0,271.53,31.72,21.79,Arabica,Post Monsoon,37450.0,0.6571,26.755,9.93
+2010,2,Karnataka,Chikkamagaluru,31565.0,271.53,31.72,21.79,Robusta,Post Blossom,35400.0,1.1215,26.755,9.93
+2010,2,Karnataka,Chikkamagaluru,31565.0,271.53,31.72,21.79,Robusta,Post Monsoon,32700.0,1.036,26.755,9.93
+2010,2,Karnataka,Hassan,24475.0,630.2,32.69,21.09,Arabica,Post Blossom,16270.0,0.6648,26.89,11.6
+2010,2,Karnataka,Hassan,24475.0,630.2,32.69,21.09,Arabica,Post Monsoon,14400.0,0.5884,26.89,11.6
+2010,2,Karnataka,Hassan,10540.0,630.2,32.69,21.09,Robusta,Post Blossom,11230.0,1.0655,26.89,11.6
+2010,2,Karnataka,Hassan,10540.0,630.2,32.69,21.09,Robusta,Post Monsoon,9950.0,0.944,26.89,11.6
+2010,2,Karnataka,Kodagu,28828.0,667.4,31.51,22.02,Arabica,Post Blossom,22850.0,0.7926,26.765,9.49
+2010,2,Karnataka,Kodagu,28828.0,667.4,31.51,22.02,Arabica,Post Monsoon,21550.0,0.7475,26.765,9.49
+2010,2,Karnataka,Kodagu,74497.0,667.4,31.51,22.02,Robusta,Post Blossom,95125.0,1.2769,26.765,9.49
+2010,2,Karnataka,Kodagu,74497.0,667.4,31.51,22.02,Robusta,Post Monsoon,89650.0,1.2034,26.765,9.49
+2010,2,Kerala,Nelliampathies,1800.0,637.82,30.71,21.28,Arabica,Post Blossom,600.0,0.3333,25.995,9.43
+2010,2,Kerala,Nelliampathies,1800.0,637.82,30.71,21.28,Arabica,Post Monsoon,600.0,0.3333,25.995,9.43
+2010,2,Kerala,Nelliampathies,2850.0,637.82,30.71,21.28,Robusta,Post Blossom,1275.0,0.4474,25.995,9.43
+2010,2,Kerala,Nelliampathies,2850.0,637.82,30.71,21.28,Robusta,Post Monsoon,1275.0,0.4474,25.995,9.43
+2010,2,Kerala,Travancore,1930.0,1210.15,32.7,23.85,Arabica,Post Blossom,775.0,0.4016,28.275,8.85
+2010,2,Kerala,Travancore,1930.0,1210.15,32.7,23.85,Arabica,Post Monsoon,775.0,0.4016,28.275,8.85
+2010,2,Kerala,Travancore,10750.0,1210.15,32.7,23.85,Robusta,Post Blossom,6650.0,0.6186,28.275,8.85
+2010,2,Kerala,Travancore,10750.0,1210.15,32.7,23.85,Robusta,Post Monsoon,6650.0,0.6186,28.275,8.85
+2010,2,Kerala,Wayanad,12.0,391.44,31.23,20.98,Arabica,Post Blossom,0.0,0.0,26.105,10.25
+2010,2,Kerala,Wayanad,12.0,391.44,31.23,20.98,Arabica,Post Monsoon,0.0,0.0,26.105,10.25
+2010,2,Kerala,Wayanad,67354.0,391.44,31.23,20.98,Robusta,Post Blossom,50250.0,0.7461,26.105,10.25
+2010,2,Kerala,Wayanad,67354.0,391.44,31.23,20.98,Robusta,Post Monsoon,49950.0,0.7416,26.105,10.25
+2010,2,Northeastern Region,Northeastern Region,4035.0,807.81,29.63,21.6,Arabica,Post Blossom,80.0,0.0198,25.615,8.03
+2010,2,Northeastern Region,Northeastern Region,4035.0,807.81,29.63,21.6,Arabica,Post Monsoon,75.0,0.0186,25.615,8.03
+2010,2,Northeastern Region,Northeastern Region,1381.0,807.81,29.63,21.6,Robusta,Post Blossom,50.0,0.0362,25.615,8.03
+2010,2,Northeastern Region,Northeastern Region,1381.0,807.81,29.63,21.6,Robusta,Post Monsoon,40.0,0.029,25.615,8.03
+2010,2,Tamil Nadu,Anamalais,2470.0,766.74,30.71,21.28,Arabica,Post Blossom,2000.0,0.8097,25.995,9.43
+2010,2,Tamil Nadu,Anamalais,2470.0,766.74,30.71,21.28,Arabica,Post Monsoon,2000.0,0.8097,25.995,9.43
+2010,2,Tamil Nadu,Anamalais,338.0,766.74,30.71,21.28,Robusta,Post Blossom,500.0,1.4793,25.995,9.43
+2010,2,Tamil Nadu,Anamalais,338.0,766.74,30.71,21.28,Robusta,Post Monsoon,500.0,1.4793,25.995,9.43
+2010,2,Tamil Nadu,Nilgiris,3610.0,324.07,31.23,20.98,Arabica,Post Blossom,1950.0,0.5402,26.105,10.25
+2010,2,Tamil Nadu,Nilgiris,3610.0,324.07,31.23,20.98,Arabica,Post Monsoon,1950.0,0.5402,26.105,10.25
+2010,2,Tamil Nadu,Nilgiris,4175.0,324.07,31.23,20.98,Robusta,Post Blossom,3800.0,0.9102,26.105,10.25
+2010,2,Tamil Nadu,Nilgiris,4175.0,324.07,31.23,20.98,Robusta,Post Monsoon,3800.0,0.9102,26.105,10.25
+2010,2,Tamil Nadu,Pulneys,14028.0,283.8,33.71,22.93,Arabica,Post Blossom,6900.0,0.4919,28.32,10.78
+2010,2,Tamil Nadu,Pulneys,14028.0,283.8,33.71,22.93,Arabica,Post Monsoon,6700.0,0.4776,28.32,10.78
+2010,2,Tamil Nadu,Pulneys,1023.0,283.8,33.71,22.93,Robusta,Post Blossom,350.0,0.3421,28.32,10.78
+2010,2,Tamil Nadu,Pulneys,1023.0,283.8,33.71,22.93,Robusta,Post Monsoon,350.0,0.3421,28.32,10.78
+2010,2,Tamil Nadu,Shevroys,5600.0,296.54,37.63,26.21,Arabica,Post Blossom,4000.0,0.7143,31.92,11.42
+2010,2,Tamil Nadu,Shevroys,5600.0,296.54,37.63,26.21,Arabica,Post Monsoon,4000.0,0.7143,31.92,11.42
+2010,2,Tamil Nadu,Shevroys,100.0,296.54,37.63,26.21,Robusta,Post Blossom,50.0,0.5,31.92,11.42
+2010,2,Tamil Nadu,Shevroys,100.0,296.54,37.63,26.21,Robusta,Post Monsoon,50.0,0.5,31.92,11.42
+2010,3,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,50518.0,866.71,31.33,24.24,Arabica,Post Blossom,5875.0,0.1163,27.785,7.09
+2010,3,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,50518.0,866.71,31.33,24.24,Arabica,Post Monsoon,5100.0,0.101,27.785,7.09
+2010,3,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,268.0,866.71,31.33,24.24,Robusta,Post Blossom,75.0,0.2799,27.785,7.09
+2010,3,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,268.0,866.71,31.33,24.24,Robusta,Post Monsoon,85.0,0.3172,27.785,7.09
+2010,3,Karnataka,Chikkamagaluru,56995.0,360.75,26.81,20.39,Arabica,Post Blossom,39825.0,0.6987,23.6,6.42
+2010,3,Karnataka,Chikkamagaluru,56995.0,360.75,26.81,20.39,Arabica,Post Monsoon,37450.0,0.6571,23.6,6.42
+2010,3,Karnataka,Chikkamagaluru,31650.0,360.75,26.81,20.39,Robusta,Post Blossom,37000.0,1.169,23.6,6.42
+2010,3,Karnataka,Chikkamagaluru,31650.0,360.75,26.81,20.39,Robusta,Post Monsoon,32700.0,1.0332,23.6,6.42
+2010,3,Karnataka,Hassan,24225.0,680.16,27.92,19.62,Arabica,Post Blossom,18050.0,0.7451,23.77,8.3
+2010,3,Karnataka,Hassan,24225.0,680.16,27.92,19.62,Arabica,Post Monsoon,14400.0,0.5944,23.77,8.3
+2010,3,Karnataka,Hassan,10890.0,680.16,27.92,19.62,Robusta,Post Blossom,11950.0,1.0973,23.77,8.3
+2010,3,Karnataka,Hassan,10890.0,680.16,27.92,19.62,Robusta,Post Monsoon,9950.0,0.9137,23.77,8.3
+2010,3,Karnataka,Kodagu,28803.0,1340.44,27.22,20.55,Arabica,Post Blossom,22050.0,0.7655,23.885,6.67
+2010,3,Karnataka,Kodagu,28803.0,1340.44,27.22,20.55,Arabica,Post Monsoon,21550.0,0.7482,23.885,6.67
+2010,3,Karnataka,Kodagu,74777.0,1340.44,27.22,20.55,Robusta,Post Blossom,90750.0,1.2136,23.885,6.67
+2010,3,Karnataka,Kodagu,74777.0,1340.44,27.22,20.55,Robusta,Post Monsoon,89650.0,1.1989,23.885,6.67
+2010,3,Kerala,Nelliampathies,1800.0,1006.58,27.76,20.0,Arabica,Post Blossom,700.0,0.3889,23.88,7.76
+2010,3,Kerala,Nelliampathies,1800.0,1006.58,27.76,20.0,Arabica,Post Monsoon,600.0,0.3333,23.88,7.76
+2010,3,Kerala,Nelliampathies,2850.0,1006.58,27.76,20.0,Robusta,Post Blossom,1400.0,0.4912,23.88,7.76
+2010,3,Kerala,Nelliampathies,2850.0,1006.58,27.76,20.0,Robusta,Post Monsoon,1275.0,0.4474,23.88,7.76
+2010,3,Kerala,Travancore,1909.0,1253.16,29.99,22.68,Arabica,Post Blossom,900.0,0.4715,26.335,7.31
+2010,3,Kerala,Travancore,1909.0,1253.16,29.99,22.68,Arabica,Post Monsoon,775.0,0.406,26.335,7.31
+2010,3,Kerala,Travancore,10871.0,1253.16,29.99,22.68,Robusta,Post Blossom,7300.0,0.6715,26.335,7.31
+2010,3,Kerala,Travancore,10871.0,1253.16,29.99,22.68,Robusta,Post Monsoon,6650.0,0.6117,26.335,7.31
+2010,3,Kerala,Wayanad,2.0,698.59,27.69,19.71,Arabica,Post Blossom,0.0,0.0,23.7,7.98
+2010,3,Kerala,Wayanad,2.0,698.59,27.69,19.71,Arabica,Post Monsoon,0.0,0.0,23.7,7.98
+2010,3,Kerala,Wayanad,67364.0,698.59,27.69,19.71,Robusta,Post Blossom,55475.0,0.8235,23.7,7.98
+2010,3,Kerala,Wayanad,67364.0,698.59,27.69,19.71,Robusta,Post Monsoon,49950.0,0.7415,23.7,7.98
+2010,3,Northeastern Region,Northeastern Region,4035.0,748.56,31.48,24.06,Arabica,Post Blossom,100.0,0.0248,27.77,7.42
+2010,3,Northeastern Region,Northeastern Region,4035.0,748.56,31.48,24.06,Arabica,Post Monsoon,75.0,0.0186,27.77,7.42
+2010,3,Northeastern Region,Northeastern Region,1382.0,748.56,31.48,24.06,Robusta,Post Blossom,50.0,0.0362,27.77,7.42
+2010,3,Northeastern Region,Northeastern Region,1382.0,748.56,31.48,24.06,Robusta,Post Monsoon,40.0,0.0289,27.77,7.42
+2010,3,Tamil Nadu,Anamalais,2470.0,1404.58,27.76,20.0,Arabica,Post Blossom,1000.0,0.4049,23.88,7.76
+2010,3,Tamil Nadu,Anamalais,2470.0,1404.58,27.76,20.0,Arabica,Post Monsoon,2000.0,0.8097,23.88,7.76
+2010,3,Tamil Nadu,Anamalais,338.0,1404.58,27.76,20.0,Robusta,Post Blossom,500.0,1.4793,23.88,7.76
+2010,3,Tamil Nadu,Anamalais,338.0,1404.58,27.76,20.0,Robusta,Post Monsoon,500.0,1.4793,23.88,7.76
+2010,3,Tamil Nadu,Nilgiris,3610.0,420.25,27.69,19.71,Arabica,Post Blossom,1700.0,0.4709,23.7,7.98
+2010,3,Tamil Nadu,Nilgiris,3610.0,420.25,27.69,19.71,Arabica,Post Monsoon,1950.0,0.5402,23.7,7.98
+2010,3,Tamil Nadu,Nilgiris,4175.0,420.25,27.69,19.71,Robusta,Post Blossom,3725.0,0.8922,23.7,7.98
+2010,3,Tamil Nadu,Nilgiris,4175.0,420.25,27.69,19.71,Robusta,Post Monsoon,3800.0,0.9102,23.7,7.98
+2010,3,Tamil Nadu,Pulneys,14028.0,350.58,30.68,21.8,Arabica,Post Blossom,5700.0,0.4063,26.24,8.88
+2010,3,Tamil Nadu,Pulneys,14028.0,350.58,30.68,21.8,Arabica,Post Monsoon,6700.0,0.4776,26.24,8.88
+2010,3,Tamil Nadu,Pulneys,1023.0,350.58,30.68,21.8,Robusta,Post Blossom,225.0,0.2199,26.24,8.88
+2010,3,Tamil Nadu,Pulneys,1023.0,350.58,30.68,21.8,Robusta,Post Monsoon,350.0,0.3421,26.24,8.88
+2010,3,Tamil Nadu,Shevroys,5600.0,373.3,34.43,24.77,Arabica,Post Blossom,3600.0,0.6429,29.6,9.66
+2010,3,Tamil Nadu,Shevroys,5600.0,373.3,34.43,24.77,Arabica,Post Monsoon,4000.0,0.7143,29.6,9.66
+2010,3,Tamil Nadu,Shevroys,100.0,373.3,34.43,24.77,Robusta,Post Blossom,50.0,0.5,29.6,9.66
+2010,3,Tamil Nadu,Shevroys,100.0,373.3,34.43,24.77,Robusta,Post Monsoon,50.0,0.5,29.6,9.66
+2010,4,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,50518.0,533.53,28.89,19.44,Arabica,Post Blossom,5800.0,0.1148,24.165,9.45
+2010,4,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,50518.0,533.53,28.89,19.44,Arabica,Post Monsoon,5100.0,0.101,24.165,9.45
+2010,4,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,268.0,533.53,28.89,19.44,Robusta,Post Blossom,65.0,0.2425,24.165,9.45
+2010,4,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,268.0,533.53,28.89,19.44,Robusta,Post Monsoon,85.0,0.3172,24.165,9.45
+2010,4,Karnataka,Chikkamagaluru,56995.0,270.7,28.59,18.79,Arabica,Post Blossom,37475.0,0.6575,23.69,9.8
+2010,4,Karnataka,Chikkamagaluru,56995.0,270.7,28.59,18.79,Arabica,Post Monsoon,37450.0,0.6571,23.69,9.8
+2010,4,Karnataka,Chikkamagaluru,31650.0,270.7,28.59,18.79,Robusta,Post Blossom,36000.0,1.1374,23.69,9.8
+2010,4,Karnataka,Chikkamagaluru,31650.0,270.7,28.59,18.79,Robusta,Post Monsoon,32700.0,1.0332,23.69,9.8
+2010,4,Karnataka,Hassan,24225.0,569.6,27.63,17.92,Arabica,Post Blossom,17150.0,0.7079,22.775,9.71
+2010,4,Karnataka,Hassan,24225.0,569.6,27.63,17.92,Arabica,Post Monsoon,14400.0,0.5944,22.775,9.71
+2010,4,Karnataka,Hassan,10890.0,569.6,27.63,17.92,Robusta,Post Blossom,11690.0,1.0735,22.775,9.71
+2010,4,Karnataka,Hassan,10890.0,569.6,27.63,17.92,Robusta,Post Monsoon,9950.0,0.9137,22.775,9.71
+2010,4,Karnataka,Kodagu,28803.0,525.68,28.6,19.41,Arabica,Post Blossom,20900.0,0.7256,24.005,9.19
+2010,4,Karnataka,Kodagu,28803.0,525.68,28.6,19.41,Arabica,Post Monsoon,21550.0,0.7482,24.005,9.19
+2010,4,Karnataka,Kodagu,74777.0,525.68,28.6,19.41,Robusta,Post Blossom,88600.0,1.1849,24.005,9.19
+2010,4,Karnataka,Kodagu,74777.0,525.68,28.6,19.41,Robusta,Post Monsoon,89650.0,1.1989,24.005,9.19
+2010,4,Kerala,Nelliampathies,1800.0,739.65,27.11,19.25,Arabica,Post Blossom,700.0,0.3889,23.18,7.86
+2010,4,Kerala,Nelliampathies,1800.0,739.65,27.11,19.25,Arabica,Post Monsoon,600.0,0.3333,23.18,7.86
+2010,4,Kerala,Nelliampathies,2850.0,739.65,27.11,19.25,Robusta,Post Blossom,1400.0,0.4912,23.18,7.86
+2010,4,Kerala,Nelliampathies,2850.0,739.65,27.11,19.25,Robusta,Post Monsoon,1275.0,0.4474,23.18,7.86
+2010,4,Kerala,Travancore,1909.0,1189.42,30.03,22.09,Arabica,Post Blossom,900.0,0.4715,26.06,7.94
+2010,4,Kerala,Travancore,1909.0,1189.42,30.03,22.09,Arabica,Post Monsoon,775.0,0.406,26.06,7.94
+2010,4,Kerala,Travancore,10871.0,1189.42,30.03,22.09,Robusta,Post Blossom,7200.0,0.6623,26.06,7.94
+2010,4,Kerala,Travancore,10871.0,1189.42,30.03,22.09,Robusta,Post Monsoon,6650.0,0.6117,26.06,7.94
+2010,4,Kerala,Wayanad,2.0,387.03,27.05,18.67,Arabica,Post Blossom,0.0,0.0,22.86,8.38
+2010,4,Kerala,Wayanad,2.0,387.03,27.05,18.67,Arabica,Post Monsoon,0.0,0.0,22.86,8.38
+2010,4,Kerala,Wayanad,67364.0,387.03,27.05,18.67,Robusta,Post Blossom,54500.0,0.809,22.86,8.38
+2010,4,Kerala,Wayanad,67364.0,387.03,27.05,18.67,Robusta,Post Monsoon,49950.0,0.7415,22.86,8.38
+2010,4,Northeastern Region,Northeastern Region,4035.0,130.42,26.91,16.25,Arabica,Post Blossom,100.0,0.0248,21.58,10.66
+2010,4,Northeastern Region,Northeastern Region,4035.0,130.42,26.91,16.25,Arabica,Post Monsoon,75.0,0.0186,21.58,10.66
+2010,4,Northeastern Region,Northeastern Region,1382.0,130.42,26.91,16.25,Robusta,Post Blossom,45.0,0.0326,21.58,10.66
+2010,4,Northeastern Region,Northeastern Region,1382.0,130.42,26.91,16.25,Robusta,Post Monsoon,40.0,0.0289,21.58,10.66
+2010,4,Tamil Nadu,Anamalais,2470.0,691.67,27.11,19.25,Arabica,Post Blossom,1000.0,0.4049,23.18,7.86
+2010,4,Tamil Nadu,Anamalais,2470.0,691.67,27.11,19.25,Arabica,Post Monsoon,2000.0,0.8097,23.18,7.86
+2010,4,Tamil Nadu,Anamalais,338.0,691.67,27.11,19.25,Robusta,Post Blossom,500.0,1.4793,23.18,7.86
+2010,4,Tamil Nadu,Anamalais,338.0,691.67,27.11,19.25,Robusta,Post Monsoon,500.0,1.4793,23.18,7.86
+2010,4,Tamil Nadu,Nilgiris,3610.0,649.7,27.05,18.67,Arabica,Post Blossom,1675.0,0.464,22.86,8.38
+2010,4,Tamil Nadu,Nilgiris,3610.0,649.7,27.05,18.67,Arabica,Post Monsoon,1950.0,0.5402,22.86,8.38
+2010,4,Tamil Nadu,Nilgiris,4175.0,649.7,27.05,18.67,Robusta,Post Blossom,3725.0,0.8922,22.86,8.38
+2010,4,Tamil Nadu,Nilgiris,4175.0,649.7,27.05,18.67,Robusta,Post Monsoon,3800.0,0.9102,22.86,8.38
+2010,4,Tamil Nadu,Pulneys,14028.0,718.49,28.33,20.19,Arabica,Post Blossom,5700.0,0.4063,24.26,8.14
+2010,4,Tamil Nadu,Pulneys,14028.0,718.49,28.33,20.19,Arabica,Post Monsoon,6700.0,0.4776,24.26,8.14
+2010,4,Tamil Nadu,Pulneys,1023.0,718.49,28.33,20.19,Robusta,Post Blossom,225.0,0.2199,24.26,8.14
+2010,4,Tamil Nadu,Pulneys,1023.0,718.49,28.33,20.19,Robusta,Post Monsoon,350.0,0.3421,24.26,8.14
+2010,4,Tamil Nadu,Shevroys,5600.0,464.24,30.78,22.87,Arabica,Post Blossom,3600.0,0.6429,26.825,7.91
+2010,4,Tamil Nadu,Shevroys,5600.0,464.24,30.78,22.87,Arabica,Post Monsoon,4000.0,0.7143,26.825,7.91
+2010,4,Tamil Nadu,Shevroys,100.0,464.24,30.78,22.87,Robusta,Post Blossom,50.0,0.5,26.825,7.91
+2010,4,Tamil Nadu,Shevroys,100.0,464.24,30.78,22.87,Robusta,Post Monsoon,50.0,0.5,26.825,7.91
+2011,2,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,50518.0,374.69,35.0,24.48,Arabica,Post Blossom,5800.0,0.1148,29.74,10.52
+2011,2,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,50518.0,374.69,35.0,24.48,Arabica,Post Monsoon,5100.0,0.101,29.74,10.52
+2011,2,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,268.0,374.69,35.0,24.48,Robusta,Post Blossom,65.0,0.2425,29.74,10.52
+2011,2,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,268.0,374.69,35.0,24.48,Robusta,Post Monsoon,85.0,0.3172,29.74,10.52
+2011,2,Karnataka,Chikkamagaluru,56995.0,300.03,30.62,20.96,Arabica,Post Blossom,37475.0,0.6575,25.79,9.66
+2011,2,Karnataka,Chikkamagaluru,56995.0,300.03,30.62,20.96,Arabica,Post Monsoon,37450.0,0.6571,25.79,9.66
+2011,2,Karnataka,Chikkamagaluru,31650.0,300.03,30.62,20.96,Robusta,Post Blossom,36000.0,1.1374,25.79,9.66
+2011,2,Karnataka,Chikkamagaluru,31650.0,300.03,30.62,20.96,Robusta,Post Monsoon,32700.0,1.0332,25.79,9.66
+2011,2,Karnataka,Hassan,23975.0,286.49,31.39,20.24,Arabica,Post Blossom,17150.0,0.7153,25.815,11.15
+2011,2,Karnataka,Hassan,23975.0,286.49,31.39,20.24,Arabica,Post Monsoon,14400.0,0.6006,25.815,11.15
+2011,2,Karnataka,Hassan,11550.0,286.49,31.39,20.24,Robusta,Post Blossom,11690.0,1.0121,25.815,11.15
+2011,2,Karnataka,Hassan,11550.0,286.49,31.39,20.24,Robusta,Post Monsoon,9950.0,0.8615,25.815,11.15
+2011,2,Karnataka,Kodagu,28303.0,915.48,30.42,21.24,Arabica,Post Blossom,20900.0,0.7384,25.83,9.18
+2011,2,Karnataka,Kodagu,28303.0,915.48,30.42,21.24,Arabica,Post Monsoon,21550.0,0.7614,25.83,9.18
+2011,2,Karnataka,Kodagu,75277.0,915.48,30.42,21.24,Robusta,Post Blossom,88600.0,1.177,25.83,9.18
+2011,2,Karnataka,Kodagu,75277.0,915.48,30.42,21.24,Robusta,Post Monsoon,89650.0,1.1909,25.83,9.18
+2011,2,Kerala,Nelliampathies,1800.0,620.62,29.57,20.65,Arabica,Post Blossom,700.0,0.3889,25.11,8.92
+2011,2,Kerala,Nelliampathies,1800.0,620.62,29.57,20.65,Arabica,Post Monsoon,600.0,0.3333,25.11,8.92
+2011,2,Kerala,Nelliampathies,2850.0,620.62,29.57,20.65,Robusta,Post Blossom,1400.0,0.4912,25.11,8.92
+2011,2,Kerala,Nelliampathies,2850.0,620.62,29.57,20.65,Robusta,Post Monsoon,1275.0,0.4474,25.11,8.92
+2011,2,Kerala,Travancore,1959.0,1013.18,32.16,23.26,Arabica,Post Blossom,900.0,0.4594,27.71,8.9
+2011,2,Kerala,Travancore,1959.0,1013.18,32.16,23.26,Arabica,Post Monsoon,775.0,0.3956,27.71,8.9
+2011,2,Kerala,Travancore,10956.0,1013.18,32.16,23.26,Robusta,Post Blossom,7200.0,0.6572,27.71,8.9
+2011,2,Kerala,Travancore,10956.0,1013.18,32.16,23.26,Robusta,Post Monsoon,6650.0,0.607,27.71,8.9
+2011,2,Kerala,Wayanad,2.0,505.39,30.02,20.35,Arabica,Post Blossom,0.0,0.0,25.185,9.67
+2011,2,Kerala,Wayanad,2.0,505.39,30.02,20.35,Arabica,Post Monsoon,0.0,0.0,25.185,9.67
+2011,2,Kerala,Wayanad,67364.0,505.39,30.02,20.35,Robusta,Post Blossom,54500.0,0.809,25.185,9.67
+2011,2,Kerala,Wayanad,67364.0,505.39,30.02,20.35,Robusta,Post Monsoon,49950.0,0.7415,25.185,9.67
+2011,2,Northeastern Region,Northeastern Region,3895.0,318.61,30.66,21.2,Arabica,Post Blossom,100.0,0.0257,25.93,9.46
+2011,2,Northeastern Region,Northeastern Region,3895.0,318.61,30.66,21.2,Arabica,Post Monsoon,75.0,0.0193,25.93,9.46
+2011,2,Northeastern Region,Northeastern Region,1095.0,318.61,30.66,21.2,Robusta,Post Blossom,45.0,0.0411,25.93,9.46
+2011,2,Northeastern Region,Northeastern Region,1095.0,318.61,30.66,21.2,Robusta,Post Monsoon,40.0,0.0365,25.93,9.46
+2011,2,Tamil Nadu,Anamalais,2470.0,680.69,29.57,20.65,Arabica,Post Blossom,1000.0,0.4049,25.11,8.92
+2011,2,Tamil Nadu,Anamalais,2470.0,680.69,29.57,20.65,Arabica,Post Monsoon,2000.0,0.8097,25.11,8.92
+2011,2,Tamil Nadu,Anamalais,338.0,680.69,29.57,20.65,Robusta,Post Blossom,500.0,1.4793,25.11,8.92
+2011,2,Tamil Nadu,Anamalais,338.0,680.69,29.57,20.65,Robusta,Post Monsoon,500.0,1.4793,25.11,8.92
+2011,2,Tamil Nadu,Nilgiris,3610.0,353.16,30.02,20.35,Arabica,Post Blossom,1675.0,0.464,25.185,9.67
+2011,2,Tamil Nadu,Nilgiris,3610.0,353.16,30.02,20.35,Arabica,Post Monsoon,1950.0,0.5402,25.185,9.67
+2011,2,Tamil Nadu,Nilgiris,4175.0,353.16,30.02,20.35,Robusta,Post Blossom,3725.0,0.8922,25.185,9.67
+2011,2,Tamil Nadu,Nilgiris,4175.0,353.16,30.02,20.35,Robusta,Post Monsoon,3800.0,0.9102,25.185,9.67
+2011,2,Tamil Nadu,Pulneys,14028.0,635.9,32.81,22.21,Arabica,Post Blossom,5700.0,0.4063,27.51,10.6
+2011,2,Tamil Nadu,Pulneys,14028.0,635.9,32.81,22.21,Arabica,Post Monsoon,6700.0,0.4776,27.51,10.6
+2011,2,Tamil Nadu,Pulneys,1023.0,635.9,32.81,22.21,Robusta,Post Blossom,225.0,0.2199,27.51,10.6
+2011,2,Tamil Nadu,Pulneys,1023.0,635.9,32.81,22.21,Robusta,Post Monsoon,350.0,0.3421,27.51,10.6
+2011,2,Tamil Nadu,Shevroys,5600.0,245.48,37.03,25.48,Arabica,Post Blossom,3600.0,0.6429,31.255,11.55
+2011,2,Tamil Nadu,Shevroys,5600.0,245.48,37.03,25.48,Arabica,Post Monsoon,4000.0,0.7143,31.255,11.55
+2011,2,Tamil Nadu,Shevroys,100.0,245.48,37.03,25.48,Robusta,Post Blossom,50.0,0.5,31.255,11.55
+2011,2,Tamil Nadu,Shevroys,100.0,245.48,37.03,25.48,Robusta,Post Monsoon,50.0,0.5,31.255,11.55
+2011,3,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,50518.0,592.43,31.07,23.7,Arabica,Post Blossom,6640.0,0.1314,27.385,7.37
+2011,3,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,50518.0,592.43,31.07,23.7,Arabica,Post Monsoon,5685.0,0.1125,27.385,7.37
+2011,3,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,268.0,592.43,31.07,23.7,Robusta,Post Blossom,95.0,0.3545,27.385,7.37
+2011,3,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,268.0,592.43,31.07,23.7,Robusta,Post Monsoon,65.0,0.2425,27.385,7.37
+2011,3,Karnataka,Chikkamagaluru,56995.0,474.33,26.78,20.14,Arabica,Post Blossom,41375.0,0.7259,23.46,6.64
+2011,3,Karnataka,Chikkamagaluru,56995.0,474.33,26.78,20.14,Arabica,Post Monsoon,36875.0,0.647,23.46,6.64
+2011,3,Karnataka,Chikkamagaluru,31650.0,474.33,26.78,20.14,Robusta,Post Blossom,37050.0,1.1706,23.46,6.64
+2011,3,Karnataka,Chikkamagaluru,31650.0,474.33,26.78,20.14,Robusta,Post Monsoon,37460.0,1.1836,23.46,6.64
+2011,3,Karnataka,Hassan,23975.0,369.94,27.71,19.41,Arabica,Post Blossom,18725.0,0.781,23.56,8.3
+2011,3,Karnataka,Hassan,23975.0,369.94,27.71,19.41,Arabica,Post Monsoon,17275.0,0.7205,23.56,8.3
+2011,3,Karnataka,Hassan,11550.0,369.94,27.71,19.41,Robusta,Post Blossom,12250.0,1.0606,23.56,8.3
+2011,3,Karnataka,Hassan,11550.0,369.94,27.71,19.41,Robusta,Post Monsoon,12150.0,1.0519,23.56,8.3
+2011,3,Karnataka,Kodagu,28303.0,2136.1,26.83,20.45,Arabica,Post Blossom,22150.0,0.7826,23.64,6.38
+2011,3,Karnataka,Kodagu,28303.0,2136.1,26.83,20.45,Arabica,Post Monsoon,20430.0,0.7218,23.64,6.38
+2011,3,Karnataka,Kodagu,75277.0,2136.1,26.83,20.45,Robusta,Post Blossom,96125.0,1.277,23.64,6.38
+2011,3,Karnataka,Kodagu,75277.0,2136.1,26.83,20.45,Robusta,Post Monsoon,89590.0,1.1901,23.64,6.38
+2011,3,Kerala,Nelliampathies,1800.0,934.83,27.27,19.84,Arabica,Post Blossom,1000.0,0.5556,23.555,7.43
+2011,3,Kerala,Nelliampathies,1800.0,934.83,27.27,19.84,Arabica,Post Monsoon,750.0,0.4167,23.555,7.43
+2011,3,Kerala,Nelliampathies,2850.0,934.83,27.27,19.84,Robusta,Post Blossom,1475.0,0.5175,23.555,7.43
+2011,3,Kerala,Nelliampathies,2850.0,934.83,27.27,19.84,Robusta,Post Monsoon,1475.0,0.5175,23.555,7.43
+2011,3,Kerala,Travancore,1959.0,1202.03,30.04,22.44,Arabica,Post Blossom,950.0,0.4849,26.24,7.6
+2011,3,Kerala,Travancore,1959.0,1202.03,30.04,22.44,Arabica,Post Monsoon,875.0,0.4467,26.24,7.6
+2011,3,Kerala,Travancore,10956.0,1202.03,30.04,22.44,Robusta,Post Blossom,7400.0,0.6754,26.24,7.6
+2011,3,Kerala,Travancore,10956.0,1202.03,30.04,22.44,Robusta,Post Monsoon,7275.0,0.664,26.24,7.6
+2011,3,Kerala,Wayanad,2.0,500.08,27.21,19.57,Arabica,Post Blossom,0.0,0.0,23.39,7.64
+2011,3,Kerala,Wayanad,2.0,500.08,27.21,19.57,Arabica,Post Monsoon,0.0,0.0,23.39,7.64
+2011,3,Kerala,Wayanad,67364.0,500.08,27.21,19.57,Robusta,Post Blossom,58300.0,0.8654,23.39,7.64
+2011,3,Kerala,Wayanad,67364.0,500.08,27.21,19.57,Robusta,Post Monsoon,55275.0,0.8205,23.39,7.64
+2011,3,Northeastern Region,Northeastern Region,3895.0,360.22,31.72,23.71,Arabica,Post Blossom,120.0,0.0308,27.715,8.01
+2011,3,Northeastern Region,Northeastern Region,3895.0,360.22,31.72,23.71,Arabica,Post Monsoon,100.0,0.0257,27.715,8.01
+2011,3,Northeastern Region,Northeastern Region,1095.0,360.22,31.72,23.71,Robusta,Post Blossom,55.0,0.0502,27.715,8.01
+2011,3,Northeastern Region,Northeastern Region,1095.0,360.22,31.72,23.71,Robusta,Post Monsoon,70.0,0.0639,27.715,8.01
+2011,3,Tamil Nadu,Anamalais,2470.0,978.25,27.27,19.84,Arabica,Post Blossom,1300.0,0.5263,23.555,7.43
+2011,3,Tamil Nadu,Anamalais,2470.0,978.25,27.27,19.84,Arabica,Post Monsoon,1000.0,0.4049,23.555,7.43
+2011,3,Tamil Nadu,Anamalais,338.0,978.25,27.27,19.84,Robusta,Post Blossom,500.0,1.4793,23.555,7.43
+2011,3,Tamil Nadu,Anamalais,338.0,978.25,27.27,19.84,Robusta,Post Monsoon,500.0,1.4793,23.555,7.43
+2011,3,Tamil Nadu,Nilgiris,3610.0,223.26,27.21,19.57,Arabica,Post Blossom,1885.0,0.5222,23.39,7.64
+2011,3,Tamil Nadu,Nilgiris,3610.0,223.26,27.21,19.57,Arabica,Post Monsoon,1750.0,0.4848,23.39,7.64
+2011,3,Tamil Nadu,Nilgiris,4175.0,223.26,27.21,19.57,Robusta,Post Blossom,4150.0,0.994,23.39,7.64
+2011,3,Tamil Nadu,Nilgiris,4175.0,223.26,27.21,19.57,Robusta,Post Monsoon,3725.0,0.8922,23.39,7.64
+2011,3,Tamil Nadu,Pulneys,14028.0,946.15,30.68,21.64,Arabica,Post Blossom,6730.0,0.4798,26.16,9.04
+2011,3,Tamil Nadu,Pulneys,14028.0,946.15,30.68,21.64,Arabica,Post Monsoon,5800.0,0.4135,26.16,9.04
+2011,3,Tamil Nadu,Pulneys,1023.0,946.15,30.68,21.64,Robusta,Post Blossom,225.0,0.2199,26.16,9.04
+2011,3,Tamil Nadu,Pulneys,1023.0,946.15,30.68,21.64,Robusta,Post Monsoon,225.0,0.2199,26.16,9.04
+2011,3,Tamil Nadu,Shevroys,5600.0,423.43,34.79,24.84,Arabica,Post Blossom,3650.0,0.6518,29.815,9.95
+2011,3,Tamil Nadu,Shevroys,5600.0,423.43,34.79,24.84,Arabica,Post Monsoon,3600.0,0.6429,29.815,9.95
+2011,3,Tamil Nadu,Shevroys,100.0,423.43,34.79,24.84,Robusta,Post Blossom,100.0,1.0,29.815,9.95
+2011,3,Tamil Nadu,Shevroys,100.0,423.43,34.79,24.84,Robusta,Post Monsoon,50.0,0.5,29.815,9.95
+2012,1,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,50518.0,61.27,31.35,17.96,Arabica,Post Blossom,6640.0,0.1314,24.655,13.39
+2012,1,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,50518.0,61.27,31.35,17.96,Arabica,Post Monsoon,5685.0,0.1125,24.655,13.39
+2012,1,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,268.0,61.27,31.35,17.96,Robusta,Post Blossom,95.0,0.3545,24.655,13.39
+2012,1,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,268.0,61.27,31.35,17.96,Robusta,Post Monsoon,65.0,0.2425,24.655,13.39
+2012,1,Karnataka,Chikkamagaluru,56995.0,0.0,32.33,17.27,Arabica,Post Blossom,41375.0,0.7259,24.8,15.06
+2012,1,Karnataka,Chikkamagaluru,56995.0,0.0,32.33,17.27,Arabica,Post Monsoon,36875.0,0.647,24.8,15.06
+2012,1,Karnataka,Chikkamagaluru,31650.0,0.0,32.33,17.27,Robusta,Post Blossom,37050.0,1.1706,24.8,15.06
+2012,1,Karnataka,Chikkamagaluru,31650.0,0.0,32.33,17.27,Robusta,Post Monsoon,37460.0,1.1836,24.8,15.06
+2012,1,Karnataka,Hassan,23975.0,0.4,31.96,16.5,Arabica,Post Blossom,18725.0,0.781,24.23,15.46
+2012,1,Karnataka,Hassan,23975.0,0.4,31.96,16.5,Arabica,Post Monsoon,17275.0,0.7205,24.23,15.46
+2012,1,Karnataka,Hassan,11550.0,0.4,31.96,16.5,Robusta,Post Blossom,12250.0,1.0606,24.23,15.46
+2012,1,Karnataka,Hassan,11550.0,0.4,31.96,16.5,Robusta,Post Monsoon,12150.0,1.0519,24.23,15.46
+2012,1,Karnataka,Kodagu,28303.0,2.98,31.81,18.16,Arabica,Post Blossom,22150.0,0.7826,24.985,13.65
+2012,1,Karnataka,Kodagu,28303.0,2.98,31.81,18.16,Arabica,Post Monsoon,20430.0,0.7218,24.985,13.65
+2012,1,Karnataka,Kodagu,75277.0,2.98,31.81,18.16,Robusta,Post Blossom,96125.0,1.277,24.985,13.65
+2012,1,Karnataka,Kodagu,75277.0,2.98,31.81,18.16,Robusta,Post Monsoon,89590.0,1.1901,24.985,13.65
+2012,1,Kerala,Nelliampathies,1800.0,3.95,29.79,17.86,Arabica,Post Blossom,1000.0,0.5556,23.825,11.93
+2012,1,Kerala,Nelliampathies,1800.0,3.95,29.79,17.86,Arabica,Post Monsoon,750.0,0.4167,23.825,11.93
+2012,1,Kerala,Nelliampathies,2850.0,3.95,29.79,17.86,Robusta,Post Blossom,1475.0,0.5175,23.825,11.93
+2012,1,Kerala,Nelliampathies,2850.0,3.95,29.79,17.86,Robusta,Post Monsoon,1475.0,0.5175,23.825,11.93
+2012,1,Kerala,Travancore,1959.0,121.49,32.45,21.37,Arabica,Post Blossom,950.0,0.4849,26.91,11.08
+2012,1,Kerala,Travancore,1959.0,121.49,32.45,21.37,Arabica,Post Monsoon,875.0,0.4467,26.91,11.08
+2012,1,Kerala,Travancore,10956.0,121.49,32.45,21.37,Robusta,Post Blossom,7400.0,0.6754,26.91,11.08
+2012,1,Kerala,Travancore,10956.0,121.49,32.45,21.37,Robusta,Post Monsoon,7275.0,0.664,26.91,11.08
+2012,1,Kerala,Wayanad,2.0,5.46,30.33,16.96,Arabica,Post Blossom,0.0,0.0,23.645,13.37
+2012,1,Kerala,Wayanad,2.0,5.46,30.33,16.96,Arabica,Post Monsoon,0.0,0.0,23.645,13.37
+2012,1,Kerala,Wayanad,67364.0,5.46,30.33,16.96,Robusta,Post Blossom,58300.0,0.8654,23.645,13.37
+2012,1,Kerala,Wayanad,67364.0,5.46,30.33,16.96,Robusta,Post Monsoon,55275.0,0.8205,23.645,13.37
+2012,1,Northeastern Region,Northeastern Region,3895.0,20.93,25.35,11.7,Arabica,Post Blossom,120.0,0.0308,18.525,13.65
+2012,1,Northeastern Region,Northeastern Region,3895.0,20.93,25.35,11.7,Arabica,Post Monsoon,100.0,0.0257,18.525,13.65
+2012,1,Northeastern Region,Northeastern Region,1095.0,20.93,25.35,11.7,Robusta,Post Blossom,55.0,0.0502,18.525,13.65
+2012,1,Northeastern Region,Northeastern Region,1095.0,20.93,25.35,11.7,Robusta,Post Monsoon,70.0,0.0639,18.525,13.65
+2012,1,Tamil Nadu,Anamalais,2470.0,21.33,29.79,17.86,Arabica,Post Blossom,1300.0,0.5263,23.825,11.93
+2012,1,Tamil Nadu,Anamalais,2470.0,21.33,29.79,17.86,Arabica,Post Monsoon,1000.0,0.4049,23.825,11.93
+2012,1,Tamil Nadu,Anamalais,338.0,21.33,29.79,17.86,Robusta,Post Blossom,500.0,1.4793,23.825,11.93
+2012,1,Tamil Nadu,Anamalais,338.0,21.33,29.79,17.86,Robusta,Post Monsoon,500.0,1.4793,23.825,11.93
+2012,1,Tamil Nadu,Nilgiris,3610.0,0.61,30.33,16.96,Arabica,Post Blossom,1885.0,0.5222,23.645,13.37
+2012,1,Tamil Nadu,Nilgiris,3610.0,0.61,30.33,16.96,Arabica,Post Monsoon,1750.0,0.4848,23.645,13.37
+2012,1,Tamil Nadu,Nilgiris,4175.0,0.61,30.33,16.96,Robusta,Post Blossom,4150.0,0.994,23.645,13.37
+2012,1,Tamil Nadu,Nilgiris,4175.0,0.61,30.33,16.96,Robusta,Post Monsoon,3725.0,0.8922,23.645,13.37
+2012,1,Tamil Nadu,Pulneys,14028.0,6.51,31.0,18.76,Arabica,Post Blossom,6730.0,0.4798,24.88,12.24
+2012,1,Tamil Nadu,Pulneys,14028.0,6.51,31.0,18.76,Arabica,Post Monsoon,5800.0,0.4135,24.88,12.24
+2012,1,Tamil Nadu,Pulneys,1023.0,6.51,31.0,18.76,Robusta,Post Blossom,225.0,0.2199,24.88,12.24
+2012,1,Tamil Nadu,Pulneys,1023.0,6.51,31.0,18.76,Robusta,Post Monsoon,225.0,0.2199,24.88,12.24
+2012,1,Tamil Nadu,Shevroys,5600.0,0.82,33.95,21.36,Arabica,Post Blossom,3650.0,0.6518,27.655,12.59
+2012,1,Tamil Nadu,Shevroys,5600.0,0.82,33.95,21.36,Arabica,Post Monsoon,3600.0,0.6429,27.655,12.59
+2012,1,Tamil Nadu,Shevroys,100.0,0.82,33.95,21.36,Robusta,Post Blossom,100.0,1.0,27.655,12.59
+2012,1,Tamil Nadu,Shevroys,100.0,0.82,33.95,21.36,Robusta,Post Monsoon,50.0,0.5,27.655,12.59
+2012,2,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,58332.0,168.64,36.36,25.28,Arabica,Post Blossom,6640.0,0.1138,30.82,11.08
+2012,2,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,58332.0,168.64,36.36,25.28,Arabica,Post Monsoon,6640.0,0.1138,30.82,11.08
+2012,2,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,268.0,168.64,36.36,25.28,Robusta,Post Blossom,95.0,0.3545,30.82,11.08
+2012,2,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,268.0,168.64,36.36,25.28,Robusta,Post Monsoon,95.0,0.3545,30.82,11.08
+2012,2,Karnataka,Chikkamagaluru,57000.0,122.6,31.3,21.24,Arabica,Post Blossom,41375.0,0.7259,26.27,10.06
+2012,2,Karnataka,Chikkamagaluru,57000.0,122.6,31.3,21.24,Arabica,Post Monsoon,41180.0,0.7225,26.27,10.06
+2012,2,Karnataka,Chikkamagaluru,31853.0,122.6,31.3,21.24,Robusta,Post Blossom,37050.0,1.1632,26.27,10.06
+2012,2,Karnataka,Chikkamagaluru,31853.0,122.6,31.3,21.24,Robusta,Post Monsoon,37100.0,1.1647,26.27,10.06
+2012,2,Karnataka,Hassan,24075.0,233.73,32.27,20.63,Arabica,Post Blossom,18725.0,0.7778,26.45,11.64
+2012,2,Karnataka,Hassan,24075.0,233.73,32.27,20.63,Arabica,Post Monsoon,18325.0,0.7612,26.45,11.64
+2012,2,Karnataka,Hassan,11950.0,233.73,32.27,20.63,Robusta,Post Blossom,12250.0,1.0251,26.45,11.64
+2012,2,Karnataka,Hassan,11950.0,233.73,32.27,20.63,Robusta,Post Monsoon,11950.0,1.0,26.45,11.64
+2012,2,Karnataka,Kodagu,28053.0,844.34,31.05,21.62,Arabica,Post Blossom,22150.0,0.7896,26.335,9.43
+2012,2,Karnataka,Kodagu,28053.0,844.34,31.05,21.62,Arabica,Post Monsoon,22100.0,0.7878,26.335,9.43
+2012,2,Karnataka,Kodagu,76727.0,844.34,31.05,21.62,Robusta,Post Blossom,96125.0,1.2528,26.335,9.43
+2012,2,Karnataka,Kodagu,76727.0,844.34,31.05,21.62,Robusta,Post Monsoon,95700.0,1.2473,26.335,9.43
+2012,2,Kerala,Nelliampathies,1800.0,525.22,30.3,20.91,Arabica,Post Blossom,1000.0,0.5556,25.605,9.39
+2012,2,Kerala,Nelliampathies,1800.0,525.22,30.3,20.91,Arabica,Post Monsoon,1000.0,0.5556,25.605,9.39
+2012,2,Kerala,Nelliampathies,2850.0,525.22,30.3,20.91,Robusta,Post Blossom,1475.0,0.5175,25.605,9.39
+2012,2,Kerala,Nelliampathies,2850.0,525.22,30.3,20.91,Robusta,Post Monsoon,1475.0,0.5175,25.605,9.39
+2012,2,Kerala,Travancore,2065.0,596.07,32.46,23.41,Arabica,Post Blossom,950.0,0.46,27.935,9.05
+2012,2,Kerala,Travancore,2065.0,596.07,32.46,23.41,Arabica,Post Monsoon,950.0,0.46,27.935,9.05
+2012,2,Kerala,Travancore,10930.0,596.07,32.46,23.41,Robusta,Post Blossom,7400.0,0.677,27.935,9.05
+2012,2,Kerala,Travancore,10930.0,596.07,32.46,23.41,Robusta,Post Monsoon,7500.0,0.6862,27.935,9.05
+2012,2,Kerala,Wayanad,67303.0,817.91,30.82,20.65,Robusta,Post Blossom,58300.0,0.8662,25.735,10.17
+2012,2,Kerala,Wayanad,67303.0,817.91,30.82,20.65,Robusta,Post Monsoon,57425.0,0.8532,25.735,10.17
+2012,2,Northeastern Region,Northeastern Region,4037.0,265.97,30.08,20.65,Arabica,Post Blossom,120.0,0.0297,25.365,9.43
+2012,2,Northeastern Region,Northeastern Region,4037.0,265.97,30.08,20.65,Arabica,Post Monsoon,115.0,0.0285,25.365,9.43
+2012,2,Northeastern Region,Northeastern Region,1103.0,265.97,30.08,20.65,Robusta,Post Blossom,55.0,0.0499,25.365,9.43
+2012,2,Northeastern Region,Northeastern Region,1103.0,265.97,30.08,20.65,Robusta,Post Monsoon,55.0,0.0499,25.365,9.43
+2012,2,Tamil Nadu,Anamalais,2448.0,534.86,30.3,20.91,Arabica,Post Blossom,1300.0,0.531,25.605,9.39
+2012,2,Tamil Nadu,Anamalais,2448.0,534.86,30.3,20.91,Arabica,Post Monsoon,1300.0,0.531,25.605,9.39
+2012,2,Tamil Nadu,Anamalais,369.0,534.86,30.3,20.91,Robusta,Post Blossom,500.0,1.355,25.605,9.39
+2012,2,Tamil Nadu,Anamalais,369.0,534.86,30.3,20.91,Robusta,Post Monsoon,500.0,1.355,25.605,9.39
+2012,2,Tamil Nadu,Nilgiris,3610.0,525.46,30.82,20.65,Arabica,Post Blossom,1885.0,0.5222,25.735,10.17
+2012,2,Tamil Nadu,Nilgiris,3610.0,525.46,30.82,20.65,Arabica,Post Monsoon,1885.0,0.5222,25.735,10.17
+2012,2,Tamil Nadu,Nilgiris,4175.0,525.46,30.82,20.65,Robusta,Post Blossom,4150.0,0.994,25.735,10.17
+2012,2,Tamil Nadu,Nilgiris,4175.0,525.46,30.82,20.65,Robusta,Post Monsoon,4150.0,0.994,25.735,10.17
+2012,2,Tamil Nadu,Pulneys,14650.0,521.94,33.3,22.4,Arabica,Post Blossom,6730.0,0.4594,27.85,10.9
+2012,2,Tamil Nadu,Pulneys,14650.0,521.94,33.3,22.4,Arabica,Post Monsoon,6730.0,0.4594,27.85,10.9
+2012,2,Tamil Nadu,Pulneys,992.0,521.94,33.3,22.4,Robusta,Post Blossom,225.0,0.2268,27.85,10.9
+2012,2,Tamil Nadu,Pulneys,992.0,521.94,33.3,22.4,Robusta,Post Monsoon,225.0,0.2268,27.85,10.9
+2012,2,Tamil Nadu,Shevroys,5000.0,190.88,37.97,26.01,Arabica,Post Blossom,3650.0,0.73,31.99,11.96
+2012,2,Tamil Nadu,Shevroys,5000.0,190.88,37.97,26.01,Arabica,Post Monsoon,3500.0,0.7,31.99,11.96
+2012,2,Tamil Nadu,Shevroys,100.0,190.88,37.97,26.01,Robusta,Post Blossom,100.0,1.0,31.99,11.96
+2012,2,Tamil Nadu,Shevroys,100.0,190.88,37.97,26.01,Robusta,Post Monsoon,100.0,1.0,31.99,11.96
+2012,3,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,58332.0,705.25,30.41,23.51,Arabica,Post Blossom,7720.0,0.1323,26.96,6.9
+2012,3,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,58332.0,705.25,30.41,23.51,Arabica,Post Monsoon,6245.0,0.1071,26.96,6.9
+2012,3,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,268.0,705.25,30.41,23.51,Robusta,Post Blossom,70.0,0.2612,26.96,6.9
+2012,3,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,268.0,705.25,30.41,23.51,Robusta,Post Monsoon,85.0,0.3172,26.96,6.9
+2012,3,Karnataka,Chikkamagaluru,57000.0,364.85,27.3,20.27,Arabica,Post Blossom,39600.0,0.6947,23.785,7.03
+2012,3,Karnataka,Chikkamagaluru,57000.0,364.85,27.3,20.27,Arabica,Post Monsoon,39775.0,0.6978,23.785,7.03
+2012,3,Karnataka,Chikkamagaluru,31853.0,364.85,27.3,20.27,Robusta,Post Blossom,36900.0,1.1584,23.785,7.03
+2012,3,Karnataka,Chikkamagaluru,31853.0,364.85,27.3,20.27,Robusta,Post Monsoon,36150.0,1.1349,23.785,7.03
+2012,3,Karnataka,Hassan,24075.0,235.84,28.22,19.48,Arabica,Post Blossom,19960.0,0.8291,23.85,8.74
+2012,3,Karnataka,Hassan,24075.0,235.84,28.22,19.48,Arabica,Post Monsoon,18250.0,0.758,23.85,8.74
+2012,3,Karnataka,Hassan,11950.0,235.84,28.22,19.48,Robusta,Post Blossom,14300.0,1.1967,23.85,8.74
+2012,3,Karnataka,Hassan,11950.0,235.84,28.22,19.48,Robusta,Post Monsoon,11800.0,0.9874,23.85,8.74
+2012,3,Karnataka,Kodagu,28053.0,1552.67,27.37,20.6,Arabica,Post Blossom,22025.0,0.7851,23.985,6.77
+2012,3,Karnataka,Kodagu,28053.0,1552.67,27.37,20.6,Arabica,Post Monsoon,21800.0,0.7771,23.985,6.77
+2012,3,Karnataka,Kodagu,76727.0,1552.67,27.37,20.6,Robusta,Post Blossom,102075.0,1.3304,23.985,6.77
+2012,3,Karnataka,Kodagu,76727.0,1552.67,27.37,20.6,Robusta,Post Monsoon,93225.0,1.215,23.985,6.77
+2012,3,Kerala,Nelliampathies,1800.0,768.45,28.05,19.93,Arabica,Post Blossom,1100.0,0.6111,23.99,8.12
+2012,3,Kerala,Nelliampathies,1800.0,768.45,28.05,19.93,Arabica,Post Monsoon,1000.0,0.5556,23.99,8.12
+2012,3,Kerala,Nelliampathies,2850.0,768.45,28.05,19.93,Robusta,Post Blossom,1450.0,0.5088,23.99,8.12
+2012,3,Kerala,Nelliampathies,2850.0,768.45,28.05,19.93,Robusta,Post Monsoon,1475.0,0.5175,23.99,8.12
+2012,3,Kerala,Travancore,2065.0,907.5,30.52,22.76,Arabica,Post Blossom,975.0,0.4722,26.64,7.76
+2012,3,Kerala,Travancore,2065.0,907.5,30.52,22.76,Arabica,Post Monsoon,900.0,0.4358,26.64,7.76
+2012,3,Kerala,Travancore,10930.0,907.5,30.52,22.76,Robusta,Post Blossom,7375.0,0.6747,26.64,7.76
+2012,3,Kerala,Travancore,10930.0,907.5,30.52,22.76,Robusta,Post Monsoon,7400.0,0.677,26.64,7.76
+2012,3,Kerala,Wayanad,67303.0,319.78,27.87,19.65,Robusta,Post Blossom,54100.0,0.8038,23.76,8.22
+2012,3,Kerala,Wayanad,67303.0,319.78,27.87,19.65,Robusta,Post Monsoon,57325.0,0.8517,23.76,8.22
+2012,3,Northeastern Region,Northeastern Region,4037.0,320.78,31.34,23.29,Arabica,Post Blossom,145.0,0.0359,27.315,8.05
+2012,3,Northeastern Region,Northeastern Region,4037.0,320.78,31.34,23.29,Arabica,Post Monsoon,145.0,0.0359,27.315,8.05
+2012,3,Northeastern Region,Northeastern Region,1103.0,320.78,31.34,23.29,Robusta,Post Blossom,65.0,0.0589,27.315,8.05
+2012,3,Northeastern Region,Northeastern Region,1103.0,320.78,31.34,23.29,Robusta,Post Monsoon,75.0,0.068,27.315,8.05
+2012,3,Tamil Nadu,Anamalais,2448.0,802.49,28.05,19.93,Arabica,Post Blossom,1300.0,0.531,23.99,8.12
+2012,3,Tamil Nadu,Anamalais,2448.0,802.49,28.05,19.93,Arabica,Post Monsoon,1300.0,0.531,23.99,8.12
+2012,3,Tamil Nadu,Anamalais,369.0,802.49,28.05,19.93,Robusta,Post Blossom,500.0,1.355,23.99,8.12
+2012,3,Tamil Nadu,Anamalais,369.0,802.49,28.05,19.93,Robusta,Post Monsoon,500.0,1.355,23.99,8.12
+2012,3,Tamil Nadu,Nilgiris,3610.0,225.33,27.87,19.65,Arabica,Post Blossom,1800.0,0.4986,23.76,8.22
+2012,3,Tamil Nadu,Nilgiris,3610.0,225.33,27.87,19.65,Arabica,Post Monsoon,1900.0,0.5263,23.76,8.22
+2012,3,Tamil Nadu,Nilgiris,4175.0,225.33,27.87,19.65,Robusta,Post Blossom,4150.0,0.994,23.76,8.22
+2012,3,Tamil Nadu,Nilgiris,4175.0,225.33,27.87,19.65,Robusta,Post Monsoon,4150.0,0.994,23.76,8.22
+2012,3,Tamil Nadu,Pulneys,14650.0,789.71,31.29,21.7,Arabica,Post Blossom,6500.0,0.4437,26.495,9.59
+2012,3,Tamil Nadu,Pulneys,14650.0,789.71,31.29,21.7,Arabica,Post Monsoon,6685.0,0.4563,26.495,9.59
+2012,3,Tamil Nadu,Pulneys,992.0,789.71,31.29,21.7,Robusta,Post Blossom,215.0,0.2167,26.495,9.59
+2012,3,Tamil Nadu,Pulneys,992.0,789.71,31.29,21.7,Robusta,Post Monsoon,215.0,0.2167,26.495,9.59
+2012,3,Tamil Nadu,Shevroys,5000.0,245.35,35.57,24.93,Arabica,Post Blossom,2875.0,0.575,30.25,10.64
+2012,3,Tamil Nadu,Shevroys,5000.0,245.35,35.57,24.93,Arabica,Post Monsoon,3500.0,0.7,30.25,10.64
+2012,3,Tamil Nadu,Shevroys,100.0,245.35,35.57,24.93,Robusta,Post Blossom,100.0,1.0,30.25,10.64
+2012,3,Tamil Nadu,Shevroys,100.0,245.35,35.57,24.93,Robusta,Post Monsoon,100.0,1.0,30.25,10.64
+2012,4,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,58332.0,451.86,29.54,18.66,Arabica,Post Blossom,7720.0,0.1323,24.1,10.88
+2012,4,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,58332.0,451.86,29.54,18.66,Arabica,Post Monsoon,6245.0,0.1071,24.1,10.88
+2012,4,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,268.0,451.86,29.54,18.66,Robusta,Post Blossom,70.0,0.2612,24.1,10.88
+2012,4,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,268.0,451.86,29.54,18.66,Robusta,Post Monsoon,85.0,0.3172,24.1,10.88
+2012,4,Karnataka,Chikkamagaluru,57000.0,94.92,29.88,18.08,Arabica,Post Blossom,39600.0,0.6947,23.98,11.8
+2012,4,Karnataka,Chikkamagaluru,57000.0,94.92,29.88,18.08,Arabica,Post Monsoon,39775.0,0.6978,23.98,11.8
+2012,4,Karnataka,Chikkamagaluru,31853.0,94.92,29.88,18.08,Robusta,Post Blossom,36900.0,1.1584,23.98,11.8
+2012,4,Karnataka,Chikkamagaluru,31853.0,94.92,29.88,18.08,Robusta,Post Monsoon,36150.0,1.1349,23.98,11.8
+2012,4,Karnataka,Hassan,24075.0,47.9,28.67,17.05,Arabica,Post Blossom,19960.0,0.8291,22.86,11.62
+2012,4,Karnataka,Hassan,24075.0,47.9,28.67,17.05,Arabica,Post Monsoon,18250.0,0.758,22.86,11.62
+2012,4,Karnataka,Hassan,11950.0,47.9,28.67,17.05,Robusta,Post Blossom,14300.0,1.1967,22.86,11.62
+2012,4,Karnataka,Hassan,11950.0,47.9,28.67,17.05,Robusta,Post Monsoon,11800.0,0.9874,22.86,11.62
+2012,4,Karnataka,Kodagu,28053.0,276.36,29.73,18.99,Arabica,Post Blossom,22025.0,0.7851,24.36,10.74
+2012,4,Karnataka,Kodagu,28053.0,276.36,29.73,18.99,Arabica,Post Monsoon,21800.0,0.7771,24.36,10.74
+2012,4,Karnataka,Kodagu,76727.0,276.36,29.73,18.99,Robusta,Post Blossom,102075.0,1.3304,24.36,10.74
+2012,4,Karnataka,Kodagu,76727.0,276.36,29.73,18.99,Robusta,Post Monsoon,93225.0,1.215,24.36,10.74
+2012,4,Kerala,Nelliampathies,1800.0,210.66,28.33,18.87,Arabica,Post Blossom,1100.0,0.6111,23.6,9.46
+2012,4,Kerala,Nelliampathies,1800.0,210.66,28.33,18.87,Arabica,Post Monsoon,1000.0,0.5556,23.6,9.46
+2012,4,Kerala,Nelliampathies,2850.0,210.66,28.33,18.87,Robusta,Post Blossom,1450.0,0.5088,23.6,9.46
+2012,4,Kerala,Nelliampathies,2850.0,210.66,28.33,18.87,Robusta,Post Monsoon,1475.0,0.5175,23.6,9.46
+2012,4,Kerala,Travancore,2065.0,292.25,30.9,22.19,Arabica,Post Blossom,975.0,0.4722,26.545,8.71
+2012,4,Kerala,Travancore,2065.0,292.25,30.9,22.19,Arabica,Post Monsoon,900.0,0.4358,26.545,8.71
+2012,4,Kerala,Travancore,10930.0,292.25,30.9,22.19,Robusta,Post Blossom,7375.0,0.6747,26.545,8.71
+2012,4,Kerala,Travancore,10930.0,292.25,30.9,22.19,Robusta,Post Monsoon,7400.0,0.677,26.545,8.71
+2012,4,Kerala,Wayanad,67303.0,195.3,28.29,18.14,Robusta,Post Blossom,54100.0,0.8038,23.215,10.15
+2012,4,Kerala,Wayanad,67303.0,195.3,28.29,18.14,Robusta,Post Monsoon,57325.0,0.8517,23.215,10.15
+2012,4,Northeastern Region,Northeastern Region,4037.0,0.0,26.78,14.31,Arabica,Post Blossom,145.0,0.0359,20.545,12.47
+2012,4,Northeastern Region,Northeastern Region,4037.0,0.0,26.78,14.31,Arabica,Post Monsoon,145.0,0.0359,20.545,12.47
+2012,4,Northeastern Region,Northeastern Region,1103.0,0.0,26.78,14.31,Robusta,Post Blossom,65.0,0.0589,20.545,12.47
+2012,4,Northeastern Region,Northeastern Region,1103.0,0.0,26.78,14.31,Robusta,Post Monsoon,75.0,0.068,20.545,12.47
+2012,4,Tamil Nadu,Anamalais,2448.0,221.67,28.33,18.87,Arabica,Post Blossom,1300.0,0.531,23.6,9.46
+2012,4,Tamil Nadu,Anamalais,2448.0,221.67,28.33,18.87,Arabica,Post Monsoon,1300.0,0.531,23.6,9.46
+2012,4,Tamil Nadu,Anamalais,369.0,221.67,28.33,18.87,Robusta,Post Blossom,500.0,1.355,23.6,9.46
+2012,4,Tamil Nadu,Anamalais,369.0,221.67,28.33,18.87,Robusta,Post Monsoon,500.0,1.355,23.6,9.46
+2012,4,Tamil Nadu,Nilgiris,3610.0,170.69,28.29,18.14,Arabica,Post Blossom,1800.0,0.4986,23.215,10.15
+2012,4,Tamil Nadu,Nilgiris,3610.0,170.69,28.29,18.14,Arabica,Post Monsoon,1900.0,0.5263,23.215,10.15
+2012,4,Tamil Nadu,Nilgiris,4175.0,170.69,28.29,18.14,Robusta,Post Blossom,4150.0,0.994,23.215,10.15
+2012,4,Tamil Nadu,Nilgiris,4175.0,170.69,28.29,18.14,Robusta,Post Monsoon,4150.0,0.994,23.215,10.15
+2012,4,Tamil Nadu,Pulneys,14650.0,216.21,29.17,19.9,Arabica,Post Blossom,6500.0,0.4437,24.535,9.27
+2012,4,Tamil Nadu,Pulneys,14650.0,216.21,29.17,19.9,Arabica,Post Monsoon,6685.0,0.4563,24.535,9.27
+2012,4,Tamil Nadu,Pulneys,992.0,216.21,29.17,19.9,Robusta,Post Blossom,215.0,0.2167,24.535,9.27
+2012,4,Tamil Nadu,Pulneys,992.0,216.21,29.17,19.9,Robusta,Post Monsoon,215.0,0.2167,24.535,9.27
+2012,4,Tamil Nadu,Shevroys,5000.0,211.91,31.84,22.31,Arabica,Post Blossom,2875.0,0.575,27.075,9.53
+2012,4,Tamil Nadu,Shevroys,5000.0,211.91,31.84,22.31,Arabica,Post Monsoon,3500.0,0.7,27.075,9.53
+2012,4,Tamil Nadu,Shevroys,100.0,211.91,31.84,22.31,Robusta,Post Blossom,100.0,1.0,27.075,9.53
+2012,4,Tamil Nadu,Shevroys,100.0,211.91,31.84,22.31,Robusta,Post Monsoon,100.0,1.0,27.075,9.53
+2013,1,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,58332.0,7.06,31.19,18.07,Arabica,Post Blossom,6245.0,0.1071,24.63,13.12
+2013,1,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,58332.0,7.06,31.19,18.07,Arabica,Post Monsoon,6490.0,0.1113,24.63,13.12
+2013,1,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,268.0,7.06,31.19,18.07,Robusta,Post Blossom,85.0,0.3172,24.63,13.12
+2013,1,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,268.0,7.06,31.19,18.07,Robusta,Post Monsoon,35.0,0.1306,24.63,13.12
+2013,1,Karnataka,Chikkamagaluru,57000.0,54.35,32.39,17.82,Arabica,Post Blossom,39775.0,0.6978,25.105,14.57
+2013,1,Karnataka,Chikkamagaluru,57000.0,54.35,32.39,17.82,Arabica,Post Monsoon,37825.0,0.6636,25.105,14.57
+2013,1,Karnataka,Chikkamagaluru,31853.0,54.35,32.39,17.82,Robusta,Post Blossom,36150.0,1.1349,25.105,14.57
+2013,1,Karnataka,Chikkamagaluru,31853.0,54.35,32.39,17.82,Robusta,Post Monsoon,37200.0,1.1679,25.105,14.57
+2013,1,Karnataka,Hassan,24075.0,65.2,32.0,17.11,Arabica,Post Blossom,18250.0,0.758,24.555,14.89
+2013,1,Karnataka,Hassan,24075.0,65.2,32.0,17.11,Arabica,Post Monsoon,19175.0,0.7965,24.555,14.89
+2013,1,Karnataka,Hassan,11950.0,65.2,32.0,17.11,Robusta,Post Blossom,11800.0,0.9874,24.555,14.89
+2013,1,Karnataka,Hassan,11950.0,65.2,32.0,17.11,Robusta,Post Monsoon,13725.0,1.1485,24.555,14.89
+2013,1,Karnataka,Kodagu,28053.0,49.24,31.75,18.82,Arabica,Post Blossom,21800.0,0.7771,25.285,12.93
+2013,1,Karnataka,Kodagu,28053.0,49.24,31.75,18.82,Arabica,Post Monsoon,21705.0,0.7737,25.285,12.93
+2013,1,Karnataka,Kodagu,76727.0,49.24,31.75,18.82,Robusta,Post Blossom,93225.0,1.215,25.285,12.93
+2013,1,Karnataka,Kodagu,76727.0,49.24,31.75,18.82,Robusta,Post Monsoon,97575.0,1.2717,25.285,12.93
+2013,1,Kerala,Nelliampathies,1800.0,90.22,30.0,18.63,Arabica,Post Blossom,1000.0,0.5556,24.315,11.37
+2013,1,Kerala,Nelliampathies,1800.0,90.22,30.0,18.63,Arabica,Post Monsoon,1100.0,0.6111,24.315,11.37
+2013,1,Kerala,Nelliampathies,2850.0,90.22,30.0,18.63,Robusta,Post Blossom,1475.0,0.5175,24.315,11.37
+2013,1,Kerala,Nelliampathies,2850.0,90.22,30.0,18.63,Robusta,Post Monsoon,1450.0,0.5088,24.315,11.37
+2013,1,Kerala,Travancore,2065.0,183.22,32.39,22.04,Arabica,Post Blossom,900.0,0.4358,27.215,10.35
+2013,1,Kerala,Travancore,2065.0,183.22,32.39,22.04,Arabica,Post Monsoon,975.0,0.4722,27.215,10.35
+2013,1,Kerala,Travancore,10930.0,183.22,32.39,22.04,Robusta,Post Blossom,7400.0,0.677,27.215,10.35
+2013,1,Kerala,Travancore,10930.0,183.22,32.39,22.04,Robusta,Post Monsoon,7150.0,0.6542,27.215,10.35
+2013,1,Kerala,Wayanad,67303.0,5.2,30.42,17.69,Robusta,Post Blossom,57325.0,0.8517,24.055,12.73
+2013,1,Kerala,Wayanad,67303.0,5.2,30.42,17.69,Robusta,Post Monsoon,53150.0,0.7897,24.055,12.73
+2013,1,Northeastern Region,Northeastern Region,4037.0,27.41,27.31,12.09,Arabica,Post Blossom,145.0,0.0359,19.7,15.22
+2013,1,Northeastern Region,Northeastern Region,4037.0,27.41,27.31,12.09,Arabica,Post Monsoon,130.0,0.0322,19.7,15.22
+2013,1,Northeastern Region,Northeastern Region,1103.0,27.41,27.31,12.09,Robusta,Post Blossom,75.0,0.068,19.7,15.22
+2013,1,Northeastern Region,Northeastern Region,1103.0,27.41,27.31,12.09,Robusta,Post Monsoon,65.0,0.0589,19.7,15.22
+2013,1,Tamil Nadu,Anamalais,2448.0,70.75,30.0,18.63,Arabica,Post Blossom,1300.0,0.531,24.315,11.37
+2013,1,Tamil Nadu,Anamalais,2448.0,70.75,30.0,18.63,Arabica,Post Monsoon,1300.0,0.531,24.315,11.37
+2013,1,Tamil Nadu,Anamalais,369.0,70.75,30.0,18.63,Robusta,Post Blossom,500.0,1.355,24.315,11.37
+2013,1,Tamil Nadu,Anamalais,369.0,70.75,30.0,18.63,Robusta,Post Monsoon,500.0,1.355,24.315,11.37
+2013,1,Tamil Nadu,Nilgiris,3610.0,96.82,30.42,17.69,Arabica,Post Blossom,1900.0,0.5263,24.055,12.73
+2013,1,Tamil Nadu,Nilgiris,3610.0,96.82,30.42,17.69,Arabica,Post Monsoon,1800.0,0.4986,24.055,12.73
+2013,1,Tamil Nadu,Nilgiris,4175.0,96.82,30.42,17.69,Robusta,Post Blossom,4150.0,0.994,24.055,12.73
+2013,1,Tamil Nadu,Nilgiris,4175.0,96.82,30.42,17.69,Robusta,Post Monsoon,4150.0,0.994,24.055,12.73
+2013,1,Tamil Nadu,Pulneys,14650.0,145.1,31.12,19.32,Arabica,Post Blossom,6685.0,0.4563,25.22,11.8
+2013,1,Tamil Nadu,Pulneys,14650.0,145.1,31.12,19.32,Arabica,Post Monsoon,6275.0,0.4283,25.22,11.8
+2013,1,Tamil Nadu,Pulneys,992.0,145.1,31.12,19.32,Robusta,Post Blossom,215.0,0.2167,25.22,11.8
+2013,1,Tamil Nadu,Pulneys,992.0,145.1,31.12,19.32,Robusta,Post Monsoon,225.0,0.2268,25.22,11.8
+2013,1,Tamil Nadu,Shevroys,5000.0,6.94,33.94,21.59,Arabica,Post Blossom,3500.0,0.7,27.765,12.35
+2013,1,Tamil Nadu,Shevroys,5000.0,6.94,33.94,21.59,Arabica,Post Monsoon,3450.0,0.69,27.765,12.35
+2013,1,Tamil Nadu,Shevroys,100.0,6.94,33.94,21.59,Robusta,Post Blossom,100.0,1.0,27.765,12.35
+2013,1,Tamil Nadu,Shevroys,100.0,6.94,33.94,21.59,Robusta,Post Monsoon,50.0,0.5,27.765,12.35
+2013,2,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,58332.0,310.63,35.65,25.03,Arabica,Post Blossom,6245.0,0.1071,30.34,10.62
+2013,2,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,58332.0,310.63,35.65,25.03,Arabica,Post Monsoon,6490.0,0.1113,30.34,10.62
+2013,2,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,268.0,310.63,35.65,25.03,Robusta,Post Blossom,85.0,0.3172,30.34,10.62
+2013,2,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,268.0,310.63,35.65,25.03,Robusta,Post Monsoon,35.0,0.1306,30.34,10.62
+2013,2,Karnataka,Chikkamagaluru,57000.0,286.23,31.13,20.84,Arabica,Post Blossom,39775.0,0.6978,25.985,10.29
+2013,2,Karnataka,Chikkamagaluru,57000.0,286.23,31.13,20.84,Arabica,Post Monsoon,37825.0,0.6636,25.985,10.29
+2013,2,Karnataka,Chikkamagaluru,31853.0,286.23,31.13,20.84,Robusta,Post Blossom,36150.0,1.1349,25.985,10.29
+2013,2,Karnataka,Chikkamagaluru,31853.0,286.23,31.13,20.84,Robusta,Post Monsoon,37200.0,1.1679,25.985,10.29
+2013,2,Karnataka,Hassan,24075.0,395.3,32.06,20.3,Arabica,Post Blossom,18250.0,0.758,26.18,11.76
+2013,2,Karnataka,Hassan,24075.0,395.3,32.06,20.3,Arabica,Post Monsoon,19175.0,0.7965,26.18,11.76
+2013,2,Karnataka,Hassan,11950.0,395.3,32.06,20.3,Robusta,Post Blossom,11800.0,0.9874,26.18,11.76
+2013,2,Karnataka,Hassan,11950.0,395.3,32.06,20.3,Robusta,Post Monsoon,13725.0,1.1485,26.18,11.76
+2013,2,Karnataka,Kodagu,28053.0,744.33,30.8,21.41,Arabica,Post Blossom,21800.0,0.7771,26.105,9.39
+2013,2,Karnataka,Kodagu,28053.0,744.33,30.8,21.41,Arabica,Post Monsoon,21705.0,0.7737,26.105,9.39
+2013,2,Karnataka,Kodagu,76727.0,744.33,30.8,21.41,Robusta,Post Blossom,93225.0,1.215,26.105,9.39
+2013,2,Karnataka,Kodagu,76727.0,744.33,30.8,21.41,Robusta,Post Monsoon,97575.0,1.2717,26.105,9.39
+2013,2,Kerala,Nelliampathies,1800.0,738.69,30.29,21.1,Arabica,Post Blossom,1000.0,0.5556,25.695,9.19
+2013,2,Kerala,Nelliampathies,1800.0,738.69,30.29,21.1,Arabica,Post Monsoon,1100.0,0.6111,25.695,9.19
+2013,2,Kerala,Nelliampathies,2850.0,738.69,30.29,21.1,Robusta,Post Blossom,1475.0,0.5175,25.695,9.19
+2013,2,Kerala,Nelliampathies,2850.0,738.69,30.29,21.1,Robusta,Post Monsoon,1450.0,0.5088,25.695,9.19
+2013,2,Kerala,Travancore,2065.0,1140.67,32.16,23.75,Arabica,Post Blossom,900.0,0.4358,27.955,8.41
+2013,2,Kerala,Travancore,2065.0,1140.67,32.16,23.75,Arabica,Post Monsoon,975.0,0.4722,27.955,8.41
+2013,2,Kerala,Travancore,10930.0,1140.67,32.16,23.75,Robusta,Post Blossom,7400.0,0.677,27.955,8.41
+2013,2,Kerala,Travancore,10930.0,1140.67,32.16,23.75,Robusta,Post Monsoon,7150.0,0.6542,27.955,8.41
+2013,2,Kerala,Wayanad,67303.0,330.96,30.72,20.66,Robusta,Post Blossom,57325.0,0.8517,25.69,10.06
+2013,2,Kerala,Wayanad,67303.0,330.96,30.72,20.66,Robusta,Post Monsoon,53150.0,0.7897,25.69,10.06
+2013,2,Northeastern Region,Northeastern Region,4037.0,484.95,30.74,21.35,Arabica,Post Blossom,145.0,0.0359,26.045,9.39
+2013,2,Northeastern Region,Northeastern Region,4037.0,484.95,30.74,21.35,Arabica,Post Monsoon,130.0,0.0322,26.045,9.39
+2013,2,Northeastern Region,Northeastern Region,1103.0,484.95,30.74,21.35,Robusta,Post Blossom,75.0,0.068,26.045,9.39
+2013,2,Northeastern Region,Northeastern Region,1103.0,484.95,30.74,21.35,Robusta,Post Monsoon,65.0,0.0589,26.045,9.39
+2013,2,Tamil Nadu,Anamalais,2448.0,1196.16,30.29,21.1,Arabica,Post Blossom,1300.0,0.531,25.695,9.19
+2013,2,Tamil Nadu,Anamalais,2448.0,1196.16,30.29,21.1,Arabica,Post Monsoon,1300.0,0.531,25.695,9.19
+2013,2,Tamil Nadu,Anamalais,369.0,1196.16,30.29,21.1,Robusta,Post Blossom,500.0,1.355,25.695,9.19
+2013,2,Tamil Nadu,Anamalais,369.0,1196.16,30.29,21.1,Robusta,Post Monsoon,500.0,1.355,25.695,9.19
+2013,2,Tamil Nadu,Nilgiris,3610.0,232.25,30.72,20.66,Arabica,Post Blossom,1900.0,0.5263,25.69,10.06
+2013,2,Tamil Nadu,Nilgiris,3610.0,232.25,30.72,20.66,Arabica,Post Monsoon,1800.0,0.4986,25.69,10.06
+2013,2,Tamil Nadu,Nilgiris,4175.0,232.25,30.72,20.66,Robusta,Post Blossom,4150.0,0.994,25.69,10.06
+2013,2,Tamil Nadu,Nilgiris,4175.0,232.25,30.72,20.66,Robusta,Post Monsoon,4150.0,0.994,25.69,10.06
+2013,2,Tamil Nadu,Pulneys,14650.0,161.48,33.32,22.77,Arabica,Post Blossom,6685.0,0.4563,28.045,10.55
+2013,2,Tamil Nadu,Pulneys,14650.0,161.48,33.32,22.77,Arabica,Post Monsoon,6275.0,0.4283,28.045,10.55
+2013,2,Tamil Nadu,Pulneys,992.0,161.48,33.32,22.77,Robusta,Post Blossom,215.0,0.2167,28.045,10.55
+2013,2,Tamil Nadu,Pulneys,992.0,161.48,33.32,22.77,Robusta,Post Monsoon,225.0,0.2268,28.045,10.55
+2013,2,Tamil Nadu,Shevroys,5000.0,112.19,37.96,26.27,Arabica,Post Blossom,3500.0,0.7,32.115,11.69
+2013,2,Tamil Nadu,Shevroys,5000.0,112.19,37.96,26.27,Arabica,Post Monsoon,3450.0,0.69,32.115,11.69
+2013,2,Tamil Nadu,Shevroys,100.0,112.19,37.96,26.27,Robusta,Post Blossom,100.0,1.0,32.115,11.69
+2013,2,Tamil Nadu,Shevroys,100.0,112.19,37.96,26.27,Robusta,Post Monsoon,50.0,0.5,32.115,11.69
+2013,3,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,61798.0,373.24,31.04,23.65,Arabica,Post Blossom,7950.0,0.1286,27.345,7.39
+2013,3,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,61798.0,373.24,31.04,23.65,Arabica,Post Monsoon,6200.0,0.1003,27.345,7.39
+2013,3,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,268.0,373.24,31.04,23.65,Robusta,Post Blossom,60.0,0.2239,27.345,7.39
+2013,3,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,268.0,373.24,31.04,23.65,Robusta,Post Monsoon,30.0,0.1119,27.345,7.39
+2013,3,Karnataka,Chikkamagaluru,56900.0,464.82,26.33,20.13,Arabica,Post Blossom,41200.0,0.7241,23.23,6.2
+2013,3,Karnataka,Chikkamagaluru,56900.0,464.82,26.33,20.13,Arabica,Post Monsoon,37325.0,0.656,23.23,6.2
+2013,3,Karnataka,Chikkamagaluru,31968.0,464.82,26.33,20.13,Robusta,Post Blossom,37360.0,1.1687,23.23,6.2
+2013,3,Karnataka,Chikkamagaluru,31968.0,464.82,26.33,20.13,Robusta,Post Monsoon,40300.0,1.2606,23.23,6.2
+2013,3,Karnataka,Hassan,24140.0,584.0,27.13,19.35,Arabica,Post Blossom,21435.0,0.8879,23.24,7.78
+2013,3,Karnataka,Hassan,24140.0,584.0,27.13,19.35,Arabica,Post Monsoon,18800.0,0.7788,23.24,7.78
+2013,3,Karnataka,Hassan,12435.0,584.0,27.13,19.35,Robusta,Post Blossom,14700.0,1.1821,23.24,7.78
+2013,3,Karnataka,Hassan,12435.0,584.0,27.13,19.35,Robusta,Post Monsoon,13800.0,1.1098,23.24,7.78
+2013,3,Karnataka,Kodagu,27963.0,1391.68,26.46,20.4,Arabica,Post Blossom,24100.0,0.8619,23.43,6.06
+2013,3,Karnataka,Kodagu,27963.0,1391.68,26.46,20.4,Arabica,Post Monsoon,21300.0,0.7617,23.43,6.06
+2013,3,Karnataka,Kodagu,76927.0,1391.68,26.46,20.4,Robusta,Post Blossom,110320.0,1.4341,23.43,6.06
+2013,3,Karnataka,Kodagu,76927.0,1391.68,26.46,20.4,Robusta,Post Monsoon,98700.0,1.283,23.43,6.06
+2013,3,Kerala,Nelliampathies,2085.0,1009.61,27.31,19.84,Arabica,Post Blossom,1100.0,0.5276,23.575,7.47
+2013,3,Kerala,Nelliampathies,2085.0,1009.61,27.31,19.84,Arabica,Post Monsoon,1100.0,0.5276,23.575,7.47
+2013,3,Kerala,Nelliampathies,2850.0,1009.61,27.31,19.84,Robusta,Post Blossom,1575.0,0.5526,23.575,7.47
+2013,3,Kerala,Nelliampathies,2850.0,1009.61,27.31,19.84,Robusta,Post Monsoon,1450.0,0.5088,23.575,7.47
+2013,3,Kerala,Travancore,2090.0,1317.5,29.62,22.5,Arabica,Post Blossom,900.0,0.4306,26.06,7.12
+2013,3,Kerala,Travancore,2090.0,1317.5,29.62,22.5,Arabica,Post Monsoon,975.0,0.4665,26.06,7.12
+2013,3,Kerala,Travancore,10970.0,1317.5,29.62,22.5,Robusta,Post Blossom,7250.0,0.6609,26.06,7.12
+2013,3,Kerala,Travancore,10970.0,1317.5,29.62,22.5,Robusta,Post Monsoon,7200.0,0.6563,26.06,7.12
+2013,3,Kerala,Wayanad,67364.0,351.64,27.1,19.45,Robusta,Post Blossom,59725.0,0.8866,23.275,7.65
+2013,3,Kerala,Wayanad,67364.0,351.64,27.1,19.45,Robusta,Post Monsoon,53475.0,0.7938,23.275,7.65
+2013,3,Northeastern Region,Northeastern Region,4860.0,755.46,31.99,23.82,Arabica,Post Blossom,130.0,0.0267,27.905,8.17
+2013,3,Northeastern Region,Northeastern Region,4860.0,755.46,31.99,23.82,Arabica,Post Monsoon,100.0,0.0206,27.905,8.17
+2013,3,Northeastern Region,Northeastern Region,1179.0,755.46,31.99,23.82,Robusta,Post Blossom,70.0,0.0594,27.905,8.17
+2013,3,Northeastern Region,Northeastern Region,1179.0,755.46,31.99,23.82,Robusta,Post Monsoon,75.0,0.0636,27.905,8.17
+2013,3,Tamil Nadu,Anamalais,2470.0,1470.95,27.31,19.84,Arabica,Post Blossom,1300.0,0.5263,23.575,7.47
+2013,3,Tamil Nadu,Anamalais,2470.0,1470.95,27.31,19.84,Arabica,Post Monsoon,1300.0,0.5263,23.575,7.47
+2013,3,Tamil Nadu,Anamalais,338.0,1470.95,27.31,19.84,Robusta,Post Blossom,500.0,1.4793,23.575,7.47
+2013,3,Tamil Nadu,Anamalais,338.0,1470.95,27.31,19.84,Robusta,Post Monsoon,500.0,1.4793,23.575,7.47
+2013,3,Tamil Nadu,Nilgiris,3610.0,288.37,27.1,19.45,Arabica,Post Blossom,1800.0,0.4986,23.275,7.65
+2013,3,Tamil Nadu,Nilgiris,3610.0,288.37,27.1,19.45,Arabica,Post Monsoon,1625.0,0.4501,23.275,7.65
+2013,3,Tamil Nadu,Nilgiris,4175.0,288.37,27.1,19.45,Robusta,Post Blossom,4050.0,0.9701,23.275,7.65
+2013,3,Tamil Nadu,Nilgiris,4175.0,288.37,27.1,19.45,Robusta,Post Monsoon,3765.0,0.9018,23.275,7.65
+2013,3,Tamil Nadu,Pulneys,10946.0,216.04,30.51,21.55,Arabica,Post Blossom,7210.0,0.6587,26.03,8.96
+2013,3,Tamil Nadu,Pulneys,10946.0,216.04,30.51,21.55,Arabica,Post Monsoon,6425.0,0.587,26.03,8.96
+2013,3,Tamil Nadu,Pulneys,949.0,216.04,30.51,21.55,Robusta,Post Blossom,340.0,0.3583,26.03,8.96
+2013,3,Tamil Nadu,Pulneys,949.0,216.04,30.51,21.55,Robusta,Post Monsoon,255.0,0.2687,26.03,8.96
+2013,3,Tamil Nadu,Shevroys,8913.0,438.91,34.61,24.84,Arabica,Post Blossom,3875.0,0.4348,29.725,9.77
+2013,3,Tamil Nadu,Shevroys,8913.0,438.91,34.61,24.84,Arabica,Post Monsoon,3450.0,0.3871,29.725,9.77
+2013,3,Tamil Nadu,Shevroys,143.0,438.91,34.61,24.84,Robusta,Post Blossom,50.0,0.3497,29.725,9.77
+2013,3,Tamil Nadu,Shevroys,143.0,438.91,34.61,24.84,Robusta,Post Monsoon,50.0,0.3497,29.725,9.77
+2014,3,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,61798.0,753.48,31.04,23.15,Arabica,Post Blossom,6200.0,0.1003,27.095,7.89
+2014,3,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,61798.0,753.48,31.04,23.15,Arabica,Post Monsoon,739.0,0.012,27.095,7.89
+2014,3,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,268.0,753.48,31.04,23.15,Robusta,Post Blossom,30.0,0.1119,27.095,7.89
+2014,3,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,268.0,753.48,31.04,23.15,Robusta,Post Monsoon,60.0,0.2239,27.095,7.89
+2014,3,Karnataka,Chikkamagaluru,56900.0,535.59,26.82,20.34,Arabica,Post Blossom,37325.0,0.656,23.58,6.48
+2014,3,Karnataka,Chikkamagaluru,56900.0,535.59,26.82,20.34,Arabica,Post Monsoon,38280.0,0.6728,23.58,6.48
+2014,3,Karnataka,Chikkamagaluru,31968.0,535.59,26.82,20.34,Robusta,Post Blossom,40300.0,1.2606,23.58,6.48
+2014,3,Karnataka,Chikkamagaluru,31968.0,535.59,26.82,20.34,Robusta,Post Monsoon,32220.0,1.0079,23.58,6.48
+2014,3,Karnataka,Hassan,24140.0,506.9,27.67,19.59,Arabica,Post Blossom,18800.0,0.7788,23.63,8.08
+2014,3,Karnataka,Hassan,24140.0,506.9,27.67,19.59,Arabica,Post Monsoon,19175.0,0.7943,23.63,8.08
+2014,3,Karnataka,Hassan,12435.0,506.9,27.67,19.59,Robusta,Post Blossom,13800.0,1.1098,23.63,8.08
+2014,3,Karnataka,Hassan,12435.0,506.9,27.67,19.59,Robusta,Post Monsoon,11450.0,0.9208,23.63,8.08
+2014,3,Karnataka,Kodagu,27963.0,1658.4,26.91,20.55,Arabica,Post Blossom,21300.0,0.7617,23.73,6.36
+2014,3,Karnataka,Kodagu,27963.0,1658.4,26.91,20.55,Arabica,Post Monsoon,21075.0,0.7537,23.73,6.36
+2014,3,Karnataka,Kodagu,76927.0,1658.4,26.91,20.55,Robusta,Post Blossom,98700.0,1.283,23.73,6.36
+2014,3,Karnataka,Kodagu,76927.0,1658.4,26.91,20.55,Robusta,Post Monsoon,95500.0,1.2414,23.73,6.36
+2014,3,Kerala,Nelliampathies,2085.0,1428.93,27.63,20.12,Arabica,Post Blossom,1100.0,0.5276,23.875,7.51
+2014,3,Kerala,Nelliampathies,2085.0,1428.93,27.63,20.12,Arabica,Post Monsoon,1100.0,0.5276,23.875,7.51
+2014,3,Kerala,Nelliampathies,2850.0,1428.93,27.63,20.12,Robusta,Post Blossom,1450.0,0.5088,23.875,7.51
+2014,3,Kerala,Nelliampathies,2850.0,1428.93,27.63,20.12,Robusta,Post Monsoon,1550.0,0.5439,23.875,7.51
+2014,3,Kerala,Travancore,2090.0,1524.64,30.04,22.89,Arabica,Post Blossom,975.0,0.4665,26.465,7.15
+2014,3,Kerala,Travancore,2090.0,1524.64,30.04,22.89,Arabica,Post Monsoon,900.0,0.4306,26.465,7.15
+2014,3,Kerala,Travancore,10970.0,1524.64,30.04,22.89,Robusta,Post Blossom,7200.0,0.6563,26.465,7.15
+2014,3,Kerala,Travancore,10970.0,1524.64,30.04,22.89,Robusta,Post Monsoon,6800.0,0.6199,26.465,7.15
+2014,3,Kerala,Wayanad,67364.0,359.23,27.47,19.74,Robusta,Post Blossom,53475.0,0.7938,23.605,7.73
+2014,3,Kerala,Wayanad,67364.0,359.23,27.47,19.74,Robusta,Post Monsoon,56925.0,0.845,23.605,7.73
+2014,3,Northeastern Region,Northeastern Region,4860.0,945.8,31.55,23.72,Arabica,Post Blossom,100.0,0.0206,27.635,7.83
+2014,3,Northeastern Region,Northeastern Region,4860.0,945.8,31.55,23.72,Arabica,Post Monsoon,130.0,0.0267,27.635,7.83
+2014,3,Northeastern Region,Northeastern Region,1179.0,945.8,31.55,23.72,Robusta,Post Blossom,75.0,0.0636,27.635,7.83
+2014,3,Northeastern Region,Northeastern Region,1179.0,945.8,31.55,23.72,Robusta,Post Monsoon,70.0,0.0594,27.635,7.83
+2014,3,Tamil Nadu,Anamalais,2470.0,1977.58,27.63,20.12,Arabica,Post Blossom,1300.0,0.5263,23.875,7.51
+2014,3,Tamil Nadu,Anamalais,2470.0,1977.58,27.63,20.12,Arabica,Post Monsoon,1300.0,0.5263,23.875,7.51
+2014,3,Tamil Nadu,Anamalais,338.0,1977.58,27.63,20.12,Robusta,Post Blossom,500.0,1.4793,23.875,7.51
+2014,3,Tamil Nadu,Anamalais,338.0,1977.58,27.63,20.12,Robusta,Post Monsoon,500.0,1.4793,23.875,7.51
+2014,3,Tamil Nadu,Nilgiris,3610.0,462.89,27.47,19.74,Arabica,Post Blossom,1625.0,0.4501,23.605,7.73
+2014,3,Tamil Nadu,Nilgiris,3610.0,462.89,27.47,19.74,Arabica,Post Monsoon,1800.0,0.4986,23.605,7.73
+2014,3,Tamil Nadu,Nilgiris,4175.0,462.89,27.47,19.74,Robusta,Post Blossom,3765.0,0.9018,23.605,7.73
+2014,3,Tamil Nadu,Nilgiris,4175.0,462.89,27.47,19.74,Robusta,Post Monsoon,4050.0,0.9701,23.605,7.73
+2014,3,Tamil Nadu,Pulneys,10946.0,380.27,30.9,21.83,Arabica,Post Blossom,6425.0,0.587,26.365,9.07
+2014,3,Tamil Nadu,Pulneys,10946.0,380.27,30.9,21.83,Arabica,Post Monsoon,6975.0,0.6372,26.365,9.07
+2014,3,Tamil Nadu,Pulneys,949.0,380.27,30.9,21.83,Robusta,Post Blossom,255.0,0.2687,26.365,9.07
+2014,3,Tamil Nadu,Pulneys,949.0,380.27,30.9,21.83,Robusta,Post Monsoon,325.0,0.3425,26.365,9.07
+2014,3,Tamil Nadu,Shevroys,8913.0,208.15,35.25,25.08,Arabica,Post Blossom,3450.0,0.3871,30.165,10.17
+2014,3,Tamil Nadu,Shevroys,8913.0,208.15,35.25,25.08,Arabica,Post Monsoon,3875.0,0.4348,30.165,10.17
+2014,3,Tamil Nadu,Shevroys,143.0,208.15,35.25,25.08,Robusta,Post Blossom,50.0,0.3497,30.165,10.17
+2014,3,Tamil Nadu,Shevroys,143.0,208.15,35.25,25.08,Robusta,Post Monsoon,50.0,0.3497,30.165,10.17
+2014,4,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,65141.0,260.02,29.39,18.19,Arabica,Post Blossom,7690.0,0.1181,23.79,11.2
+2014,4,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,65141.0,260.02,29.39,18.19,Arabica,Post Monsoon,8040.0,0.1234,23.79,11.2
+2014,4,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,268.0,260.02,29.39,18.19,Robusta,Post Blossom,70.0,0.2612,23.79,11.2
+2014,4,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,268.0,260.02,29.39,18.19,Robusta,Post Monsoon,60.0,0.2239,23.79,11.2
+2014,4,Karnataka,Chikkamagaluru,56900.0,124.51,29.65,18.53,Arabica,Post Blossom,38250.0,0.6722,24.09,11.12
+2014,4,Karnataka,Chikkamagaluru,56900.0,124.51,29.65,18.53,Arabica,Post Monsoon,38300.0,0.6731,24.09,11.12
+2014,4,Karnataka,Chikkamagaluru,31968.0,124.51,29.65,18.53,Robusta,Post Blossom,30640.0,0.9585,24.09,11.12
+2014,4,Karnataka,Chikkamagaluru,31968.0,124.51,29.65,18.53,Robusta,Post Monsoon,41335.0,1.293,24.09,11.12
+2014,4,Karnataka,Hassan,24140.0,183.6,28.42,17.65,Arabica,Post Blossom,19150.0,0.7933,23.035,10.77
+2014,4,Karnataka,Hassan,24140.0,183.6,28.42,17.65,Arabica,Post Monsoon,18850.0,0.7809,23.035,10.77
+2014,4,Karnataka,Hassan,12435.0,183.6,28.42,17.65,Robusta,Post Blossom,11200.0,0.9007,23.035,10.77
+2014,4,Karnataka,Hassan,12435.0,183.6,28.42,17.65,Robusta,Post Monsoon,14200.0,1.1419,23.035,10.77
+2014,4,Karnataka,Kodagu,27963.0,168.3,29.33,19.43,Arabica,Post Blossom,21040.0,0.7524,24.38,9.9
+2014,4,Karnataka,Kodagu,27963.0,168.3,29.33,19.43,Arabica,Post Monsoon,18855.0,0.6743,24.38,9.9
+2014,4,Karnataka,Kodagu,76927.0,168.3,29.33,19.43,Robusta,Post Blossom,90820.0,1.1806,24.38,9.9
+2014,4,Karnataka,Kodagu,76927.0,168.3,29.33,19.43,Robusta,Post Monsoon,104800.0,1.3623,24.38,9.9
+2014,4,Kerala,Nelliampathies,2085.0,321.7,27.58,19.46,Arabica,Post Blossom,1100.0,0.5276,23.52,8.12
+2014,4,Kerala,Nelliampathies,2085.0,321.7,27.58,19.46,Arabica,Post Monsoon,1175.0,0.5635,23.52,8.12
+2014,4,Kerala,Nelliampathies,2850.0,321.7,27.58,19.46,Robusta,Post Blossom,1550.0,0.5439,23.52,8.12
+2014,4,Kerala,Nelliampathies,2850.0,321.7,27.58,19.46,Robusta,Post Monsoon,1600.0,0.5614,23.52,8.12
+2014,4,Kerala,Travancore,2090.0,820.27,29.86,22.37,Arabica,Post Blossom,900.0,0.4306,26.115,7.49
+2014,4,Kerala,Travancore,2090.0,820.27,29.86,22.37,Arabica,Post Monsoon,900.0,0.4306,26.115,7.49
+2014,4,Kerala,Travancore,10970.0,820.27,29.86,22.37,Robusta,Post Blossom,6700.0,0.6108,26.115,7.49
+2014,4,Kerala,Travancore,10970.0,820.27,29.86,22.37,Robusta,Post Monsoon,7400.0,0.6746,26.115,7.49
+2014,4,Kerala,Wayanad,67364.0,280.08,27.68,18.72,Robusta,Post Blossom,56425.0,0.8376,23.2,8.96
+2014,4,Kerala,Wayanad,67364.0,280.08,27.68,18.72,Robusta,Post Monsoon,57150.0,0.8484,23.2,8.96
+2014,4,Northeastern Region,Northeastern Region,5127.0,21.8,28.15,15.64,Arabica,Post Blossom,120.0,0.0234,21.895,12.51
+2014,4,Northeastern Region,Northeastern Region,5127.0,21.8,28.15,15.64,Arabica,Post Monsoon,130.0,0.0254,21.895,12.51
+2014,4,Northeastern Region,Northeastern Region,1203.0,21.8,28.15,15.64,Robusta,Post Blossom,70.0,0.0582,21.895,12.51
+2014,4,Northeastern Region,Northeastern Region,1203.0,21.8,28.15,15.64,Robusta,Post Monsoon,80.0,0.0665,21.895,12.51
+2014,4,Tamil Nadu,Anamalais,2470.0,385.37,27.58,19.46,Arabica,Post Blossom,1300.0,0.5263,23.52,8.12
+2014,4,Tamil Nadu,Anamalais,2470.0,385.37,27.58,19.46,Arabica,Post Monsoon,900.0,0.3644,23.52,8.12
+2014,4,Tamil Nadu,Anamalais,338.0,385.37,27.58,19.46,Robusta,Post Blossom,500.0,1.4793,23.52,8.12
+2014,4,Tamil Nadu,Anamalais,338.0,385.37,27.58,19.46,Robusta,Post Monsoon,500.0,1.4793,23.52,8.12
+2014,4,Tamil Nadu,Nilgiris,3610.0,758.39,27.68,18.72,Arabica,Post Blossom,1800.0,0.4986,23.2,8.96
+2014,4,Tamil Nadu,Nilgiris,3610.0,758.39,27.68,18.72,Arabica,Post Monsoon,1550.0,0.4294,23.2,8.96
+2014,4,Tamil Nadu,Nilgiris,4175.0,758.39,27.68,18.72,Robusta,Post Blossom,3950.0,0.9461,23.2,8.96
+2014,4,Tamil Nadu,Nilgiris,4175.0,758.39,27.68,18.72,Robusta,Post Monsoon,3850.0,0.9222,23.2,8.96
+2014,4,Tamil Nadu,Pulneys,10946.0,447.1,28.19,20.24,Arabica,Post Blossom,6975.0,0.6372,24.215,7.95
+2014,4,Tamil Nadu,Pulneys,10946.0,447.1,28.19,20.24,Arabica,Post Monsoon,7500.0,0.6852,24.215,7.95
+2014,4,Tamil Nadu,Pulneys,949.0,447.1,28.19,20.24,Robusta,Post Blossom,325.0,0.3425,24.215,7.95
+2014,4,Tamil Nadu,Pulneys,949.0,447.1,28.19,20.24,Robusta,Post Monsoon,375.0,0.3952,24.215,7.95
+2014,4,Tamil Nadu,Shevroys,8913.0,355.77,30.81,22.58,Arabica,Post Blossom,3875.0,0.4348,26.695,8.23
+2014,4,Tamil Nadu,Shevroys,8913.0,355.77,30.81,22.58,Arabica,Post Monsoon,3400.0,0.3815,26.695,8.23
+2014,4,Tamil Nadu,Shevroys,143.0,355.77,30.81,22.58,Robusta,Post Blossom,50.0,0.3497,26.695,8.23
+2014,4,Tamil Nadu,Shevroys,143.0,355.77,30.81,22.58,Robusta,Post Monsoon,50.0,0.3497,26.695,8.23
+2015,1,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,65141.0,12.86,30.68,17.97,Arabica,Post Blossom,7690.0,0.1181,24.325,12.71
+2015,1,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,65141.0,12.86,30.68,17.97,Arabica,Post Monsoon,8040.0,0.1234,24.325,12.71
+2015,1,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,268.0,12.86,30.68,17.97,Robusta,Post Blossom,70.0,0.2612,24.325,12.71
+2015,1,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,268.0,12.86,30.68,17.97,Robusta,Post Monsoon,60.0,0.2239,24.325,12.71
+2015,1,Karnataka,Chikkamagaluru,56900.0,63.89,31.79,17.33,Arabica,Post Blossom,38250.0,0.6722,24.56,14.46
+2015,1,Karnataka,Chikkamagaluru,56900.0,63.89,31.79,17.33,Arabica,Post Monsoon,38300.0,0.6731,24.56,14.46
+2015,1,Karnataka,Chikkamagaluru,31968.0,63.89,31.79,17.33,Robusta,Post Blossom,30640.0,0.9585,24.56,14.46
+2015,1,Karnataka,Chikkamagaluru,31968.0,63.89,31.79,17.33,Robusta,Post Monsoon,41335.0,1.293,24.56,14.46
+2015,1,Karnataka,Hassan,24140.0,37.0,31.26,16.62,Arabica,Post Blossom,19150.0,0.7933,23.94,14.64
+2015,1,Karnataka,Hassan,24140.0,37.0,31.26,16.62,Arabica,Post Monsoon,18850.0,0.7809,23.94,14.64
+2015,1,Karnataka,Hassan,12435.0,37.0,31.26,16.62,Robusta,Post Blossom,11200.0,0.9007,23.94,14.64
+2015,1,Karnataka,Hassan,12435.0,37.0,31.26,16.62,Robusta,Post Monsoon,14200.0,1.1419,23.94,14.64
+2015,1,Karnataka,Kodagu,27963.0,24.67,31.23,18.29,Arabica,Post Blossom,21040.0,0.7524,24.76,12.94
+2015,1,Karnataka,Kodagu,27963.0,24.67,31.23,18.29,Arabica,Post Monsoon,18855.0,0.6743,24.76,12.94
+2015,1,Karnataka,Kodagu,76927.0,24.67,31.23,18.29,Robusta,Post Blossom,90820.0,1.1806,24.76,12.94
+2015,1,Karnataka,Kodagu,76927.0,24.67,31.23,18.29,Robusta,Post Monsoon,104800.0,1.3623,24.76,12.94
+2015,1,Kerala,Nelliampathies,2085.0,67.77,29.65,18.53,Arabica,Post Blossom,1100.0,0.5276,24.09,11.12
+2015,1,Kerala,Nelliampathies,2085.0,67.77,29.65,18.53,Arabica,Post Monsoon,1175.0,0.5635,24.09,11.12
+2015,1,Kerala,Nelliampathies,2850.0,67.77,29.65,18.53,Robusta,Post Blossom,1550.0,0.5439,24.09,11.12
+2015,1,Kerala,Nelliampathies,2850.0,67.77,29.65,18.53,Robusta,Post Monsoon,1600.0,0.5614,24.09,11.12
+2015,1,Kerala,Travancore,2090.0,158.84,32.09,22.06,Arabica,Post Blossom,900.0,0.4306,27.075,10.03
+2015,1,Kerala,Travancore,2090.0,158.84,32.09,22.06,Arabica,Post Monsoon,900.0,0.4306,27.075,10.03
+2015,1,Kerala,Travancore,10970.0,158.84,32.09,22.06,Robusta,Post Blossom,6700.0,0.6108,27.075,10.03
+2015,1,Kerala,Travancore,10970.0,158.84,32.09,22.06,Robusta,Post Monsoon,7400.0,0.6746,27.075,10.03
+2015,1,Kerala,Wayanad,67364.0,16.1,29.94,17.42,Robusta,Post Blossom,56425.0,0.8376,23.68,12.52
+2015,1,Kerala,Wayanad,67364.0,16.1,29.94,17.42,Robusta,Post Monsoon,57150.0,0.8484,23.68,12.52
+2015,1,Northeastern Region,Northeastern Region,5127.0,35.39,26.79,12.6,Arabica,Post Blossom,120.0,0.0234,19.695,14.19
+2015,1,Northeastern Region,Northeastern Region,5127.0,35.39,26.79,12.6,Arabica,Post Monsoon,130.0,0.0254,19.695,14.19
+2015,1,Northeastern Region,Northeastern Region,1203.0,35.39,26.79,12.6,Robusta,Post Blossom,70.0,0.0582,19.695,14.19
+2015,1,Northeastern Region,Northeastern Region,1203.0,35.39,26.79,12.6,Robusta,Post Monsoon,80.0,0.0665,19.695,14.19
+2015,1,Tamil Nadu,Anamalais,2470.0,97.5,29.65,18.53,Arabica,Post Blossom,1300.0,0.5263,24.09,11.12
+2015,1,Tamil Nadu,Anamalais,2470.0,97.5,29.65,18.53,Arabica,Post Monsoon,900.0,0.3644,24.09,11.12
+2015,1,Tamil Nadu,Anamalais,338.0,97.5,29.65,18.53,Robusta,Post Blossom,500.0,1.4793,24.09,11.12
+2015,1,Tamil Nadu,Anamalais,338.0,97.5,29.65,18.53,Robusta,Post Monsoon,500.0,1.4793,24.09,11.12
+2015,1,Tamil Nadu,Nilgiris,3610.0,209.5,29.94,17.42,Arabica,Post Blossom,1800.0,0.4986,23.68,12.52
+2015,1,Tamil Nadu,Nilgiris,3610.0,209.5,29.94,17.42,Arabica,Post Monsoon,1550.0,0.4294,23.68,12.52
+2015,1,Tamil Nadu,Nilgiris,4175.0,209.5,29.94,17.42,Robusta,Post Blossom,3950.0,0.9461,23.68,12.52
+2015,1,Tamil Nadu,Nilgiris,4175.0,209.5,29.94,17.42,Robusta,Post Monsoon,3850.0,0.9222,23.68,12.52
+2015,1,Tamil Nadu,Pulneys,10946.0,84.62,30.69,19.29,Arabica,Post Blossom,6975.0,0.6372,24.99,11.4
+2015,1,Tamil Nadu,Pulneys,10946.0,84.62,30.69,19.29,Arabica,Post Monsoon,7500.0,0.6852,24.99,11.4
+2015,1,Tamil Nadu,Pulneys,949.0,84.62,30.69,19.29,Robusta,Post Blossom,325.0,0.3425,24.99,11.4
+2015,1,Tamil Nadu,Pulneys,949.0,84.62,30.69,19.29,Robusta,Post Monsoon,375.0,0.3952,24.99,11.4
+2015,1,Tamil Nadu,Shevroys,8913.0,44.77,33.42,21.48,Arabica,Post Blossom,3875.0,0.4348,27.45,11.94
+2015,1,Tamil Nadu,Shevroys,8913.0,44.77,33.42,21.48,Arabica,Post Monsoon,3400.0,0.3815,27.45,11.94
+2015,1,Tamil Nadu,Shevroys,143.0,44.77,33.42,21.48,Robusta,Post Blossom,50.0,0.3497,27.45,11.94
+2015,1,Tamil Nadu,Shevroys,143.0,44.77,33.42,21.48,Robusta,Post Monsoon,50.0,0.3497,27.45,11.94
+2015,2,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,65141.0,329.8,34.97,25.11,Arabica,Post Blossom,7690.0,0.1181,30.04,9.86
+2015,2,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,65141.0,329.8,34.97,25.11,Arabica,Post Monsoon,8040.0,0.1234,30.04,9.86
+2015,2,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,268.0,329.8,34.97,25.11,Robusta,Post Blossom,70.0,0.2612,30.04,9.86
+2015,2,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,268.0,329.8,34.97,25.11,Robusta,Post Monsoon,60.0,0.2239,30.04,9.86
+2015,2,Karnataka,Chikkamagaluru,56900.0,423.58,30.96,21.19,Arabica,Post Blossom,38250.0,0.6722,26.075,9.77
+2015,2,Karnataka,Chikkamagaluru,56900.0,423.58,30.96,21.19,Arabica,Post Monsoon,38300.0,0.6731,26.075,9.77
+2015,2,Karnataka,Chikkamagaluru,31968.0,423.58,30.96,21.19,Robusta,Post Blossom,30640.0,0.9585,26.075,9.77
+2015,2,Karnataka,Chikkamagaluru,31968.0,423.58,30.96,21.19,Robusta,Post Monsoon,41335.0,1.293,26.075,9.77
+2015,2,Karnataka,Hassan,24140.0,463.8,31.7,20.51,Arabica,Post Blossom,19150.0,0.7933,26.105,11.19
+2015,2,Karnataka,Hassan,24140.0,463.8,31.7,20.51,Arabica,Post Monsoon,18850.0,0.7809,26.105,11.19
+2015,2,Karnataka,Hassan,12435.0,463.8,31.7,20.51,Robusta,Post Blossom,11200.0,0.9007,26.105,11.19
+2015,2,Karnataka,Hassan,12435.0,463.8,31.7,20.51,Robusta,Post Monsoon,14200.0,1.1419,26.105,11.19
+2015,2,Karnataka,Kodagu,27963.0,1210.43,30.59,21.42,Arabica,Post Blossom,21040.0,0.7524,26.005,9.17
+2015,2,Karnataka,Kodagu,27963.0,1210.43,30.59,21.42,Arabica,Post Monsoon,18855.0,0.6743,26.005,9.17
+2015,2,Karnataka,Kodagu,76927.0,1210.43,30.59,21.42,Robusta,Post Blossom,90820.0,1.1806,26.005,9.17
+2015,2,Karnataka,Kodagu,76927.0,1210.43,30.59,21.42,Robusta,Post Monsoon,104800.0,1.3623,26.005,9.17
+2015,2,Kerala,Nelliampathies,2085.0,840.93,29.76,20.97,Arabica,Post Blossom,1100.0,0.5276,25.365,8.79
+2015,2,Kerala,Nelliampathies,2085.0,840.93,29.76,20.97,Arabica,Post Monsoon,1175.0,0.5635,25.365,8.79
+2015,2,Kerala,Nelliampathies,2850.0,840.93,29.76,20.97,Robusta,Post Blossom,1550.0,0.5439,25.365,8.79
+2015,2,Kerala,Nelliampathies,2850.0,840.93,29.76,20.97,Robusta,Post Monsoon,1600.0,0.5614,25.365,8.79
+2015,2,Kerala,Travancore,2090.0,1140.62,31.65,23.44,Arabica,Post Blossom,900.0,0.4306,27.545,8.21
+2015,2,Kerala,Travancore,2090.0,1140.62,31.65,23.44,Arabica,Post Monsoon,900.0,0.4306,27.545,8.21
+2015,2,Kerala,Travancore,10970.0,1140.62,31.65,23.44,Robusta,Post Blossom,6700.0,0.6108,27.545,8.21
+2015,2,Kerala,Travancore,10970.0,1140.62,31.65,23.44,Robusta,Post Monsoon,7400.0,0.6746,27.545,8.21
+2015,2,Kerala,Wayanad,67364.0,472.42,30.21,20.68,Robusta,Post Blossom,56425.0,0.8376,25.445,9.53
+2015,2,Kerala,Wayanad,67364.0,472.42,30.21,20.68,Robusta,Post Monsoon,57150.0,0.8484,25.445,9.53
+2015,2,Northeastern Region,Northeastern Region,5127.0,454.56,29.69,20.84,Arabica,Post Blossom,120.0,0.0234,25.265,8.85
+2015,2,Northeastern Region,Northeastern Region,5127.0,454.56,29.69,20.84,Arabica,Post Monsoon,130.0,0.0254,25.265,8.85
+2015,2,Northeastern Region,Northeastern Region,1203.0,454.56,29.69,20.84,Robusta,Post Blossom,70.0,0.0582,25.265,8.85
+2015,2,Northeastern Region,Northeastern Region,1203.0,454.56,29.69,20.84,Robusta,Post Monsoon,80.0,0.0665,25.265,8.85
+2015,2,Tamil Nadu,Anamalais,2470.0,842.95,29.76,20.97,Arabica,Post Blossom,1300.0,0.5263,25.365,8.79
+2015,2,Tamil Nadu,Anamalais,2470.0,842.95,29.76,20.97,Arabica,Post Monsoon,900.0,0.3644,25.365,8.79
+2015,2,Tamil Nadu,Anamalais,338.0,842.95,29.76,20.97,Robusta,Post Blossom,500.0,1.4793,25.365,8.79
+2015,2,Tamil Nadu,Anamalais,338.0,842.95,29.76,20.97,Robusta,Post Monsoon,500.0,1.4793,25.365,8.79
+2015,2,Tamil Nadu,Nilgiris,3610.0,593.74,30.21,20.68,Arabica,Post Blossom,1800.0,0.4986,25.445,9.53
+2015,2,Tamil Nadu,Nilgiris,3610.0,593.74,30.21,20.68,Arabica,Post Monsoon,1550.0,0.4294,25.445,9.53
+2015,2,Tamil Nadu,Nilgiris,4175.0,593.74,30.21,20.68,Robusta,Post Blossom,3950.0,0.9461,25.445,9.53
+2015,2,Tamil Nadu,Nilgiris,4175.0,593.74,30.21,20.68,Robusta,Post Monsoon,3850.0,0.9222,25.445,9.53
+2015,2,Tamil Nadu,Pulneys,10946.0,419.82,32.36,22.41,Arabica,Post Blossom,6975.0,0.6372,27.385,9.95
+2015,2,Tamil Nadu,Pulneys,10946.0,419.82,32.36,22.41,Arabica,Post Monsoon,7500.0,0.6852,27.385,9.95
+2015,2,Tamil Nadu,Pulneys,949.0,419.82,32.36,22.41,Robusta,Post Blossom,325.0,0.3425,27.385,9.95
+2015,2,Tamil Nadu,Pulneys,949.0,419.82,32.36,22.41,Robusta,Post Monsoon,375.0,0.3952,27.385,9.95
+2015,2,Tamil Nadu,Shevroys,8913.0,237.23,36.11,25.61,Arabica,Post Blossom,3875.0,0.4348,30.86,10.5
+2015,2,Tamil Nadu,Shevroys,8913.0,237.23,36.11,25.61,Arabica,Post Monsoon,3400.0,0.3815,30.86,10.5
+2015,2,Tamil Nadu,Shevroys,143.0,237.23,36.11,25.61,Robusta,Post Blossom,50.0,0.3497,30.86,10.5
+2015,2,Tamil Nadu,Shevroys,143.0,237.23,36.11,25.61,Robusta,Post Monsoon,50.0,0.3497,30.86,10.5
+2015,4,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,68828.0,36.61,30.45,19.98,Arabica,Post Blossom,7920.0,0.1151,25.215,10.47
+2015,4,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,68828.0,36.61,30.45,19.98,Arabica,Post Monsoon,9650.0,0.1402,25.215,10.47
+2015,4,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,267.0,36.61,30.45,19.98,Robusta,Post Blossom,55.0,0.206,25.215,10.47
+2015,4,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,267.0,36.61,30.45,19.98,Robusta,Post Monsoon,50.0,0.1873,25.215,10.47
+2015,4,Karnataka,Chikkamagaluru,56913.0,265.67,30.23,19.33,Arabica,Post Blossom,38200.0,0.6712,24.78,10.9
+2015,4,Karnataka,Chikkamagaluru,56913.0,265.67,30.23,19.33,Arabica,Post Monsoon,42425.0,0.7454,24.78,10.9
+2015,4,Karnataka,Chikkamagaluru,31974.0,265.67,30.23,19.33,Robusta,Post Blossom,40880.0,1.2785,24.78,10.9
+2015,4,Karnataka,Chikkamagaluru,31974.0,265.67,30.23,19.33,Robusta,Post Monsoon,41385.0,1.2943,24.78,10.9
+2015,4,Karnataka,Hassan,24150.0,213.8,28.94,18.29,Arabica,Post Blossom,18525.0,0.7671,23.615,10.65
+2015,4,Karnataka,Hassan,24150.0,213.8,28.94,18.29,Arabica,Post Monsoon,18950.0,0.7847,23.615,10.65
+2015,4,Karnataka,Hassan,12475.0,213.8,28.94,18.29,Robusta,Post Blossom,13505.0,1.0826,23.615,10.65
+2015,4,Karnataka,Hassan,12475.0,213.8,28.94,18.29,Robusta,Post Monsoon,12875.0,1.0321,23.615,10.65
+2015,4,Karnataka,Kodagu,27969.0,215.0,29.82,19.94,Arabica,Post Blossom,18030.0,0.6446,24.88,9.88
+2015,4,Karnataka,Kodagu,27969.0,215.0,29.82,19.94,Arabica,Post Monsoon,21085.0,0.7539,24.88,9.88
+2015,4,Karnataka,Kodagu,76953.0,215.0,29.82,19.94,Robusta,Post Blossom,104090.0,1.3526,24.88,9.88
+2015,4,Karnataka,Kodagu,76953.0,215.0,29.82,19.94,Robusta,Post Monsoon,116620.0,1.5155,24.88,9.88
+2015,4,Kerala,Nelliampathies,2109.0,337.17,28.06,19.84,Arabica,Post Blossom,1175.0,0.5571,23.95,8.22
+2015,4,Kerala,Nelliampathies,2109.0,337.17,28.06,19.84,Arabica,Post Monsoon,1200.0,0.569,23.95,8.22
+2015,4,Kerala,Nelliampathies,2850.0,337.17,28.06,19.84,Robusta,Post Blossom,1600.0,0.5614,23.95,8.22
+2015,4,Kerala,Nelliampathies,2850.0,337.17,28.06,19.84,Robusta,Post Monsoon,1700.0,0.5965,23.95,8.22
+2015,4,Kerala,Travancore,2094.0,862.07,30.34,22.67,Arabica,Post Blossom,880.0,0.4202,26.505,7.67
+2015,4,Kerala,Travancore,2094.0,862.07,30.34,22.67,Arabica,Post Monsoon,1000.0,0.4776,26.505,7.67
+2015,4,Kerala,Travancore,11007.0,862.07,30.34,22.67,Robusta,Post Blossom,7370.0,0.6696,26.505,7.67
+2015,4,Kerala,Travancore,11007.0,862.07,30.34,22.67,Robusta,Post Monsoon,7380.0,0.6705,26.505,7.67
+2015,4,Kerala,Wayanad,67396.0,250.0,28.07,19.22,Robusta,Post Blossom,56675.0,0.8409,23.645,8.85
+2015,4,Kerala,Wayanad,67396.0,250.0,28.07,19.22,Robusta,Post Monsoon,57370.0,0.8512,23.645,8.85
+2015,4,Northeastern Region,Northeastern Region,5340.0,72.66,27.3,15.26,Arabica,Post Blossom,120.0,0.0225,21.28,12.04
+2015,4,Northeastern Region,Northeastern Region,5340.0,72.66,27.3,15.26,Arabica,Post Monsoon,105.0,0.0197,21.28,12.04
+2015,4,Northeastern Region,Northeastern Region,1273.0,72.66,27.3,15.26,Robusta,Post Blossom,100.0,0.0786,21.28,12.04
+2015,4,Northeastern Region,Northeastern Region,1273.0,72.66,27.3,15.26,Robusta,Post Monsoon,80.0,0.0628,21.28,12.04
+2015,4,Tamil Nadu,Anamalais,2475.0,407.42,28.06,19.84,Arabica,Post Blossom,900.0,0.3636,23.95,8.22
+2015,4,Tamil Nadu,Anamalais,2475.0,407.42,28.06,19.84,Arabica,Post Monsoon,1300.0,0.5253,23.95,8.22
+2015,4,Tamil Nadu,Anamalais,338.0,407.42,28.06,19.84,Robusta,Post Blossom,500.0,1.4793,23.95,8.22
+2015,4,Tamil Nadu,Anamalais,338.0,407.42,28.06,19.84,Robusta,Post Monsoon,500.0,1.4793,23.95,8.22
+2015,4,Tamil Nadu,Nilgiris,3615.0,725.9,28.07,19.22,Arabica,Post Blossom,1550.0,0.4288,23.645,8.85
+2015,4,Tamil Nadu,Nilgiris,3615.0,725.9,28.07,19.22,Arabica,Post Monsoon,1475.0,0.408,23.645,8.85
+2015,4,Tamil Nadu,Nilgiris,4183.0,725.9,28.07,19.22,Robusta,Post Blossom,3850.0,0.9204,23.645,8.85
+2015,4,Tamil Nadu,Nilgiris,4183.0,725.9,28.07,19.22,Robusta,Post Monsoon,3825.0,0.9144,23.645,8.85
+2015,4,Tamil Nadu,Pulneys,10949.0,460.93,28.59,20.71,Arabica,Post Blossom,7300.0,0.6667,24.65,7.88
+2015,4,Tamil Nadu,Pulneys,10949.0,460.93,28.59,20.71,Arabica,Post Monsoon,7135.0,0.6517,24.65,7.88
+2015,4,Tamil Nadu,Pulneys,949.0,460.93,28.59,20.71,Robusta,Post Blossom,325.0,0.3425,24.65,7.88
+2015,4,Tamil Nadu,Pulneys,949.0,460.93,28.59,20.71,Robusta,Post Monsoon,345.0,0.3635,24.65,7.88
+2015,4,Tamil Nadu,Shevroys,9019.0,520.32,31.11,23.21,Arabica,Post Blossom,3400.0,0.377,27.16,7.9
+2015,4,Tamil Nadu,Shevroys,9019.0,520.32,31.11,23.21,Arabica,Post Monsoon,3475.0,0.3853,27.16,7.9
+2015,4,Tamil Nadu,Shevroys,143.0,520.32,31.11,23.21,Robusta,Post Blossom,50.0,0.3497,27.16,7.9
+2015,4,Tamil Nadu,Shevroys,143.0,520.32,31.11,23.21,Robusta,Post Monsoon,70.0,0.4895,27.16,7.9
+2016,1,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,68828.0,17.16,32.06,19.32,Arabica,Post Blossom,7920.0,0.1151,25.69,12.74
+2016,1,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,68828.0,17.16,32.06,19.32,Arabica,Post Monsoon,9650.0,0.1402,25.69,12.74
+2016,1,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,267.0,17.16,32.06,19.32,Robusta,Post Blossom,55.0,0.206,25.69,12.74
+2016,1,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,267.0,17.16,32.06,19.32,Robusta,Post Monsoon,50.0,0.1873,25.69,12.74
+2016,1,Karnataka,Chikkamagaluru,56913.0,7.33,32.91,18.44,Arabica,Post Blossom,38200.0,0.6712,25.675,14.47
+2016,1,Karnataka,Chikkamagaluru,56913.0,7.33,32.91,18.44,Arabica,Post Monsoon,42425.0,0.7454,25.675,14.47
+2016,1,Karnataka,Chikkamagaluru,31974.0,7.33,32.91,18.44,Robusta,Post Blossom,40880.0,1.2785,25.675,14.47
+2016,1,Karnataka,Chikkamagaluru,31974.0,7.33,32.91,18.44,Robusta,Post Monsoon,41385.0,1.2943,25.675,14.47
+2016,1,Karnataka,Hassan,24150.0,1.8,32.55,17.82,Arabica,Post Blossom,18525.0,0.7671,25.185,14.73
+2016,1,Karnataka,Hassan,24150.0,1.8,32.55,17.82,Arabica,Post Monsoon,18950.0,0.7847,25.185,14.73
+2016,1,Karnataka,Hassan,12475.0,1.8,32.55,17.82,Robusta,Post Blossom,13505.0,1.0826,25.185,14.73
+2016,1,Karnataka,Hassan,12475.0,1.8,32.55,17.82,Robusta,Post Monsoon,12875.0,1.0321,25.185,14.73
+2016,1,Karnataka,Kodagu,27969.0,2.75,32.34,19.41,Arabica,Post Blossom,18030.0,0.6446,25.875,12.93
+2016,1,Karnataka,Kodagu,27969.0,2.75,32.34,19.41,Arabica,Post Monsoon,21085.0,0.7539,25.875,12.93
+2016,1,Karnataka,Kodagu,76953.0,2.75,32.34,19.41,Robusta,Post Blossom,104090.0,1.3526,25.875,12.93
+2016,1,Karnataka,Kodagu,76953.0,2.75,32.34,19.41,Robusta,Post Monsoon,116620.0,1.5155,25.875,12.93
+2016,1,Kerala,Nelliampathies,2109.0,52.18,30.84,19.5,Arabica,Post Blossom,1175.0,0.5571,25.17,11.34
+2016,1,Kerala,Nelliampathies,2109.0,52.18,30.84,19.5,Arabica,Post Monsoon,1200.0,0.569,25.17,11.34
+2016,1,Kerala,Nelliampathies,2850.0,52.18,30.84,19.5,Robusta,Post Blossom,1600.0,0.5614,25.17,11.34
+2016,1,Kerala,Nelliampathies,2850.0,52.18,30.84,19.5,Robusta,Post Monsoon,1700.0,0.5965,25.17,11.34
+2016,1,Kerala,Travancore,2094.0,132.54,33.12,22.89,Arabica,Post Blossom,880.0,0.4202,28.005,10.23
+2016,1,Kerala,Travancore,2094.0,132.54,33.12,22.89,Arabica,Post Monsoon,1000.0,0.4776,28.005,10.23
+2016,1,Kerala,Travancore,11007.0,132.54,33.12,22.89,Robusta,Post Blossom,7370.0,0.6696,28.005,10.23
+2016,1,Kerala,Travancore,11007.0,132.54,33.12,22.89,Robusta,Post Monsoon,7380.0,0.6705,28.005,10.23
+2016,1,Kerala,Wayanad,67396.0,19.11,31.14,18.52,Robusta,Post Blossom,56675.0,0.8409,24.83,12.62
+2016,1,Kerala,Wayanad,67396.0,19.11,31.14,18.52,Robusta,Post Monsoon,57370.0,0.8512,24.83,12.62
+2016,1,Northeastern Region,Northeastern Region,5340.0,39.79,25.68,12.98,Arabica,Post Blossom,120.0,0.0225,19.33,12.7
+2016,1,Northeastern Region,Northeastern Region,5340.0,39.79,25.68,12.98,Arabica,Post Monsoon,105.0,0.0197,19.33,12.7
+2016,1,Northeastern Region,Northeastern Region,1273.0,39.79,25.68,12.98,Robusta,Post Blossom,100.0,0.0786,19.33,12.7
+2016,1,Northeastern Region,Northeastern Region,1273.0,39.79,25.68,12.98,Robusta,Post Monsoon,80.0,0.0628,19.33,12.7
+2016,1,Tamil Nadu,Anamalais,2475.0,59.57,30.84,19.5,Arabica,Post Blossom,900.0,0.3636,25.17,11.34
+2016,1,Tamil Nadu,Anamalais,2475.0,59.57,30.84,19.5,Arabica,Post Monsoon,1300.0,0.5253,25.17,11.34
+2016,1,Tamil Nadu,Anamalais,338.0,59.57,30.84,19.5,Robusta,Post Blossom,500.0,1.4793,25.17,11.34
+2016,1,Tamil Nadu,Anamalais,338.0,59.57,30.84,19.5,Robusta,Post Monsoon,500.0,1.4793,25.17,11.34
+2016,1,Tamil Nadu,Nilgiris,3615.0,19.01,31.14,18.52,Arabica,Post Blossom,1550.0,0.4288,24.83,12.62
+2016,1,Tamil Nadu,Nilgiris,3615.0,19.01,31.14,18.52,Arabica,Post Monsoon,1475.0,0.408,24.83,12.62
+2016,1,Tamil Nadu,Nilgiris,4183.0,19.01,31.14,18.52,Robusta,Post Blossom,3850.0,0.9204,24.83,12.62
+2016,1,Tamil Nadu,Nilgiris,4183.0,19.01,31.14,18.52,Robusta,Post Monsoon,3825.0,0.9144,24.83,12.62
+2016,1,Tamil Nadu,Pulneys,10949.0,17.88,31.69,20.17,Arabica,Post Blossom,7300.0,0.6667,25.93,11.52
+2016,1,Tamil Nadu,Pulneys,10949.0,17.88,31.69,20.17,Arabica,Post Monsoon,7135.0,0.6517,25.93,11.52
+2016,1,Tamil Nadu,Pulneys,949.0,17.88,31.69,20.17,Robusta,Post Blossom,325.0,0.3425,25.93,11.52
+2016,1,Tamil Nadu,Pulneys,949.0,17.88,31.69,20.17,Robusta,Post Monsoon,345.0,0.3635,25.93,11.52
+2016,1,Tamil Nadu,Shevroys,9019.0,0.0,34.31,22.38,Arabica,Post Blossom,3400.0,0.377,28.345,11.93
+2016,1,Tamil Nadu,Shevroys,9019.0,0.0,34.31,22.38,Arabica,Post Monsoon,3475.0,0.3853,28.345,11.93
+2016,1,Tamil Nadu,Shevroys,143.0,0.0,34.31,22.38,Robusta,Post Blossom,50.0,0.3497,28.345,11.93
+2016,1,Tamil Nadu,Shevroys,143.0,0.0,34.31,22.38,Robusta,Post Monsoon,70.0,0.4895,28.345,11.93
+2016,3,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,71280.0,609.66,31.05,24.11,Arabica,Post Blossom,10400.0,0.1459,27.58,6.94
+2016,3,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,71280.0,609.66,31.05,24.11,Arabica,Post Monsoon,9750.0,0.1368,27.58,6.94
+2016,3,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,267.0,609.66,31.05,24.11,Robusta,Post Blossom,50.0,0.1873,27.58,6.94
+2016,3,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,267.0,609.66,31.05,24.11,Robusta,Post Monsoon,50.0,0.1873,27.58,6.94
+2016,3,Karnataka,Chikkamagaluru,58175.0,227.1,26.97,20.29,Arabica,Post Blossom,38750.0,0.6661,23.63,6.68
+2016,3,Karnataka,Chikkamagaluru,58175.0,227.1,26.97,20.29,Arabica,Post Monsoon,40600.0,0.6979,23.63,6.68
+2016,3,Karnataka,Chikkamagaluru,32196.0,227.1,26.97,20.29,Robusta,Post Blossom,38035.0,1.1814,23.63,6.68
+2016,3,Karnataka,Chikkamagaluru,32196.0,227.1,26.97,20.29,Robusta,Post Monsoon,41400.0,1.2859,23.63,6.68
+2016,3,Karnataka,Hassan,24946.0,203.98,27.98,19.46,Arabica,Post Blossom,18225.0,0.7306,23.72,8.52
+2016,3,Karnataka,Hassan,24946.0,203.98,27.98,19.46,Arabica,Post Monsoon,18900.0,0.7576,23.72,8.52
+2016,3,Karnataka,Hassan,13594.0,203.98,27.98,19.46,Robusta,Post Blossom,12900.0,0.9489,23.72,8.52
+2016,3,Karnataka,Hassan,13594.0,203.98,27.98,19.46,Robusta,Post Monsoon,13320.0,0.9798,23.72,8.52
+2016,3,Karnataka,Kodagu,28104.0,721.8,27.38,20.58,Arabica,Post Blossom,17510.0,0.623,23.98,6.8
+2016,3,Karnataka,Kodagu,28104.0,721.8,27.38,20.58,Arabica,Post Monsoon,19150.0,0.6814,23.98,6.8
+2016,3,Karnataka,Kodagu,78423.0,721.8,27.38,20.58,Robusta,Post Blossom,103925.0,1.3252,23.98,6.8
+2016,3,Karnataka,Kodagu,78423.0,721.8,27.38,20.58,Robusta,Post Monsoon,118150.0,1.5066,23.98,6.8
+2016,3,Kerala,Nelliampathies,2085.0,470.77,28.3,20.21,Arabica,Post Blossom,1150.0,0.5516,24.255,8.09
+2016,3,Kerala,Nelliampathies,2085.0,470.77,28.3,20.21,Arabica,Post Monsoon,1200.0,0.5755,24.255,8.09
+2016,3,Kerala,Nelliampathies,2850.0,470.77,28.3,20.21,Robusta,Post Blossom,300.0,0.1053,24.255,8.09
+2016,3,Kerala,Nelliampathies,2850.0,470.77,28.3,20.21,Robusta,Post Monsoon,1700.0,0.5965,24.255,8.09
+2016,3,Kerala,Travancore,2132.0,631.95,30.58,22.97,Arabica,Post Blossom,990.0,0.4644,26.775,7.61
+2016,3,Kerala,Travancore,2132.0,631.95,30.58,22.97,Arabica,Post Monsoon,1000.0,0.469,26.775,7.61
+2016,3,Kerala,Travancore,10998.0,631.95,30.58,22.97,Robusta,Post Blossom,6750.0,0.6137,26.775,7.61
+2016,3,Kerala,Travancore,10998.0,631.95,30.58,22.97,Robusta,Post Monsoon,7480.0,0.6801,26.775,7.61
+2016,3,Kerala,Wayanad,67436.0,414.17,28.03,19.85,Robusta,Post Blossom,51950.0,0.7704,23.94,8.18
+2016,3,Kerala,Wayanad,67436.0,414.17,28.03,19.85,Robusta,Post Monsoon,57850.0,0.8579,23.94,8.18
+2016,3,Northeastern Region,Northeastern Region,5595.0,667.79,31.91,23.92,Arabica,Post Blossom,100.0,0.0179,27.915,7.99
+2016,3,Northeastern Region,Northeastern Region,5595.0,667.79,31.91,23.92,Arabica,Post Monsoon,90.0,0.0161,27.915,7.99
+2016,3,Northeastern Region,Northeastern Region,1423.0,667.79,31.91,23.92,Robusta,Post Blossom,105.0,0.0738,27.915,7.99
+2016,3,Northeastern Region,Northeastern Region,1423.0,667.79,31.91,23.92,Robusta,Post Monsoon,65.0,0.0457,27.915,7.99
+2016,3,Tamil Nadu,Anamalais,2470.0,828.46,28.3,20.21,Arabica,Post Blossom,1300.0,0.5263,24.255,8.09
+2016,3,Tamil Nadu,Anamalais,2470.0,828.46,28.3,20.21,Arabica,Post Monsoon,1300.0,0.5263,24.255,8.09
+2016,3,Tamil Nadu,Anamalais,338.0,828.46,28.3,20.21,Robusta,Post Blossom,500.0,1.4793,24.255,8.09
+2016,3,Tamil Nadu,Anamalais,338.0,828.46,28.3,20.21,Robusta,Post Monsoon,500.0,1.4793,24.255,8.09
+2016,3,Tamil Nadu,Nilgiris,3780.0,184.96,28.03,19.85,Arabica,Post Blossom,1400.0,0.3704,23.94,8.18
+2016,3,Tamil Nadu,Nilgiris,3780.0,184.96,28.03,19.85,Arabica,Post Monsoon,1325.0,0.3505,23.94,8.18
+2016,3,Tamil Nadu,Nilgiris,4550.0,184.96,28.03,19.85,Robusta,Post Blossom,3750.0,0.8242,23.94,8.18
+2016,3,Tamil Nadu,Nilgiris,4550.0,184.96,28.03,19.85,Robusta,Post Monsoon,3575.0,0.7857,23.94,8.18
+2016,3,Tamil Nadu,Pulneys,12597.0,174.09,31.33,21.95,Arabica,Post Blossom,6550.0,0.52,26.64,9.38
+2016,3,Tamil Nadu,Pulneys,12597.0,174.09,31.33,21.95,Arabica,Post Monsoon,6785.0,0.5386,26.64,9.38
+2016,3,Tamil Nadu,Pulneys,839.0,174.09,31.33,21.95,Robusta,Post Blossom,365.0,0.435,26.64,9.38
+2016,3,Tamil Nadu,Pulneys,839.0,174.09,31.33,21.95,Robusta,Post Monsoon,340.0,0.4052,26.64,9.38
+2016,3,Tamil Nadu,Shevroys,7495.0,235.16,35.35,25.26,Arabica,Post Blossom,3625.0,0.4837,30.305,10.09
+2016,3,Tamil Nadu,Shevroys,7495.0,235.16,35.35,25.26,Arabica,Post Monsoon,3400.0,0.4536,30.305,10.09
+2016,3,Tamil Nadu,Shevroys,4593.0,235.16,35.35,25.26,Robusta,Post Blossom,70.0,0.0152,30.305,10.09
+2016,3,Tamil Nadu,Shevroys,4593.0,235.16,35.35,25.26,Robusta,Post Monsoon,70.0,0.0152,30.305,10.09
+2017,2,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,71280.0,164.81,35.76,25.26,Arabica,Post Blossom,9750.0,0.1368,30.51,10.5
+2017,2,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,71280.0,164.81,35.76,25.26,Arabica,Post Monsoon,10300.0,0.1445,30.51,10.5
+2017,2,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,267.0,164.81,35.76,25.26,Robusta,Post Blossom,50.0,0.1873,30.51,10.5
+2017,2,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,267.0,164.81,35.76,25.26,Robusta,Post Monsoon,50.0,0.1873,30.51,10.5
+2017,2,Karnataka,Chikkamagaluru,58175.0,291.83,31.74,21.75,Arabica,Post Blossom,40600.0,0.6979,26.745,9.99
+2017,2,Karnataka,Chikkamagaluru,58175.0,291.83,31.74,21.75,Arabica,Post Monsoon,36400.0,0.6257,26.745,9.99
+2017,2,Karnataka,Chikkamagaluru,32196.0,291.83,31.74,21.75,Robusta,Post Blossom,41400.0,1.2859,26.745,9.99
+2017,2,Karnataka,Chikkamagaluru,32196.0,291.83,31.74,21.75,Robusta,Post Monsoon,35000.0,1.0871,26.745,9.99
+2017,2,Karnataka,Hassan,24946.0,347.07,32.79,21.11,Arabica,Post Blossom,18900.0,0.7576,26.95,11.68
+2017,2,Karnataka,Hassan,24946.0,347.07,32.79,21.11,Arabica,Post Monsoon,17800.0,0.7135,26.95,11.68
+2017,2,Karnataka,Hassan,13594.0,347.07,32.79,21.11,Robusta,Post Blossom,13320.0,0.9798,26.95,11.68
+2017,2,Karnataka,Hassan,13594.0,347.07,32.79,21.11,Robusta,Post Monsoon,12950.0,0.9526,26.95,11.68
+2017,2,Karnataka,Kodagu,28104.0,641.98,31.44,21.85,Arabica,Post Blossom,19150.0,0.6814,26.645,9.59
+2017,2,Karnataka,Kodagu,28104.0,641.98,31.44,21.85,Arabica,Post Monsoon,17400.0,0.6191,26.645,9.59
+2017,2,Karnataka,Kodagu,78423.0,641.98,31.44,21.85,Robusta,Post Blossom,118150.0,1.5066,26.645,9.59
+2017,2,Karnataka,Kodagu,78423.0,641.98,31.44,21.85,Robusta,Post Monsoon,106750.0,1.3612,26.645,9.59
+2017,2,Kerala,Nelliampathies,2085.0,465.47,30.9,21.5,Arabica,Post Blossom,1200.0,0.5755,26.2,9.4
+2017,2,Kerala,Nelliampathies,2085.0,465.47,30.9,21.5,Arabica,Post Monsoon,1150.0,0.5516,26.2,9.4
+2017,2,Kerala,Nelliampathies,2850.0,465.47,30.9,21.5,Robusta,Post Blossom,1700.0,0.5965,26.2,9.4
+2017,2,Kerala,Nelliampathies,2850.0,465.47,30.9,21.5,Robusta,Post Monsoon,1600.0,0.5614,26.2,9.4
+2017,2,Kerala,Travancore,2132.0,944.02,32.81,24.19,Arabica,Post Blossom,1000.0,0.469,28.5,8.62
+2017,2,Kerala,Travancore,2132.0,944.02,32.81,24.19,Arabica,Post Monsoon,990.0,0.4644,28.5,8.62
+2017,2,Kerala,Travancore,10998.0,944.02,32.81,24.19,Robusta,Post Blossom,7480.0,0.6801,28.5,8.62
+2017,2,Kerala,Travancore,10998.0,944.02,32.81,24.19,Robusta,Post Monsoon,7050.0,0.641,28.5,8.62
+2017,2,Kerala,Wayanad,67436.0,462.18,31.26,21.17,Robusta,Post Blossom,57850.0,0.8579,26.215,10.09
+2017,2,Kerala,Wayanad,67436.0,462.18,31.26,21.17,Robusta,Post Monsoon,52500.0,0.7785,26.215,10.09
+2017,2,Northeastern Region,Northeastern Region,5595.0,593.29,29.95,21.04,Arabica,Post Blossom,90.0,0.0161,25.495,8.91
+2017,2,Northeastern Region,Northeastern Region,5595.0,593.29,29.95,21.04,Arabica,Post Monsoon,100.0,0.0179,25.495,8.91
+2017,2,Northeastern Region,Northeastern Region,1423.0,593.29,29.95,21.04,Robusta,Post Blossom,65.0,0.0457,25.495,8.91
+2017,2,Northeastern Region,Northeastern Region,1423.0,593.29,29.95,21.04,Robusta,Post Monsoon,100.0,0.0703,25.495,8.91
+2017,2,Tamil Nadu,Anamalais,2470.0,602.3,30.9,21.5,Arabica,Post Blossom,1300.0,0.5263,26.2,9.4
+2017,2,Tamil Nadu,Anamalais,2470.0,602.3,30.9,21.5,Arabica,Post Monsoon,1300.0,0.5263,26.2,9.4
+2017,2,Tamil Nadu,Anamalais,338.0,602.3,30.9,21.5,Robusta,Post Blossom,500.0,1.4793,26.2,9.4
+2017,2,Tamil Nadu,Anamalais,338.0,602.3,30.9,21.5,Robusta,Post Monsoon,500.0,1.4793,26.2,9.4
+2017,2,Tamil Nadu,Nilgiris,3780.0,335.87,31.26,21.17,Arabica,Post Blossom,1325.0,0.3505,26.215,10.09
+2017,2,Tamil Nadu,Nilgiris,3780.0,335.87,31.26,21.17,Arabica,Post Monsoon,1200.0,0.3175,26.215,10.09
+2017,2,Tamil Nadu,Nilgiris,4550.0,335.87,31.26,21.17,Robusta,Post Blossom,3575.0,0.7857,26.215,10.09
+2017,2,Tamil Nadu,Nilgiris,4550.0,335.87,31.26,21.17,Robusta,Post Monsoon,3565.0,0.7835,26.215,10.09
+2017,2,Tamil Nadu,Pulneys,12597.0,171.33,34.01,23.17,Arabica,Post Blossom,6785.0,0.5386,28.59,10.84
+2017,2,Tamil Nadu,Pulneys,12597.0,171.33,34.01,23.17,Arabica,Post Monsoon,6135.0,0.487,28.59,10.84
+2017,2,Tamil Nadu,Pulneys,839.0,171.33,34.01,23.17,Robusta,Post Blossom,340.0,0.4052,28.59,10.84
+2017,2,Tamil Nadu,Pulneys,839.0,171.33,34.01,23.17,Robusta,Post Monsoon,365.0,0.435,28.59,10.84
+2017,2,Tamil Nadu,Shevroys,7495.0,155.48,38.27,26.57,Arabica,Post Blossom,3400.0,0.4536,32.42,11.7
+2017,2,Tamil Nadu,Shevroys,7495.0,155.48,38.27,26.57,Arabica,Post Monsoon,3425.0,0.457,32.42,11.7
+2017,2,Tamil Nadu,Shevroys,4593.0,155.48,38.27,26.57,Robusta,Post Blossom,70.0,0.0152,32.42,11.7
+2017,2,Tamil Nadu,Shevroys,4593.0,155.48,38.27,26.57,Robusta,Post Monsoon,70.0,0.0152,32.42,11.7
+2017,3,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,75327.0,495.47,31.46,23.9,Arabica,Post Blossom,9750.0,0.1294,27.68,7.56
+2017,3,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,75327.0,495.47,31.46,23.9,Arabica,Post Monsoon,10300.0,0.1367,27.68,7.56
+2017,3,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,267.0,495.47,31.46,23.9,Robusta,Post Blossom,50.0,0.1873,27.68,7.56
+2017,3,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,267.0,495.47,31.46,23.9,Robusta,Post Monsoon,50.0,0.1873,27.68,7.56
+2017,3,Karnataka,Chikkamagaluru,55225.0,385.59,27.62,20.82,Arabica,Post Blossom,40600.0,0.7352,24.22,6.8
+2017,3,Karnataka,Chikkamagaluru,55225.0,385.59,27.62,20.82,Arabica,Post Monsoon,36400.0,0.6591,24.22,6.8
+2017,3,Karnataka,Chikkamagaluru,42192.0,385.59,27.62,20.82,Robusta,Post Blossom,41400.0,0.9812,24.22,6.8
+2017,3,Karnataka,Chikkamagaluru,42192.0,385.59,27.62,20.82,Robusta,Post Monsoon,35000.0,0.8295,24.22,6.8
+2017,3,Karnataka,Hassan,25480.0,479.34,28.44,20.05,Arabica,Post Blossom,18900.0,0.7418,24.245,8.39
+2017,3,Karnataka,Hassan,25480.0,479.34,28.44,20.05,Arabica,Post Monsoon,17800.0,0.6986,24.245,8.39
+2017,3,Karnataka,Hassan,14799.0,479.34,28.44,20.05,Robusta,Post Blossom,13320.0,0.9001,24.245,8.39
+2017,3,Karnataka,Hassan,14799.0,479.34,28.44,20.05,Robusta,Post Monsoon,12950.0,0.8751,24.245,8.39
+2017,3,Karnataka,Kodagu,28140.0,1096.71,27.65,21.06,Arabica,Post Blossom,19150.0,0.6805,24.355,6.59
+2017,3,Karnataka,Kodagu,28140.0,1096.71,27.65,21.06,Arabica,Post Monsoon,17400.0,0.6183,24.355,6.59
+2017,3,Karnataka,Kodagu,78949.0,1096.71,27.65,21.06,Robusta,Post Blossom,118150.0,1.4965,24.355,6.59
+2017,3,Karnataka,Kodagu,78949.0,1096.71,27.65,21.06,Robusta,Post Monsoon,106750.0,1.3521,24.355,6.59
+2017,3,Kerala,Nelliampathies,2085.0,800.84,28.15,20.5,Arabica,Post Blossom,1200.0,0.5755,24.325,7.65
+2017,3,Kerala,Nelliampathies,2085.0,800.84,28.15,20.5,Arabica,Post Monsoon,1150.0,0.5516,24.325,7.65
+2017,3,Kerala,Nelliampathies,2850.0,800.84,28.15,20.5,Robusta,Post Blossom,1700.0,0.5965,24.325,7.65
+2017,3,Kerala,Nelliampathies,2850.0,800.84,28.15,20.5,Robusta,Post Monsoon,1600.0,0.5614,24.325,7.65
+2017,3,Kerala,Travancore,2143.0,1160.93,30.24,23.03,Arabica,Post Blossom,1000.0,0.4666,26.635,7.21
+2017,3,Kerala,Travancore,2143.0,1160.93,30.24,23.03,Arabica,Post Monsoon,990.0,0.462,26.635,7.21
+2017,3,Kerala,Travancore,11087.0,1160.93,30.24,23.03,Robusta,Post Blossom,7480.0,0.6747,26.635,7.21
+2017,3,Kerala,Travancore,11087.0,1160.93,30.24,23.03,Robusta,Post Monsoon,7050.0,0.6359,26.635,7.21
+2017,3,Kerala,Wayanad,67705.0,841.03,28.1,20.29,Robusta,Post Blossom,57850.0,0.8544,24.195,7.81
+2017,3,Kerala,Wayanad,67705.0,841.03,28.1,20.29,Robusta,Post Monsoon,52500.0,0.7754,24.195,7.81
+2017,3,Northeastern Region,Northeastern Region,5903.0,668.42,31.62,23.73,Arabica,Post Blossom,90.0,0.0152,27.675,7.89
+2017,3,Northeastern Region,Northeastern Region,5903.0,668.42,31.62,23.73,Arabica,Post Monsoon,100.0,0.0169,27.675,7.89
+2017,3,Northeastern Region,Northeastern Region,1598.0,668.42,31.62,23.73,Robusta,Post Blossom,65.0,0.0407,27.675,7.89
+2017,3,Northeastern Region,Northeastern Region,1598.0,668.42,31.62,23.73,Robusta,Post Monsoon,100.0,0.0626,27.675,7.89
+2017,3,Tamil Nadu,Anamalais,2470.0,1126.58,28.15,20.5,Arabica,Post Blossom,1300.0,0.5263,24.325,7.65
+2017,3,Tamil Nadu,Anamalais,2470.0,1126.58,28.15,20.5,Arabica,Post Monsoon,1300.0,0.5263,24.325,7.65
+2017,3,Tamil Nadu,Anamalais,338.0,1126.58,28.15,20.5,Robusta,Post Blossom,500.0,1.4793,24.325,7.65
+2017,3,Tamil Nadu,Anamalais,338.0,1126.58,28.15,20.5,Robusta,Post Monsoon,500.0,1.4793,24.325,7.65
+2017,3,Tamil Nadu,Nilgiris,3780.0,459.67,28.1,20.29,Arabica,Post Blossom,1325.0,0.3505,24.195,7.81
+2017,3,Tamil Nadu,Nilgiris,3780.0,459.67,28.1,20.29,Arabica,Post Monsoon,1200.0,0.3175,24.195,7.81
+2017,3,Tamil Nadu,Nilgiris,4772.0,459.67,28.1,20.29,Robusta,Post Blossom,3575.0,0.7492,24.195,7.81
+2017,3,Tamil Nadu,Nilgiris,4772.0,459.67,28.1,20.29,Robusta,Post Monsoon,3565.0,0.7471,24.195,7.81
+2017,3,Tamil Nadu,Pulneys,12597.0,417.11,31.09,22.18,Arabica,Post Blossom,6785.0,0.5386,26.635,8.91
+2017,3,Tamil Nadu,Pulneys,12597.0,417.11,31.09,22.18,Arabica,Post Monsoon,6135.0,0.487,26.635,8.91
+2017,3,Tamil Nadu,Pulneys,839.0,417.11,31.09,22.18,Robusta,Post Blossom,340.0,0.4052,26.635,8.91
+2017,3,Tamil Nadu,Pulneys,839.0,417.11,31.09,22.18,Robusta,Post Monsoon,365.0,0.435,26.635,8.91
+2017,3,Tamil Nadu,Shevroys,10666.0,451.62,35.04,25.28,Arabica,Post Blossom,3400.0,0.3188,30.16,9.76
+2017,3,Tamil Nadu,Shevroys,10666.0,451.62,35.04,25.28,Arabica,Post Monsoon,3425.0,0.3211,30.16,9.76
+2017,3,Tamil Nadu,Shevroys,145.0,451.62,35.04,25.28,Robusta,Post Blossom,70.0,0.4828,30.16,9.76
+2017,3,Tamil Nadu,Shevroys,145.0,451.62,35.04,25.28,Robusta,Post Monsoon,70.0,0.4828,30.16,9.76
+2017,4,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,75327.0,185.59,29.93,18.99,Arabica,Post Blossom,10720.0,0.1423,24.46,10.94
+2017,4,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,75327.0,185.59,29.93,18.99,Arabica,Post Monsoon,10400.0,0.1381,24.46,10.94
+2017,4,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,267.0,185.59,29.93,18.99,Robusta,Post Blossom,50.0,0.1873,24.46,10.94
+2017,4,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,267.0,185.59,29.93,18.99,Robusta,Post Monsoon,50.0,0.1873,24.46,10.94
+2017,4,Karnataka,Chikkamagaluru,55225.0,85.98,29.6,18.79,Arabica,Post Blossom,35900.0,0.6501,24.195,10.81
+2017,4,Karnataka,Chikkamagaluru,55225.0,85.98,29.6,18.79,Arabica,Post Monsoon,36150.0,0.6546,24.195,10.81
+2017,4,Karnataka,Chikkamagaluru,42192.0,85.98,29.6,18.79,Robusta,Post Blossom,48110.0,1.1403,24.195,10.81
+2017,4,Karnataka,Chikkamagaluru,42192.0,85.98,29.6,18.79,Robusta,Post Monsoon,34860.0,0.8262,24.195,10.81
+2017,4,Karnataka,Hassan,25480.0,123.36,28.4,17.78,Arabica,Post Blossom,18900.0,0.7418,23.09,10.62
+2017,4,Karnataka,Hassan,25480.0,123.36,28.4,17.78,Arabica,Post Monsoon,17325.0,0.6799,23.09,10.62
+2017,4,Karnataka,Hassan,14799.0,123.36,28.4,17.78,Robusta,Post Blossom,15350.0,1.0372,23.09,10.62
+2017,4,Karnataka,Hassan,14799.0,123.36,28.4,17.78,Robusta,Post Monsoon,13550.0,0.9156,23.09,10.62
+2017,4,Karnataka,Kodagu,28140.0,112.67,29.57,19.61,Arabica,Post Blossom,20500.0,0.7285,24.59,9.96
+2017,4,Karnataka,Kodagu,28140.0,112.67,29.57,19.61,Arabica,Post Monsoon,17035.0,0.6054,24.59,9.96
+2017,4,Karnataka,Kodagu,78949.0,112.67,29.57,19.61,Robusta,Post Blossom,113000.0,1.4313,24.59,9.96
+2017,4,Karnataka,Kodagu,78949.0,112.67,29.57,19.61,Robusta,Post Monsoon,102825.0,1.3024,24.59,9.96
+2017,4,Kerala,Nelliampathies,2085.0,163.34,28.21,19.55,Arabica,Post Blossom,1200.0,0.5755,23.88,8.66
+2017,4,Kerala,Nelliampathies,2085.0,163.34,28.21,19.55,Arabica,Post Monsoon,1150.0,0.5516,23.88,8.66
+2017,4,Kerala,Nelliampathies,2850.0,163.34,28.21,19.55,Robusta,Post Blossom,1775.0,0.6228,23.88,8.66
+2017,4,Kerala,Nelliampathies,2850.0,163.34,28.21,19.55,Robusta,Post Monsoon,1600.0,0.5614,23.88,8.66
+2017,4,Kerala,Travancore,2143.0,610.75,30.68,22.48,Arabica,Post Blossom,885.0,0.413,26.58,8.2
+2017,4,Kerala,Travancore,2143.0,610.75,30.68,22.48,Arabica,Post Monsoon,990.0,0.462,26.58,8.2
+2017,4,Kerala,Travancore,11087.0,610.75,30.68,22.48,Robusta,Post Blossom,6500.0,0.5863,26.58,8.2
+2017,4,Kerala,Travancore,11087.0,610.75,30.68,22.48,Robusta,Post Monsoon,7050.0,0.6359,26.58,8.2
+2017,4,Kerala,Wayanad,67705.0,177.31,28.16,18.96,Robusta,Post Blossom,58160.0,0.859,23.56,9.2
+2017,4,Kerala,Wayanad,67705.0,177.31,28.16,18.96,Robusta,Post Monsoon,52475.0,0.7751,23.56,9.2
+2017,4,Northeastern Region,Northeastern Region,5903.0,166.31,27.73,16.34,Arabica,Post Blossom,95.0,0.0161,22.035,11.39
+2017,4,Northeastern Region,Northeastern Region,5903.0,166.31,27.73,16.34,Arabica,Post Monsoon,100.0,0.0169,22.035,11.39
+2017,4,Northeastern Region,Northeastern Region,1598.0,166.31,27.73,16.34,Robusta,Post Blossom,95.0,0.0594,22.035,11.39
+2017,4,Northeastern Region,Northeastern Region,1598.0,166.31,27.73,16.34,Robusta,Post Monsoon,105.0,0.0657,22.035,11.39
+2017,4,Tamil Nadu,Anamalais,2470.0,285.23,28.21,19.55,Arabica,Post Blossom,1300.0,0.5263,23.88,8.66
+2017,4,Tamil Nadu,Anamalais,2470.0,285.23,28.21,19.55,Arabica,Post Monsoon,1300.0,0.5263,23.88,8.66
+2017,4,Tamil Nadu,Anamalais,338.0,285.23,28.21,19.55,Robusta,Post Blossom,500.0,1.4793,23.88,8.66
+2017,4,Tamil Nadu,Anamalais,338.0,285.23,28.21,19.55,Robusta,Post Monsoon,500.0,1.4793,23.88,8.66
+2017,4,Tamil Nadu,Nilgiris,3780.0,500.29,28.16,18.96,Arabica,Post Blossom,1700.0,0.4497,23.56,9.2
+2017,4,Tamil Nadu,Nilgiris,3780.0,500.29,28.16,18.96,Arabica,Post Monsoon,1200.0,0.3175,23.56,9.2
+2017,4,Tamil Nadu,Nilgiris,4772.0,500.29,28.16,18.96,Robusta,Post Blossom,3350.0,0.702,23.56,9.2
+2017,4,Tamil Nadu,Nilgiris,4772.0,500.29,28.16,18.96,Robusta,Post Monsoon,3550.0,0.7439,23.56,9.2
+2017,4,Tamil Nadu,Pulneys,12597.0,360.21,28.96,20.54,Arabica,Post Blossom,7800.0,0.6192,24.75,8.42
+2017,4,Tamil Nadu,Pulneys,12597.0,360.21,28.96,20.54,Arabica,Post Monsoon,5925.0,0.4704,24.75,8.42
+2017,4,Tamil Nadu,Pulneys,839.0,360.21,28.96,20.54,Robusta,Post Blossom,340.0,0.4052,24.75,8.42
+2017,4,Tamil Nadu,Pulneys,839.0,360.21,28.96,20.54,Robusta,Post Monsoon,365.0,0.435,24.75,8.42
+2017,4,Tamil Nadu,Shevroys,10666.0,385.42,31.41,23.05,Arabica,Post Blossom,4100.0,0.3844,27.23,8.36
+2017,4,Tamil Nadu,Shevroys,10666.0,385.42,31.41,23.05,Arabica,Post Monsoon,3425.0,0.3211,27.23,8.36
+2017,4,Tamil Nadu,Shevroys,145.0,385.42,31.41,23.05,Robusta,Post Blossom,70.0,0.4828,27.23,8.36
+2017,4,Tamil Nadu,Shevroys,145.0,385.42,31.41,23.05,Robusta,Post Monsoon,70.0,0.4828,27.23,8.36
+2018,3,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,80174.0,464.79,30.78,23.6,Arabica,Post Blossom,10400.0,0.1297,27.19,7.18
+2018,3,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,80174.0,464.79,30.78,23.6,Arabica,Post Monsoon,10320.0,0.1287,27.19,7.18
+2018,3,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,264.0,464.79,30.78,23.6,Robusta,Post Blossom,50.0,0.1894,27.19,7.18
+2018,3,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,264.0,464.79,30.78,23.6,Robusta,Post Monsoon,20.0,0.0758,27.19,7.18
+2018,3,Karnataka,Chikkamagaluru,55225.0,360.3,27.07,20.18,Arabica,Post Blossom,36150.0,0.6546,23.625,6.89
+2018,3,Karnataka,Chikkamagaluru,55225.0,360.3,27.07,20.18,Arabica,Post Monsoon,31600.0,0.5722,23.625,6.89
+2018,3,Karnataka,Chikkamagaluru,42192.0,360.3,27.07,20.18,Robusta,Post Blossom,34860.0,0.8262,23.625,6.89
+2018,3,Karnataka,Chikkamagaluru,42192.0,360.3,27.07,20.18,Robusta,Post Monsoon,43275.0,1.0257,23.625,6.89
+2018,3,Karnataka,Hassan,25430.0,667.87,28.02,19.48,Arabica,Post Blossom,17325.0,0.6813,23.75,8.54
+2018,3,Karnataka,Hassan,25430.0,667.87,28.02,19.48,Arabica,Post Monsoon,17875.0,0.7029,23.75,8.54
+2018,3,Karnataka,Hassan,14849.0,667.87,28.02,19.48,Robusta,Post Blossom,13550.0,0.9125,23.75,8.54
+2018,3,Karnataka,Hassan,14849.0,667.87,28.02,19.48,Robusta,Post Monsoon,13000.0,0.8755,23.75,8.54
+2018,3,Karnataka,Kodagu,28140.0,1582.47,27.2,20.48,Arabica,Post Blossom,17035.0,0.6054,23.84,6.72
+2018,3,Karnataka,Kodagu,28140.0,1582.47,27.2,20.48,Arabica,Post Monsoon,19550.0,0.6947,23.84,6.72
+2018,3,Karnataka,Kodagu,78949.0,1582.47,27.2,20.48,Robusta,Post Blossom,102825.0,1.3024,23.84,6.72
+2018,3,Karnataka,Kodagu,78949.0,1582.47,27.2,20.48,Robusta,Post Monsoon,97000.0,1.2286,23.84,6.72
+2018,3,Kerala,Nelliampathies,2085.0,1493.93,27.82,19.97,Arabica,Post Blossom,1150.0,0.5516,23.895,7.85
+2018,3,Kerala,Nelliampathies,2085.0,1493.93,27.82,19.97,Arabica,Post Monsoon,1200.0,0.5755,23.895,7.85
+2018,3,Kerala,Nelliampathies,2850.0,1493.93,27.82,19.97,Robusta,Post Blossom,1600.0,0.5614,23.895,7.85
+2018,3,Kerala,Nelliampathies,2850.0,1493.93,27.82,19.97,Robusta,Post Monsoon,1775.0,0.6228,23.895,7.85
+2018,3,Kerala,Travancore,2146.0,1503.2,29.95,22.53,Arabica,Post Blossom,990.0,0.4613,26.24,7.42
+2018,3,Kerala,Travancore,2146.0,1503.2,29.95,22.53,Arabica,Post Monsoon,960.0,0.4473,26.24,7.42
+2018,3,Kerala,Travancore,11094.0,1503.2,29.95,22.53,Robusta,Post Blossom,7050.0,0.6355,26.24,7.42
+2018,3,Kerala,Travancore,11094.0,1503.2,29.95,22.53,Robusta,Post Monsoon,6275.0,0.5656,26.24,7.42
+2018,3,Kerala,Wayanad,67705.0,1268.03,27.75,19.67,Robusta,Post Blossom,52475.0,0.7751,23.71,8.08
+2018,3,Kerala,Wayanad,67705.0,1268.03,27.75,19.67,Robusta,Post Monsoon,55525.0,0.8201,23.71,8.08
+2018,3,Northeastern Region,Northeastern Region,6198.0,464.16,31.99,24.04,Arabica,Post Blossom,100.0,0.0161,28.015,7.95
+2018,3,Northeastern Region,Northeastern Region,6198.0,464.16,31.99,24.04,Arabica,Post Monsoon,95.0,0.0153,28.015,7.95
+2018,3,Northeastern Region,Northeastern Region,1815.0,464.16,31.99,24.04,Robusta,Post Blossom,105.0,0.0579,28.015,7.95
+2018,3,Northeastern Region,Northeastern Region,1815.0,464.16,31.99,24.04,Robusta,Post Monsoon,90.0,0.0496,28.015,7.95
+2018,3,Tamil Nadu,Anamalais,2470.0,2156.1,27.82,19.97,Arabica,Post Blossom,1300.0,0.5263,23.895,7.85
+2018,3,Tamil Nadu,Anamalais,2470.0,2156.1,27.82,19.97,Arabica,Post Monsoon,1300.0,0.5263,23.895,7.85
+2018,3,Tamil Nadu,Anamalais,338.0,2156.1,27.82,19.97,Robusta,Post Blossom,500.0,1.4793,23.895,7.85
+2018,3,Tamil Nadu,Anamalais,338.0,2156.1,27.82,19.97,Robusta,Post Monsoon,500.0,1.4793,23.895,7.85
+2018,3,Tamil Nadu,Nilgiris,3780.0,401.61,27.75,19.67,Arabica,Post Blossom,1200.0,0.3175,23.71,8.08
+2018,3,Tamil Nadu,Nilgiris,3780.0,401.61,27.75,19.67,Arabica,Post Monsoon,1400.0,0.3704,23.71,8.08
+2018,3,Tamil Nadu,Nilgiris,4772.0,401.61,27.75,19.67,Robusta,Post Blossom,3550.0,0.7439,23.71,8.08
+2018,3,Tamil Nadu,Nilgiris,4772.0,401.61,27.75,19.67,Robusta,Post Monsoon,3150.0,0.6601,23.71,8.08
+2018,3,Tamil Nadu,Pulneys,12597.0,335.12,30.8,21.81,Arabica,Post Blossom,5925.0,0.4704,26.305,8.99
+2018,3,Tamil Nadu,Pulneys,12597.0,335.12,30.8,21.81,Arabica,Post Monsoon,7170.0,0.5692,26.305,8.99
+2018,3,Tamil Nadu,Pulneys,839.0,335.12,30.8,21.81,Robusta,Post Blossom,365.0,0.435,26.305,8.99
+2018,3,Tamil Nadu,Pulneys,839.0,335.12,30.8,21.81,Robusta,Post Monsoon,340.0,0.4052,26.305,8.99
+2018,3,Tamil Nadu,Shevroys,10666.0,227.84,35.17,25.23,Arabica,Post Blossom,3425.0,0.3211,30.2,9.94
+2018,3,Tamil Nadu,Shevroys,10666.0,227.84,35.17,25.23,Arabica,Post Monsoon,3530.0,0.331,30.2,9.94
+2018,3,Tamil Nadu,Shevroys,145.0,227.84,35.17,25.23,Robusta,Post Blossom,70.0,0.4828,30.2,9.94
+2018,3,Tamil Nadu,Shevroys,145.0,227.84,35.17,25.23,Robusta,Post Monsoon,50.0,0.3448,30.2,9.94
+2019,1,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,80174.0,12.8,30.92,17.82,Arabica,Post Blossom,10320.0,0.1287,24.37,13.1
+2019,1,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,80174.0,12.8,30.92,17.82,Arabica,Post Monsoon,11500.0,0.1434,24.37,13.1
+2019,1,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,264.0,12.8,30.92,17.82,Robusta,Post Blossom,20.0,0.0758,24.37,13.1
+2019,1,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,264.0,12.8,30.92,17.82,Robusta,Post Monsoon,50.0,0.1894,24.37,13.1
+2019,1,Karnataka,Chikkamagaluru,55225.0,32.94,32.39,17.28,Arabica,Post Blossom,31600.0,0.5722,24.835,15.11
+2019,1,Karnataka,Chikkamagaluru,55225.0,32.94,32.39,17.28,Arabica,Post Monsoon,33500.0,0.6066,24.835,15.11
+2019,1,Karnataka,Chikkamagaluru,42192.0,32.94,32.39,17.28,Robusta,Post Blossom,43275.0,1.0257,24.835,15.11
+2019,1,Karnataka,Chikkamagaluru,42192.0,32.94,32.39,17.28,Robusta,Post Monsoon,44350.0,1.0511,24.835,15.11
+2019,1,Karnataka,Hassan,25430.0,29.47,32.17,16.88,Arabica,Post Blossom,17875.0,0.7029,24.525,15.29
+2019,1,Karnataka,Hassan,25430.0,29.47,32.17,16.88,Arabica,Post Monsoon,17500.0,0.6882,24.525,15.29
+2019,1,Karnataka,Hassan,14849.0,29.47,32.17,16.88,Robusta,Post Blossom,13000.0,0.8755,24.525,15.29
+2019,1,Karnataka,Hassan,14849.0,29.47,32.17,16.88,Robusta,Post Monsoon,13420.0,0.9038,24.525,15.29
+2019,1,Karnataka,Kodagu,28140.0,15.04,32.11,18.28,Arabica,Post Blossom,19550.0,0.6947,25.195,13.83
+2019,1,Karnataka,Kodagu,28140.0,15.04,32.11,18.28,Arabica,Post Monsoon,16900.0,0.6006,25.195,13.83
+2019,1,Karnataka,Kodagu,78949.0,15.04,32.11,18.28,Robusta,Post Blossom,97000.0,1.2286,25.195,13.83
+2019,1,Karnataka,Kodagu,78949.0,15.04,32.11,18.28,Robusta,Post Monsoon,93830.0,1.1885,25.195,13.83
+2019,1,Kerala,Nelliampathies,2085.0,6.73,30.74,18.71,Arabica,Post Blossom,1200.0,0.5755,24.725,12.03
+2019,1,Kerala,Nelliampathies,2085.0,6.73,30.74,18.71,Arabica,Post Monsoon,1180.0,0.5659,24.725,12.03
+2019,1,Kerala,Nelliampathies,2850.0,6.73,30.74,18.71,Robusta,Post Blossom,1775.0,0.6228,24.725,12.03
+2019,1,Kerala,Nelliampathies,2850.0,6.73,30.74,18.71,Robusta,Post Monsoon,1550.0,0.5439,24.725,12.03
+2019,1,Kerala,Travancore,2146.0,41.98,33.07,22.03,Arabica,Post Blossom,960.0,0.4473,27.55,11.04
+2019,1,Kerala,Travancore,2146.0,41.98,33.07,22.03,Arabica,Post Monsoon,1030.0,0.48,27.55,11.04
+2019,1,Kerala,Travancore,11094.0,41.98,33.07,22.03,Robusta,Post Blossom,6275.0,0.5656,27.55,11.04
+2019,1,Kerala,Travancore,11094.0,41.98,33.07,22.03,Robusta,Post Monsoon,8225.0,0.7414,27.55,11.04
+2019,1,Kerala,Wayanad,67705.0,44.53,31.11,17.7,Robusta,Post Blossom,55525.0,0.8201,24.405,13.41
+2019,1,Kerala,Wayanad,67705.0,44.53,31.11,17.7,Robusta,Post Monsoon,58450.0,0.8633,24.405,13.41
+2019,1,Northeastern Region,Northeastern Region,6198.0,70.5,25.4,11.7,Arabica,Post Blossom,95.0,0.0153,18.55,13.7
+2019,1,Northeastern Region,Northeastern Region,6198.0,70.5,25.4,11.7,Arabica,Post Monsoon,100.0,0.0161,18.55,13.7
+2019,1,Northeastern Region,Northeastern Region,1815.0,70.5,25.4,11.7,Robusta,Post Blossom,90.0,0.0496,18.55,13.7
+2019,1,Northeastern Region,Northeastern Region,1815.0,70.5,25.4,11.7,Robusta,Post Monsoon,100.0,0.0551,18.55,13.7
+2019,1,Tamil Nadu,Anamalais,2470.0,40.42,30.74,18.71,Arabica,Post Blossom,1300.0,0.5263,24.725,12.03
+2019,1,Tamil Nadu,Anamalais,2470.0,40.42,30.74,18.71,Arabica,Post Monsoon,825.0,0.334,24.725,12.03
+2019,1,Tamil Nadu,Anamalais,338.0,40.42,30.74,18.71,Robusta,Post Blossom,500.0,1.4793,24.725,12.03
+2019,1,Tamil Nadu,Anamalais,338.0,40.42,30.74,18.71,Robusta,Post Monsoon,375.0,1.1095,24.725,12.03
+2019,1,Tamil Nadu,Nilgiris,3780.0,127.96,31.11,17.7,Arabica,Post Blossom,1400.0,0.3704,24.405,13.41
+2019,1,Tamil Nadu,Nilgiris,3780.0,127.96,31.11,17.7,Arabica,Post Monsoon,1365.0,0.3611,24.405,13.41
+2019,1,Tamil Nadu,Nilgiris,4772.0,127.96,31.11,17.7,Robusta,Post Blossom,3150.0,0.6601,24.405,13.41
+2019,1,Tamil Nadu,Nilgiris,4772.0,127.96,31.11,17.7,Robusta,Post Monsoon,3760.0,0.7879,24.405,13.41
+2019,1,Tamil Nadu,Pulneys,12597.0,35.39,31.9,19.52,Arabica,Post Blossom,7170.0,0.5692,25.71,12.38
+2019,1,Tamil Nadu,Pulneys,12597.0,35.39,31.9,19.52,Arabica,Post Monsoon,6900.0,0.5477,25.71,12.38
+2019,1,Tamil Nadu,Pulneys,839.0,35.39,31.9,19.52,Robusta,Post Blossom,340.0,0.4052,25.71,12.38
+2019,1,Tamil Nadu,Pulneys,839.0,35.39,31.9,19.52,Robusta,Post Monsoon,325.0,0.3874,25.71,12.38
+2019,1,Tamil Nadu,Shevroys,10666.0,5.75,34.22,21.82,Arabica,Post Blossom,3530.0,0.331,28.02,12.4
+2019,1,Tamil Nadu,Shevroys,10666.0,5.75,34.22,21.82,Arabica,Post Monsoon,4150.0,0.3891,28.02,12.4
+2019,1,Tamil Nadu,Shevroys,145.0,5.75,34.22,21.82,Robusta,Post Blossom,50.0,0.3448,28.02,12.4
+2019,1,Tamil Nadu,Shevroys,145.0,5.75,34.22,21.82,Robusta,Post Monsoon,65.0,0.4483,28.02,12.4
+2019,3,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,84174.0,578.01,30.72,23.87,Arabica,Post Blossom,10320.0,0.1226,27.295,6.85
+2019,3,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,84174.0,578.01,30.72,23.87,Arabica,Post Monsoon,11500.0,0.1366,27.295,6.85
+2019,3,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,264.0,578.01,30.72,23.87,Robusta,Post Blossom,20.0,0.0758,27.295,6.85
+2019,3,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,264.0,578.01,30.72,23.87,Robusta,Post Monsoon,50.0,0.1894,27.295,6.85
+2019,3,Karnataka,Chikkamagaluru,55225.0,686.0,26.8,20.5,Arabica,Post Blossom,31600.0,0.5722,23.65,6.3
+2019,3,Karnataka,Chikkamagaluru,55225.0,686.0,26.8,20.5,Arabica,Post Monsoon,33550.0,0.6075,23.65,6.3
+2019,3,Karnataka,Chikkamagaluru,42357.0,686.0,26.8,20.5,Robusta,Post Blossom,43275.0,1.0217,23.65,6.3
+2019,3,Karnataka,Chikkamagaluru,42357.0,686.0,26.8,20.5,Robusta,Post Monsoon,44350.0,1.0471,23.65,6.3
+2019,3,Karnataka,Hassan,25409.0,1085.14,27.9,19.87,Arabica,Post Blossom,17875.0,0.7035,23.885,8.03
+2019,3,Karnataka,Hassan,25409.0,1085.14,27.9,19.87,Arabica,Post Monsoon,17500.0,0.6887,23.885,8.03
+2019,3,Karnataka,Hassan,15001.0,1085.14,27.9,19.87,Robusta,Post Blossom,13000.0,0.8666,23.885,8.03
+2019,3,Karnataka,Hassan,15001.0,1085.14,27.9,19.87,Robusta,Post Monsoon,13420.0,0.8946,23.885,8.03
+2019,3,Karnataka,Kodagu,28182.0,2176.12,27.08,20.82,Arabica,Post Blossom,19550.0,0.6937,23.95,6.26
+2019,3,Karnataka,Kodagu,28182.0,2176.12,27.08,20.82,Arabica,Post Monsoon,16900.0,0.5997,23.95,6.26
+2019,3,Karnataka,Kodagu,79114.0,2176.12,27.08,20.82,Robusta,Post Blossom,97000.0,1.2261,23.95,6.26
+2019,3,Karnataka,Kodagu,79114.0,2176.12,27.08,20.82,Robusta,Post Monsoon,93830.0,1.186,23.95,6.26
+2019,3,Kerala,Nelliampathies,2085.0,1431.5,27.8,20.42,Arabica,Post Blossom,1200.0,0.5755,24.11,7.38
+2019,3,Kerala,Nelliampathies,2085.0,1431.5,27.8,20.42,Arabica,Post Monsoon,1180.0,0.5659,24.11,7.38
+2019,3,Kerala,Nelliampathies,2850.0,1431.5,27.8,20.42,Robusta,Post Blossom,1775.0,0.6228,24.11,7.38
+2019,3,Kerala,Nelliampathies,2850.0,1431.5,27.8,20.42,Robusta,Post Monsoon,1550.0,0.5439,24.11,7.38
+2019,3,Kerala,Travancore,2146.0,1564.96,30.0,22.99,Arabica,Post Blossom,960.0,0.4473,26.495,7.01
+2019,3,Kerala,Travancore,2146.0,1564.96,30.0,22.99,Arabica,Post Monsoon,1030.0,0.48,26.495,7.01
+2019,3,Kerala,Travancore,11094.0,1564.96,30.0,22.99,Robusta,Post Blossom,6275.0,0.5656,26.495,7.01
+2019,3,Kerala,Travancore,11094.0,1564.96,30.0,22.99,Robusta,Post Monsoon,8225.0,0.7414,26.495,7.01
+2019,3,Kerala,Wayanad,67705.0,1299.28,27.69,20.09,Robusta,Post Blossom,55525.0,0.8201,23.89,7.6
+2019,3,Kerala,Wayanad,67705.0,1299.28,27.69,20.09,Robusta,Post Monsoon,58450.0,0.8633,23.89,7.6
+2019,3,Northeastern Region,Northeastern Region,6536.0,508.83,31.74,23.74,Arabica,Post Blossom,95.0,0.0145,27.74,8.0
+2019,3,Northeastern Region,Northeastern Region,6536.0,508.83,31.74,23.74,Arabica,Post Monsoon,100.0,0.0153,27.74,8.0
+2019,3,Northeastern Region,Northeastern Region,2161.0,508.83,31.74,23.74,Robusta,Post Blossom,90.0,0.0416,27.74,8.0
+2019,3,Northeastern Region,Northeastern Region,2161.0,508.83,31.74,23.74,Robusta,Post Monsoon,100.0,0.0463,27.74,8.0
+2019,3,Tamil Nadu,Anamalais,2270.0,1882.38,27.8,20.42,Arabica,Post Blossom,1300.0,0.5727,24.11,7.38
+2019,3,Tamil Nadu,Anamalais,2270.0,1882.38,27.8,20.42,Arabica,Post Monsoon,825.0,0.3634,24.11,7.38
+2019,3,Tamil Nadu,Anamalais,430.0,1882.38,27.8,20.42,Robusta,Post Blossom,500.0,1.1628,24.11,7.38
+2019,3,Tamil Nadu,Anamalais,430.0,1882.38,27.8,20.42,Robusta,Post Monsoon,375.0,0.8721,24.11,7.38
+2019,3,Tamil Nadu,Nilgiris,3791.0,501.21,27.69,20.09,Arabica,Post Blossom,1400.0,0.3693,23.89,7.6
+2019,3,Tamil Nadu,Nilgiris,3791.0,501.21,27.69,20.09,Arabica,Post Monsoon,1365.0,0.3601,23.89,7.6
+2019,3,Tamil Nadu,Nilgiris,4854.0,501.21,27.69,20.09,Robusta,Post Blossom,3150.0,0.6489,23.89,7.6
+2019,3,Tamil Nadu,Nilgiris,4854.0,501.21,27.69,20.09,Robusta,Post Monsoon,3760.0,0.7746,23.89,7.6
+2019,3,Tamil Nadu,Pulneys,16312.0,320.54,30.98,22.21,Arabica,Post Blossom,7170.0,0.4396,26.595,8.77
+2019,3,Tamil Nadu,Pulneys,16312.0,320.54,30.98,22.21,Arabica,Post Monsoon,6900.0,0.423,26.595,8.77
+2019,3,Tamil Nadu,Pulneys,882.0,320.54,30.98,22.21,Robusta,Post Blossom,340.0,0.3855,26.595,8.77
+2019,3,Tamil Nadu,Pulneys,882.0,320.54,30.98,22.21,Robusta,Post Monsoon,325.0,0.3685,26.595,8.77
+2019,3,Tamil Nadu,Shevroys,6951.0,430.66,34.91,25.4,Arabica,Post Blossom,3530.0,0.5078,30.155,9.51
+2019,3,Tamil Nadu,Shevroys,6951.0,430.66,34.91,25.4,Arabica,Post Monsoon,4150.0,0.597,30.155,9.51
+2019,3,Tamil Nadu,Shevroys,102.0,430.66,34.91,25.4,Robusta,Post Blossom,50.0,0.4902,30.155,9.51
+2019,3,Tamil Nadu,Shevroys,102.0,430.66,34.91,25.4,Robusta,Post Monsoon,65.0,0.6373,30.155,9.51
+2020,1,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,84174.0,65.36,30.26,18.48,Arabica,Post Blossom,11500.0,0.1366,24.37,11.78
+2020,1,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,84174.0,65.36,30.26,18.48,Arabica,Post Monsoon,11170.0,0.1327,24.37,11.78
+2020,1,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,264.0,65.36,30.26,18.48,Robusta,Post Blossom,50.0,0.1894,24.37,11.78
+2020,1,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,264.0,65.36,30.26,18.48,Robusta,Post Monsoon,40.0,0.1515,24.37,11.78
+2020,1,Karnataka,Chikkamagaluru,55225.0,0.11,32.23,18.27,Arabica,Post Blossom,33550.0,0.6075,25.25,13.96
+2020,1,Karnataka,Chikkamagaluru,55225.0,0.11,32.23,18.27,Arabica,Post Monsoon,31350.0,0.5677,25.25,13.96
+2020,1,Karnataka,Chikkamagaluru,42357.0,0.11,32.23,18.27,Robusta,Post Blossom,44350.0,1.0471,25.25,13.96
+2020,1,Karnataka,Chikkamagaluru,42357.0,0.11,32.23,18.27,Robusta,Post Monsoon,38550.0,0.9101,25.25,13.96
+2020,1,Karnataka,Hassan,25409.0,13.02,31.89,17.72,Arabica,Post Blossom,17500.0,0.6887,24.805,14.17
+2020,1,Karnataka,Hassan,25409.0,13.02,31.89,17.72,Arabica,Post Monsoon,14150.0,0.5569,24.805,14.17
+2020,1,Karnataka,Hassan,15001.0,13.02,31.89,17.72,Robusta,Post Blossom,13420.0,0.8946,24.805,14.17
+2020,1,Karnataka,Hassan,15001.0,13.02,31.89,17.72,Robusta,Post Monsoon,13050.0,0.8699,24.805,14.17
+2020,1,Karnataka,Kodagu,28182.0,9.88,31.84,19.26,Arabica,Post Blossom,16900.0,0.5997,25.55,12.58
+2020,1,Karnataka,Kodagu,28182.0,9.88,31.84,19.26,Arabica,Post Monsoon,17500.0,0.621,25.55,12.58
+2020,1,Karnataka,Kodagu,79114.0,9.88,31.84,19.26,Robusta,Post Blossom,93830.0,1.186,25.55,12.58
+2020,1,Karnataka,Kodagu,79114.0,9.88,31.84,19.26,Robusta,Post Monsoon,87975.0,1.112,25.55,12.58
+2020,1,Kerala,Nelliampathies,2085.0,64.15,30.54,19.48,Arabica,Post Blossom,1180.0,0.5659,25.01,11.06
+2020,1,Kerala,Nelliampathies,2085.0,64.15,30.54,19.48,Arabica,Post Monsoon,1000.0,0.4796,25.01,11.06
+2020,1,Kerala,Nelliampathies,2850.0,64.15,30.54,19.48,Robusta,Post Blossom,1550.0,0.5439,25.01,11.06
+2020,1,Kerala,Nelliampathies,2850.0,64.15,30.54,19.48,Robusta,Post Monsoon,1525.0,0.5351,25.01,11.06
+2020,1,Kerala,Travancore,2146.0,91.37,32.87,22.81,Arabica,Post Blossom,1030.0,0.48,27.84,10.06
+2020,1,Kerala,Travancore,2146.0,91.37,32.87,22.81,Arabica,Post Monsoon,950.0,0.4427,27.84,10.06
+2020,1,Kerala,Travancore,11094.0,91.37,32.87,22.81,Robusta,Post Blossom,8225.0,0.7414,27.84,10.06
+2020,1,Kerala,Travancore,11094.0,91.37,32.87,22.81,Robusta,Post Monsoon,8275.0,0.7459,27.84,10.06
+2020,1,Kerala,Wayanad,67705.0,27.25,30.78,18.52,Robusta,Post Blossom,58450.0,0.8633,24.65,12.26
+2020,1,Kerala,Wayanad,67705.0,27.25,30.78,18.52,Robusta,Post Monsoon,55075.0,0.8135,24.65,12.26
+2020,1,Northeastern Region,Northeastern Region,6536.0,28.76,24.68,12.02,Arabica,Post Blossom,100.0,0.0153,18.35,12.66
+2020,1,Northeastern Region,Northeastern Region,6536.0,28.76,24.68,12.02,Arabica,Post Monsoon,80.0,0.0122,18.35,12.66
+2020,1,Northeastern Region,Northeastern Region,2161.0,28.76,24.68,12.02,Robusta,Post Blossom,100.0,0.0463,18.35,12.66
+2020,1,Northeastern Region,Northeastern Region,2161.0,28.76,24.68,12.02,Robusta,Post Monsoon,90.0,0.0416,18.35,12.66
+2020,1,Tamil Nadu,Anamalais,2270.0,61.96,30.54,19.48,Arabica,Post Blossom,825.0,0.3634,25.01,11.06
+2020,1,Tamil Nadu,Anamalais,2270.0,61.96,30.54,19.48,Arabica,Post Monsoon,625.0,0.2753,25.01,11.06
+2020,1,Tamil Nadu,Anamalais,430.0,61.96,30.54,19.48,Robusta,Post Blossom,375.0,0.8721,25.01,11.06
+2020,1,Tamil Nadu,Anamalais,430.0,61.96,30.54,19.48,Robusta,Post Monsoon,440.0,1.0233,25.01,11.06
+2020,1,Tamil Nadu,Nilgiris,3791.0,51.68,30.78,18.52,Arabica,Post Blossom,1365.0,0.3601,24.65,12.26
+2020,1,Tamil Nadu,Nilgiris,3791.0,51.68,30.78,18.52,Arabica,Post Monsoon,1325.0,0.3495,24.65,12.26
+2020,1,Tamil Nadu,Nilgiris,4854.0,51.68,30.78,18.52,Robusta,Post Blossom,3760.0,0.7746,24.65,12.26
+2020,1,Tamil Nadu,Nilgiris,4854.0,51.68,30.78,18.52,Robusta,Post Monsoon,3475.0,0.7159,24.65,12.26
+2020,1,Tamil Nadu,Pulneys,16312.0,25.81,31.58,19.99,Arabica,Post Blossom,6900.0,0.423,25.785,11.59
+2020,1,Tamil Nadu,Pulneys,16312.0,25.81,31.58,19.99,Arabica,Post Monsoon,7550.0,0.4628,25.785,11.59
+2020,1,Tamil Nadu,Pulneys,882.0,25.81,31.58,19.99,Robusta,Post Blossom,325.0,0.3685,25.785,11.59
+2020,1,Tamil Nadu,Pulneys,882.0,25.81,31.58,19.99,Robusta,Post Monsoon,355.0,0.4025,25.785,11.59
+2020,1,Tamil Nadu,Shevroys,6951.0,0.0,33.97,22.18,Arabica,Post Blossom,4150.0,0.597,28.075,11.79
+2020,1,Tamil Nadu,Shevroys,6951.0,0.0,33.97,22.18,Arabica,Post Monsoon,4700.0,0.6762,28.075,11.79
+2020,1,Tamil Nadu,Shevroys,102.0,0.0,33.97,22.18,Robusta,Post Blossom,65.0,0.6373,28.075,11.79
+2020,1,Tamil Nadu,Shevroys,102.0,0.0,33.97,22.18,Robusta,Post Monsoon,50.0,0.4902,28.075,11.79
+2020,3,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,88168.0,453.18,31.03,24.06,Arabica,Post Blossom,11500.0,0.1304,27.545,6.97
+2020,3,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,88168.0,453.18,31.03,24.06,Arabica,Post Monsoon,11040.0,0.1252,27.545,6.97
+2020,3,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,265.0,453.18,31.03,24.06,Robusta,Post Blossom,50.0,0.1887,27.545,6.97
+2020,3,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,265.0,453.18,31.03,24.06,Robusta,Post Monsoon,35.0,0.1321,27.545,6.97
+2020,3,Karnataka,Chikkamagaluru,55225.0,531.64,26.63,20.58,Arabica,Post Blossom,33550.0,0.6075,23.605,6.05
+2020,3,Karnataka,Chikkamagaluru,55225.0,531.64,26.63,20.58,Arabica,Post Monsoon,29300.0,0.5306,23.605,6.05
+2020,3,Karnataka,Chikkamagaluru,42357.0,531.64,26.63,20.58,Robusta,Post Blossom,44350.0,1.0471,23.605,6.05
+2020,3,Karnataka,Chikkamagaluru,42357.0,531.64,26.63,20.58,Robusta,Post Monsoon,39300.0,0.9278,23.605,6.05
+2020,3,Karnataka,Hassan,25258.0,783.86,27.77,19.91,Arabica,Post Blossom,17500.0,0.6928,23.84,7.86
+2020,3,Karnataka,Hassan,25258.0,783.86,27.77,19.91,Arabica,Post Monsoon,14470.0,0.5729,23.84,7.86
+2020,3,Karnataka,Hassan,15276.0,783.86,27.77,19.91,Robusta,Post Blossom,13420.0,0.8785,23.84,7.86
+2020,3,Karnataka,Hassan,15276.0,783.86,27.77,19.91,Robusta,Post Monsoon,13200.0,0.8641,23.84,7.86
+2020,3,Karnataka,Kodagu,28422.0,1906.27,27.05,20.91,Arabica,Post Blossom,16900.0,0.5946,23.98,6.14
+2020,3,Karnataka,Kodagu,28422.0,1906.27,27.05,20.91,Arabica,Post Monsoon,17100.0,0.6016,23.98,6.14
+2020,3,Karnataka,Kodagu,79144.0,1906.27,27.05,20.91,Robusta,Post Blossom,93830.0,1.1856,23.98,6.14
+2020,3,Karnataka,Kodagu,79144.0,1906.27,27.05,20.91,Robusta,Post Monsoon,90075.0,1.1381,23.98,6.14
+2020,3,Kerala,Nelliampathies,2085.0,1467.34,27.69,20.32,Arabica,Post Blossom,1180.0,0.5659,24.005,7.37
+2020,3,Kerala,Nelliampathies,2085.0,1467.34,27.69,20.32,Arabica,Post Monsoon,1000.0,0.4796,24.005,7.37
+2020,3,Kerala,Nelliampathies,2850.0,1467.34,27.69,20.32,Robusta,Post Blossom,1550.0,0.5439,24.005,7.37
+2020,3,Kerala,Nelliampathies,2850.0,1467.34,27.69,20.32,Robusta,Post Monsoon,1550.0,0.5439,24.005,7.37
+2020,3,Kerala,Travancore,2146.0,1539.04,29.96,22.72,Arabica,Post Blossom,1030.0,0.48,26.34,7.24
+2020,3,Kerala,Travancore,2146.0,1539.04,29.96,22.72,Arabica,Post Monsoon,800.0,0.3728,26.34,7.24
+2020,3,Kerala,Travancore,11094.0,1539.04,29.96,22.72,Robusta,Post Blossom,8225.0,0.7414,26.34,7.24
+2020,3,Kerala,Travancore,11094.0,1539.04,29.96,22.72,Robusta,Post Monsoon,7350.0,0.6625,26.34,7.24
+2020,3,Kerala,Wayanad,67705.0,1017.93,27.62,20.06,Robusta,Post Blossom,58450.0,0.8633,23.84,7.56
+2020,3,Kerala,Wayanad,67705.0,1017.93,27.62,20.06,Robusta,Post Monsoon,55225.0,0.8157,23.84,7.56
+2020,3,Northeastern Region,Northeastern Region,2545.0,378.51,31.22,23.96,Arabica,Post Blossom,100.0,0.0393,27.59,7.26
+2020,3,Northeastern Region,Northeastern Region,2545.0,378.51,31.22,23.96,Arabica,Post Monsoon,65.0,0.0255,27.59,7.26
+2020,3,Northeastern Region,Northeastern Region,1540.0,378.51,31.22,23.96,Robusta,Post Blossom,100.0,0.0649,27.59,7.26
+2020,3,Northeastern Region,Northeastern Region,1540.0,378.51,31.22,23.96,Robusta,Post Monsoon,90.0,0.0584,27.59,7.26
+2020,3,Tamil Nadu,Anamalais,2270.0,2090.16,27.69,20.32,Arabica,Post Blossom,825.0,0.3634,24.005,7.37
+2020,3,Tamil Nadu,Anamalais,2270.0,2090.16,27.69,20.32,Arabica,Post Monsoon,625.0,0.2753,24.005,7.37
+2020,3,Tamil Nadu,Anamalais,430.0,2090.16,27.69,20.32,Robusta,Post Blossom,375.0,0.8721,24.005,7.37
+2020,3,Tamil Nadu,Anamalais,430.0,2090.16,27.69,20.32,Robusta,Post Monsoon,400.0,0.9302,24.005,7.37
+2020,3,Tamil Nadu,Nilgiris,3805.0,462.44,27.62,20.06,Arabica,Post Blossom,1365.0,0.3587,23.84,7.56
+2020,3,Tamil Nadu,Nilgiris,3805.0,462.44,27.62,20.06,Arabica,Post Monsoon,1175.0,0.3088,23.84,7.56
+2020,3,Tamil Nadu,Nilgiris,4900.0,462.44,27.62,20.06,Robusta,Post Blossom,3760.0,0.7673,23.84,7.56
+2020,3,Tamil Nadu,Nilgiris,4900.0,462.44,27.62,20.06,Robusta,Post Monsoon,3250.0,0.6633,23.84,7.56
+2020,3,Tamil Nadu,Pulneys,16312.0,445.25,30.73,21.71,Arabica,Post Blossom,6900.0,0.423,26.22,9.02
+2020,3,Tamil Nadu,Pulneys,16312.0,445.25,30.73,21.71,Arabica,Post Monsoon,7250.0,0.4445,26.22,9.02
+2020,3,Tamil Nadu,Pulneys,882.0,445.25,30.73,21.71,Robusta,Post Blossom,325.0,0.3685,26.22,9.02
+2020,3,Tamil Nadu,Pulneys,882.0,445.25,30.73,21.71,Robusta,Post Monsoon,475.0,0.5385,26.22,9.02
+2020,3,Tamil Nadu,Shevroys,6951.0,425.33,34.23,24.95,Arabica,Post Blossom,4150.0,0.597,29.59,9.28
+2020,3,Tamil Nadu,Shevroys,6951.0,425.33,34.23,24.95,Arabica,Post Monsoon,4175.0,0.6006,29.59,9.28
+2020,3,Tamil Nadu,Shevroys,102.0,425.33,34.23,24.95,Robusta,Post Blossom,65.0,0.6373,29.59,9.28
+2020,3,Tamil Nadu,Shevroys,102.0,425.33,34.23,24.95,Robusta,Post Monsoon,50.0,0.4902,29.59,9.28
+2021,1,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,88168.0,0.38,31.69,18.58,Arabica,Post Blossom,11040.0,0.1252,25.135,13.11
+2021,1,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,88168.0,0.38,31.69,18.58,Arabica,Post Monsoon,11400.0,0.1293,25.135,13.11
+2021,1,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,265.0,0.38,31.69,18.58,Robusta,Post Blossom,35.0,0.1321,25.135,13.11
+2021,1,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,265.0,0.38,31.69,18.58,Robusta,Post Monsoon,30.0,0.1132,25.135,13.11
+2021,1,Karnataka,Chikkamagaluru,55225.0,52.58,31.63,18.34,Arabica,Post Blossom,29300.0,0.5306,24.985,13.29
+2021,1,Karnataka,Chikkamagaluru,55225.0,52.58,31.63,18.34,Arabica,Post Monsoon,35800.0,0.6483,24.985,13.29
+2021,1,Karnataka,Chikkamagaluru,42357.0,52.58,31.63,18.34,Robusta,Post Blossom,39300.0,0.9278,24.985,13.29
+2021,1,Karnataka,Chikkamagaluru,42357.0,52.58,31.63,18.34,Robusta,Post Monsoon,44500.0,1.0506,24.985,13.29
+2021,1,Karnataka,Hassan,25258.0,126.0,31.11,17.72,Arabica,Post Blossom,14470.0,0.5729,24.415,13.39
+2021,1,Karnataka,Hassan,25258.0,126.0,31.11,17.72,Arabica,Post Monsoon,18800.0,0.7443,24.415,13.39
+2021,1,Karnataka,Hassan,15276.0,126.0,31.11,17.72,Robusta,Post Blossom,13200.0,0.8641,24.415,13.39
+2021,1,Karnataka,Hassan,15276.0,126.0,31.11,17.72,Robusta,Post Monsoon,17700.0,1.1587,24.415,13.39
+2021,1,Karnataka,Kodagu,28422.0,53.83,31.05,19.39,Arabica,Post Blossom,17100.0,0.6016,25.22,11.66
+2021,1,Karnataka,Kodagu,28422.0,53.83,31.05,19.39,Arabica,Post Monsoon,20700.0,0.7283,25.22,11.66
+2021,1,Karnataka,Kodagu,79144.0,53.83,31.05,19.39,Robusta,Post Blossom,90075.0,1.1381,25.22,11.66
+2021,1,Karnataka,Kodagu,79144.0,53.83,31.05,19.39,Robusta,Post Monsoon,104800.0,1.3242,25.22,11.66
+2021,1,Kerala,Nelliampathies,2085.0,91.16,29.43,19.02,Arabica,Post Blossom,1000.0,0.4796,24.225,10.41
+2021,1,Kerala,Nelliampathies,2085.0,91.16,29.43,19.02,Arabica,Post Monsoon,1050.0,0.5036,24.225,10.41
+2021,1,Kerala,Nelliampathies,2850.0,91.16,29.43,19.02,Robusta,Post Blossom,1550.0,0.5439,24.225,10.41
+2021,1,Kerala,Nelliampathies,2850.0,91.16,29.43,19.02,Robusta,Post Monsoon,1500.0,0.5263,24.225,10.41
+2021,1,Kerala,Travancore,2146.0,236.58,31.95,22.09,Arabica,Post Blossom,800.0,0.3728,27.02,9.86
+2021,1,Kerala,Travancore,2146.0,236.58,31.95,22.09,Arabica,Post Monsoon,850.0,0.3961,27.02,9.86
+2021,1,Kerala,Travancore,11094.0,236.58,31.95,22.09,Robusta,Post Blossom,7350.0,0.6625,27.02,9.86
+2021,1,Kerala,Travancore,11094.0,236.58,31.95,22.09,Robusta,Post Monsoon,6900.0,0.622,27.02,9.86
+2021,1,Kerala,Wayanad,67705.0,85.51,29.79,18.32,Robusta,Post Blossom,55225.0,0.8157,24.055,11.47
+2021,1,Kerala,Wayanad,67705.0,85.51,29.79,18.32,Robusta,Post Monsoon,59500.0,0.8788,24.055,11.47
+2021,1,Northeastern Region,Northeastern Region,2545.0,34.37,26.21,12.7,Arabica,Post Blossom,65.0,0.0255,19.455,13.51
+2021,1,Northeastern Region,Northeastern Region,2545.0,34.37,26.21,12.7,Arabica,Post Monsoon,65.0,0.0255,19.455,13.51
+2021,1,Northeastern Region,Northeastern Region,1540.0,34.37,26.21,12.7,Robusta,Post Blossom,90.0,0.0584,19.455,13.51
+2021,1,Northeastern Region,Northeastern Region,1540.0,34.37,26.21,12.7,Robusta,Post Monsoon,80.0,0.0519,19.455,13.51
+2021,1,Tamil Nadu,Anamalais,2270.0,167.05,29.43,19.02,Arabica,Post Blossom,625.0,0.2753,24.225,10.41
+2021,1,Tamil Nadu,Anamalais,2270.0,167.05,29.43,19.02,Arabica,Post Monsoon,700.0,0.3084,24.225,10.41
+2021,1,Tamil Nadu,Anamalais,430.0,167.05,29.43,19.02,Robusta,Post Blossom,400.0,0.9302,24.225,10.41
+2021,1,Tamil Nadu,Anamalais,430.0,167.05,29.43,19.02,Robusta,Post Monsoon,470.0,1.093,24.225,10.41
+2021,1,Tamil Nadu,Nilgiris,3805.0,392.52,29.79,18.32,Arabica,Post Blossom,1175.0,0.3088,24.055,11.47
+2021,1,Tamil Nadu,Nilgiris,3805.0,392.52,29.79,18.32,Arabica,Post Monsoon,1100.0,0.2891,24.055,11.47
+2021,1,Tamil Nadu,Nilgiris,4900.0,392.52,29.79,18.32,Robusta,Post Blossom,3250.0,0.6633,24.055,11.47
+2021,1,Tamil Nadu,Nilgiris,4900.0,392.52,29.79,18.32,Robusta,Post Monsoon,4060.0,0.8286,24.055,11.47
+2021,1,Tamil Nadu,Pulneys,16312.0,222.31,30.51,19.51,Arabica,Post Blossom,7250.0,0.4445,25.01,11.0
+2021,1,Tamil Nadu,Pulneys,16312.0,222.31,30.51,19.51,Arabica,Post Monsoon,7550.0,0.4628,25.01,11.0
+2021,1,Tamil Nadu,Pulneys,882.0,222.31,30.51,19.51,Robusta,Post Blossom,475.0,0.5385,25.01,11.0
+2021,1,Tamil Nadu,Pulneys,882.0,222.31,30.51,19.51,Robusta,Post Monsoon,410.0,0.4649,25.01,11.0
+2021,1,Tamil Nadu,Shevroys,6951.0,44.06,32.99,21.69,Arabica,Post Blossom,4175.0,0.6006,27.34,11.3
+2021,1,Tamil Nadu,Shevroys,6951.0,44.06,32.99,21.69,Arabica,Post Monsoon,3985.0,0.5733,27.34,11.3
+2021,1,Tamil Nadu,Shevroys,102.0,44.06,32.99,21.69,Robusta,Post Blossom,50.0,0.4902,27.34,11.3
+2021,1,Tamil Nadu,Shevroys,102.0,44.06,32.99,21.69,Robusta,Post Monsoon,50.0,0.4902,27.34,11.3
+2021,3,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,93031.0,813.71,30.97,24.16,Arabica,Post Blossom,11310.0,0.1216,27.565,6.81
+2021,3,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,93031.0,813.71,30.97,24.16,Arabica,Post Monsoon,12640.0,0.1359,27.565,6.81
+2021,3,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,264.0,813.71,30.97,24.16,Robusta,Post Blossom,30.0,0.1136,27.565,6.81
+2021,3,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,264.0,813.71,30.97,24.16,Robusta,Post Monsoon,30.0,0.1136,27.565,6.81
+2021,3,Karnataka,Chikkamagaluru,55225.0,297.02,27.06,20.61,Arabica,Post Blossom,34200.0,0.6193,23.835,6.45
+2021,3,Karnataka,Chikkamagaluru,55225.0,297.02,27.06,20.61,Arabica,Post Monsoon,37700.0,0.6827,23.835,6.45
+2021,3,Karnataka,Chikkamagaluru,42357.0,297.02,27.06,20.61,Robusta,Post Blossom,41150.0,0.9715,23.835,6.45
+2021,3,Karnataka,Chikkamagaluru,42357.0,297.02,27.06,20.61,Robusta,Post Monsoon,51300.0,1.2111,23.835,6.45
+2021,3,Karnataka,Hassan,24468.0,480.95,28.11,19.87,Arabica,Post Blossom,18200.0,0.7438,23.99,8.24
+2021,3,Karnataka,Hassan,24468.0,480.95,28.11,19.87,Arabica,Post Monsoon,19800.0,0.8092,23.99,8.24
+2021,3,Karnataka,Hassan,16273.0,480.95,28.11,19.87,Robusta,Post Blossom,17000.0,1.0447,23.99,8.24
+2021,3,Karnataka,Hassan,16273.0,480.95,28.11,19.87,Robusta,Post Monsoon,21700.0,1.3335,23.99,8.24
+2021,3,Karnataka,Kodagu,28146.0,1246.87,27.36,20.87,Arabica,Post Blossom,20600.0,0.7319,24.115,6.49
+2021,3,Karnataka,Kodagu,28146.0,1246.87,27.36,20.87,Arabica,Post Monsoon,22400.0,0.7959,24.115,6.49
+2021,3,Karnataka,Kodagu,79450.0,1246.87,27.36,20.87,Robusta,Post Blossom,104350.0,1.3134,24.115,6.49
+2021,3,Karnataka,Kodagu,79450.0,1246.87,27.36,20.87,Robusta,Post Monsoon,113700.0,1.4311,24.115,6.49
+2021,3,Kerala,Nelliampathies,2085.0,1156.58,27.7,20.15,Arabica,Post Blossom,1000.0,0.4796,23.925,7.55
+2021,3,Kerala,Nelliampathies,2085.0,1156.58,27.7,20.15,Arabica,Post Monsoon,1100.0,0.5276,23.925,7.55
+2021,3,Kerala,Nelliampathies,2850.0,1156.58,27.7,20.15,Robusta,Post Blossom,1500.0,0.5263,23.925,7.55
+2021,3,Kerala,Nelliampathies,2850.0,1156.58,27.7,20.15,Robusta,Post Monsoon,1600.0,0.5614,23.925,7.55
+2021,3,Kerala,Travancore,2146.0,1409.53,30.02,22.63,Arabica,Post Blossom,820.0,0.3821,26.325,7.39
+2021,3,Kerala,Travancore,2146.0,1409.53,30.02,22.63,Arabica,Post Monsoon,850.0,0.3961,26.325,7.39
+2021,3,Kerala,Travancore,11094.0,1409.53,30.02,22.63,Robusta,Post Blossom,6800.0,0.6129,26.325,7.39
+2021,3,Kerala,Travancore,11094.0,1409.53,30.02,22.63,Robusta,Post Monsoon,7700.0,0.6941,26.325,7.39
+2021,3,Kerala,Wayanad,67705.0,681.59,27.81,19.99,Robusta,Post Blossom,58980.0,0.8711,23.9,7.82
+2021,3,Kerala,Wayanad,67705.0,681.59,27.81,19.99,Robusta,Post Monsoon,59320.0,0.8762,23.9,7.82
+2021,3,Northeastern Region,Northeastern Region,2882.0,524.54,31.88,23.71,Arabica,Post Blossom,70.0,0.0243,27.795,8.17
+2021,3,Northeastern Region,Northeastern Region,2882.0,524.54,31.88,23.71,Arabica,Post Monsoon,70.0,0.0243,27.795,8.17
+2021,3,Northeastern Region,Northeastern Region,1737.0,524.54,31.88,23.71,Robusta,Post Blossom,90.0,0.0518,27.795,8.17
+2021,3,Northeastern Region,Northeastern Region,1737.0,524.54,31.88,23.71,Robusta,Post Monsoon,90.0,0.0518,27.795,8.17
+2021,3,Tamil Nadu,Anamalais,2270.0,1785.72,27.7,20.15,Arabica,Post Blossom,700.0,0.3084,23.925,7.55
+2021,3,Tamil Nadu,Anamalais,2270.0,1785.72,27.7,20.15,Arabica,Post Monsoon,720.0,0.3172,23.925,7.55
+2021,3,Tamil Nadu,Anamalais,430.0,1785.72,27.7,20.15,Robusta,Post Blossom,470.0,1.093,23.925,7.55
+2021,3,Tamil Nadu,Anamalais,430.0,1785.72,27.7,20.15,Robusta,Post Monsoon,485.0,1.1279,23.925,7.55
+2021,3,Tamil Nadu,Nilgiris,3805.0,363.69,27.81,19.99,Arabica,Post Blossom,1050.0,0.276,23.9,7.82
+2021,3,Tamil Nadu,Nilgiris,3805.0,363.69,27.81,19.99,Arabica,Post Monsoon,1170.0,0.3075,23.9,7.82
+2021,3,Tamil Nadu,Nilgiris,4900.0,363.69,27.81,19.99,Robusta,Post Blossom,4160.0,0.849,23.9,7.82
+2021,3,Tamil Nadu,Nilgiris,4900.0,363.69,27.81,19.99,Robusta,Post Monsoon,4270.0,0.8714,23.9,7.82
+2021,3,Tamil Nadu,Pulneys,16312.0,249.17,30.71,21.57,Arabica,Post Blossom,7250.0,0.4445,26.14,9.14
+2021,3,Tamil Nadu,Pulneys,16312.0,249.17,30.71,21.57,Arabica,Post Monsoon,7850.0,0.4812,26.14,9.14
+2021,3,Tamil Nadu,Pulneys,882.0,249.17,30.71,21.57,Robusta,Post Blossom,420.0,0.4762,26.14,9.14
+2021,3,Tamil Nadu,Pulneys,882.0,249.17,30.71,21.57,Robusta,Post Monsoon,455.0,0.5159,26.14,9.14
+2021,3,Tamil Nadu,Shevroys,6951.0,298.59,34.52,24.79,Arabica,Post Blossom,3800.0,0.5467,29.655,9.73
+2021,3,Tamil Nadu,Shevroys,6951.0,298.59,34.52,24.79,Arabica,Post Monsoon,4000.0,0.5755,29.655,9.73
+2021,3,Tamil Nadu,Shevroys,102.0,298.59,34.52,24.79,Robusta,Post Blossom,50.0,0.4902,29.655,9.73
+2021,3,Tamil Nadu,Shevroys,102.0,298.59,34.52,24.79,Robusta,Post Monsoon,50.0,0.4902,29.655,9.73
+2022,1,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,93031.0,26.94,30.49,18.27,Arabica,Post Blossom,11310.0,0.1216,24.38,12.22
+2022,1,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,93031.0,26.94,30.49,18.27,Arabica,Post Monsoon,12280.0,0.132,24.38,12.22
+2022,1,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,264.0,26.94,30.49,18.27,Robusta,Post Blossom,30.0,0.1136,24.38,12.22
+2022,1,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,264.0,26.94,30.49,18.27,Robusta,Post Monsoon,20.0,0.0758,24.38,12.22
+2022,1,Karnataka,Chikkamagaluru,55225.0,32.0,31.87,18.02,Arabica,Post Blossom,34200.0,0.6193,24.945,13.85
+2022,1,Karnataka,Chikkamagaluru,55225.0,32.0,31.87,18.02,Arabica,Post Monsoon,34050.0,0.6166,24.945,13.85
+2022,1,Karnataka,Chikkamagaluru,42357.0,32.0,31.87,18.02,Robusta,Post Blossom,41150.0,0.9715,24.945,13.85
+2022,1,Karnataka,Chikkamagaluru,42357.0,32.0,31.87,18.02,Robusta,Post Monsoon,48250.0,1.1391,24.945,13.85
+2022,1,Karnataka,Hassan,24468.0,41.02,31.47,17.45,Arabica,Post Blossom,18200.0,0.7438,24.46,14.02
+2022,1,Karnataka,Hassan,24468.0,41.02,31.47,17.45,Arabica,Post Monsoon,18500.0,0.7561,24.46,14.02
+2022,1,Karnataka,Hassan,16273.0,41.02,31.47,17.45,Robusta,Post Blossom,17000.0,1.0447,24.46,14.02
+2022,1,Karnataka,Hassan,16273.0,41.02,31.47,17.45,Robusta,Post Monsoon,21700.0,1.3335,24.46,14.02
+2022,1,Karnataka,Kodagu,28146.0,36.25,31.49,19.11,Arabica,Post Blossom,20600.0,0.7319,25.3,12.38
+2022,1,Karnataka,Kodagu,28146.0,36.25,31.49,19.11,Arabica,Post Monsoon,19200.0,0.6822,25.3,12.38
+2022,1,Karnataka,Kodagu,79450.0,36.25,31.49,19.11,Robusta,Post Blossom,104350.0,1.3134,25.3,12.38
+2022,1,Karnataka,Kodagu,79450.0,36.25,31.49,19.11,Robusta,Post Monsoon,107200.0,1.3493,25.3,12.38
+2022,1,Kerala,Nelliampathies,2085.0,46.23,29.95,19.03,Arabica,Post Blossom,1000.0,0.4796,24.49,10.92
+2022,1,Kerala,Nelliampathies,2085.0,46.23,29.95,19.03,Arabica,Post Monsoon,1050.0,0.5036,24.49,10.92
+2022,1,Kerala,Nelliampathies,2850.0,46.23,29.95,19.03,Robusta,Post Blossom,1500.0,0.5263,24.49,10.92
+2022,1,Kerala,Nelliampathies,2850.0,46.23,29.95,19.03,Robusta,Post Monsoon,1600.0,0.5614,24.49,10.92
+2022,1,Kerala,Travancore,2146.0,129.85,32.59,22.4,Arabica,Post Blossom,820.0,0.3821,27.495,10.19
+2022,1,Kerala,Travancore,2146.0,129.85,32.59,22.4,Arabica,Post Monsoon,850.0,0.3961,27.495,10.19
+2022,1,Kerala,Travancore,11094.0,129.85,32.59,22.4,Robusta,Post Blossom,6800.0,0.6129,27.495,10.19
+2022,1,Kerala,Travancore,11094.0,129.85,32.59,22.4,Robusta,Post Monsoon,7300.0,0.658,27.495,10.19
+2022,1,Kerala,Wayanad,67705.0,76.51,30.27,18.23,Robusta,Post Blossom,58980.0,0.8711,24.25,12.04
+2022,1,Kerala,Wayanad,67705.0,76.51,30.27,18.23,Robusta,Post Monsoon,58100.0,0.8581,24.25,12.04
+2022,1,Northeastern Region,Northeastern Region,2882.0,71.12,25.38,12.09,Arabica,Post Blossom,70.0,0.0243,18.735,13.29
+2022,1,Northeastern Region,Northeastern Region,2882.0,71.12,25.38,12.09,Arabica,Post Monsoon,70.0,0.0243,18.735,13.29
+2022,1,Northeastern Region,Northeastern Region,1737.0,71.12,25.38,12.09,Robusta,Post Blossom,90.0,0.0518,18.735,13.29
+2022,1,Northeastern Region,Northeastern Region,1737.0,71.12,25.38,12.09,Robusta,Post Monsoon,90.0,0.0518,18.735,13.29
+2022,1,Tamil Nadu,Anamalais,2270.0,78.62,29.95,19.03,Arabica,Post Blossom,700.0,0.3084,24.49,10.92
+2022,1,Tamil Nadu,Anamalais,2270.0,78.62,29.95,19.03,Arabica,Post Monsoon,720.0,0.3172,24.49,10.92
+2022,1,Tamil Nadu,Anamalais,430.0,78.62,29.95,19.03,Robusta,Post Blossom,470.0,1.093,24.49,10.92
+2022,1,Tamil Nadu,Anamalais,430.0,78.62,29.95,19.03,Robusta,Post Monsoon,470.0,1.093,24.49,10.92
+2022,1,Tamil Nadu,Nilgiris,3805.0,129.93,30.27,18.23,Arabica,Post Blossom,1050.0,0.276,24.25,12.04
+2022,1,Tamil Nadu,Nilgiris,3805.0,129.93,30.27,18.23,Arabica,Post Monsoon,1100.0,0.2891,24.25,12.04
+2022,1,Tamil Nadu,Nilgiris,4900.0,129.93,30.27,18.23,Robusta,Post Blossom,4160.0,0.849,24.25,12.04
+2022,1,Tamil Nadu,Nilgiris,4900.0,129.93,30.27,18.23,Robusta,Post Monsoon,4270.0,0.8714,24.25,12.04
+2022,1,Tamil Nadu,Pulneys,16312.0,94.77,31.0,19.52,Arabica,Post Blossom,7250.0,0.4445,25.26,11.48
+2022,1,Tamil Nadu,Pulneys,16312.0,94.77,31.0,19.52,Arabica,Post Monsoon,7430.0,0.4555,25.26,11.48
+2022,1,Tamil Nadu,Pulneys,882.0,94.77,31.0,19.52,Robusta,Post Blossom,420.0,0.4762,25.26,11.48
+2022,1,Tamil Nadu,Pulneys,882.0,94.77,31.0,19.52,Robusta,Post Monsoon,450.0,0.5102,25.26,11.48
+2022,1,Tamil Nadu,Shevroys,6951.0,30.4,33.49,21.88,Arabica,Post Blossom,3800.0,0.5467,27.685,11.61
+2022,1,Tamil Nadu,Shevroys,6951.0,30.4,33.49,21.88,Arabica,Post Monsoon,3750.0,0.5395,27.685,11.61
+2022,1,Tamil Nadu,Shevroys,102.0,30.4,33.49,21.88,Robusta,Post Blossom,50.0,0.4902,27.685,11.61
+2022,1,Tamil Nadu,Shevroys,102.0,30.4,33.49,21.88,Robusta,Post Monsoon,50.0,0.4902,27.685,11.61
+2022,3,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,99116.0,749.05,30.72,24.16,Arabica,Post Blossom,13650.0,0.1377,27.44,6.56
+2022,3,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,99116.0,749.05,30.72,24.16,Arabica,Post Monsoon,12290.0,0.124,27.44,6.56
+2022,3,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,264.0,749.05,30.72,24.16,Robusta,Post Blossom,95.0,0.3598,27.44,6.56
+2022,3,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,264.0,749.05,30.72,24.16,Robusta,Post Monsoon,40.0,0.1515,27.44,6.56
+2022,3,Karnataka,Chikkamagaluru,55225.0,744.14,26.8,20.24,Arabica,Post Blossom,43225.0,0.7827,23.52,6.56
+2022,3,Karnataka,Chikkamagaluru,55225.0,744.14,26.8,20.24,Arabica,Post Monsoon,33100.0,0.5994,23.52,6.56
+2022,3,Karnataka,Chikkamagaluru,42357.0,744.14,26.8,20.24,Robusta,Post Blossom,52955.0,1.2502,23.52,6.56
+2022,3,Karnataka,Chikkamagaluru,42357.0,744.14,26.8,20.24,Robusta,Post Monsoon,47050.0,1.1108,23.52,6.56
+2022,3,Karnataka,Hassan,24123.0,1592.09,27.79,19.52,Arabica,Post Blossom,20200.0,0.8374,23.655,8.27
+2022,3,Karnataka,Hassan,24123.0,1592.09,27.79,19.52,Arabica,Post Monsoon,16600.0,0.6881,23.655,8.27
+2022,3,Karnataka,Hassan,16624.0,1592.09,27.79,19.52,Robusta,Post Blossom,23325.0,1.4031,23.655,8.27
+2022,3,Karnataka,Hassan,16624.0,1592.09,27.79,19.52,Robusta,Post Monsoon,21350.0,1.2843,23.655,8.27
+2022,3,Karnataka,Kodagu,27838.0,2047.13,27.02,20.58,Arabica,Post Blossom,22725.0,0.8163,23.8,6.44
+2022,3,Karnataka,Kodagu,27838.0,2047.13,27.02,20.58,Arabica,Post Monsoon,18325.0,0.6583,23.8,6.44
+2022,3,Karnataka,Kodagu,79883.0,2047.13,27.02,20.58,Robusta,Post Blossom,122720.0,1.5362,23.8,6.44
+2022,3,Karnataka,Kodagu,79883.0,2047.13,27.02,20.58,Robusta,Post Monsoon,105225.0,1.3172,23.8,6.44
+2022,3,Kerala,Nelliampathies,2085.0,1702.19,27.49,19.79,Arabica,Post Blossom,1150.0,0.5516,23.64,7.7
+2022,3,Kerala,Nelliampathies,2085.0,1702.19,27.49,19.79,Arabica,Post Monsoon,1050.0,0.5036,23.64,7.7
+2022,3,Kerala,Nelliampathies,2850.0,1702.19,27.49,19.79,Robusta,Post Blossom,1650.0,0.5789,23.64,7.7
+2022,3,Kerala,Nelliampathies,2850.0,1702.19,27.49,19.79,Robusta,Post Monsoon,1650.0,0.5789,23.64,7.7
+2022,3,Kerala,Travancore,2146.0,1220.54,29.72,22.32,Arabica,Post Blossom,910.0,0.424,26.02,7.4
+2022,3,Kerala,Travancore,2146.0,1220.54,29.72,22.32,Arabica,Post Monsoon,650.0,0.3029,26.02,7.4
+2022,3,Kerala,Travancore,11094.0,1220.54,29.72,22.32,Robusta,Post Blossom,8200.0,0.7391,26.02,7.4
+2022,3,Kerala,Travancore,11094.0,1220.54,29.72,22.32,Robusta,Post Monsoon,7000.0,0.631,26.02,7.4
+2022,3,Kerala,Wayanad,67705.0,1160.61,27.59,19.6,Robusta,Post Blossom,62425.0,0.922,23.595,7.99
+2022,3,Kerala,Wayanad,67705.0,1160.61,27.59,19.6,Robusta,Post Monsoon,59350.0,0.8766,23.595,7.99
+2022,3,Northeastern Region,Northeastern Region,2882.0,387.16,32.65,24.07,Arabica,Post Blossom,90.0,0.0312,28.36,8.58
+2022,3,Northeastern Region,Northeastern Region,2882.0,387.16,32.65,24.07,Arabica,Post Monsoon,70.0,0.0243,28.36,8.58
+2022,3,Northeastern Region,Northeastern Region,1813.0,387.16,32.65,24.07,Robusta,Post Blossom,40.0,0.0221,28.36,8.58
+2022,3,Northeastern Region,Northeastern Region,1813.0,387.16,32.65,24.07,Robusta,Post Monsoon,80.0,0.0441,28.36,8.58
+2022,3,Tamil Nadu,Anamalais,2270.0,2429.39,27.49,19.79,Arabica,Post Blossom,800.0,0.3524,23.64,7.7
+2022,3,Tamil Nadu,Anamalais,2270.0,2429.39,27.49,19.79,Arabica,Post Monsoon,720.0,0.3172,23.64,7.7
+2022,3,Tamil Nadu,Anamalais,430.0,2429.39,27.49,19.79,Robusta,Post Blossom,500.0,1.1628,23.64,7.7
+2022,3,Tamil Nadu,Anamalais,430.0,2429.39,27.49,19.79,Robusta,Post Monsoon,470.0,1.093,23.64,7.7
+2022,3,Tamil Nadu,Nilgiris,3805.0,494.39,27.59,19.6,Arabica,Post Blossom,1325.0,0.3482,23.595,7.99
+2022,3,Tamil Nadu,Nilgiris,3805.0,494.39,27.59,19.6,Arabica,Post Monsoon,1100.0,0.2891,23.595,7.99
+2022,3,Tamil Nadu,Nilgiris,4900.0,494.39,27.59,19.6,Robusta,Post Blossom,4575.0,0.9337,23.595,7.99
+2022,3,Tamil Nadu,Nilgiris,4900.0,494.39,27.59,19.6,Robusta,Post Monsoon,4270.0,0.8714,23.595,7.99
+2022,3,Tamil Nadu,Pulneys,16312.0,625.17,30.42,21.22,Arabica,Post Blossom,8200.0,0.5027,25.82,9.2
+2022,3,Tamil Nadu,Pulneys,16312.0,625.17,30.42,21.22,Arabica,Post Monsoon,7345.0,0.4503,25.82,9.2
+2022,3,Tamil Nadu,Pulneys,882.0,625.17,30.42,21.22,Robusta,Post Blossom,490.0,0.5556,25.82,9.2
+2022,3,Tamil Nadu,Pulneys,882.0,625.17,30.42,21.22,Robusta,Post Monsoon,465.0,0.5272,25.82,9.2
+2022,3,Tamil Nadu,Shevroys,6951.0,243.12,34.3,24.58,Arabica,Post Blossom,4125.0,0.5934,29.44,9.72
+2022,3,Tamil Nadu,Shevroys,6951.0,243.12,34.3,24.58,Arabica,Post Monsoon,3550.0,0.5107,29.44,9.72
+2022,3,Tamil Nadu,Shevroys,102.0,243.12,34.3,24.58,Robusta,Post Blossom,25.0,0.2451,29.44,9.72
+2022,3,Tamil Nadu,Shevroys,102.0,243.12,34.3,24.58,Robusta,Post Monsoon,50.0,0.4902,29.44,9.72
+2023,1,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,99116.0,85.27,31.51,18.42,Arabica,Post Blossom,12290.0,0.124,24.965,13.09
+2023,1,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,99116.0,85.27,31.51,18.42,Arabica,Post Monsoon,12635.0,0.1275,24.965,13.09
+2023,1,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,264.0,85.27,31.51,18.42,Robusta,Post Blossom,40.0,0.1515,24.965,13.09
+2023,1,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,264.0,85.27,31.51,18.42,Robusta,Post Monsoon,40.0,0.1515,24.965,13.09
+2023,1,Karnataka,Chikkamagaluru,55225.0,7.77,32.25,16.69,Arabica,Post Blossom,33100.0,0.5994,24.47,15.56
+2023,1,Karnataka,Chikkamagaluru,55225.0,7.77,32.25,16.69,Arabica,Post Monsoon,37875.0,0.6858,24.47,15.56
+2023,1,Karnataka,Chikkamagaluru,42357.0,7.77,32.25,16.69,Robusta,Post Blossom,47050.0,1.1108,24.47,15.56
+2023,1,Karnataka,Chikkamagaluru,42357.0,7.77,32.25,16.69,Robusta,Post Monsoon,47280.0,1.1162,24.47,15.56
+2023,1,Karnataka,Hassan,24123.0,0.0,31.82,15.96,Arabica,Post Blossom,16600.0,0.6881,23.89,15.86
+2023,1,Karnataka,Hassan,24123.0,0.0,31.82,15.96,Arabica,Post Monsoon,15850.0,0.657,23.89,15.86
+2023,1,Karnataka,Hassan,16624.0,0.0,31.82,15.96,Robusta,Post Blossom,21350.0,1.2843,23.89,15.86
+2023,1,Karnataka,Hassan,16624.0,0.0,31.82,15.96,Robusta,Post Monsoon,20950.0,1.2602,23.89,15.86
+2023,1,Karnataka,Kodagu,27838.0,14.58,31.73,17.83,Arabica,Post Blossom,18325.0,0.6583,24.78,13.9
+2023,1,Karnataka,Kodagu,27838.0,14.58,31.73,17.83,Arabica,Post Monsoon,19220.0,0.6904,24.78,13.9
+2023,1,Karnataka,Kodagu,79883.0,14.58,31.73,17.83,Robusta,Post Blossom,105225.0,1.3172,24.78,13.9
+2023,1,Karnataka,Kodagu,79883.0,14.58,31.73,17.83,Robusta,Post Monsoon,113400.0,1.4196,24.78,13.9
+2023,1,Kerala,Nelliampathies,2085.0,78.1,29.85,17.91,Arabica,Post Blossom,1050.0,0.5036,23.88,11.94
+2023,1,Kerala,Nelliampathies,2085.0,78.1,29.85,17.91,Arabica,Post Monsoon,1100.0,0.5276,23.88,11.94
+2023,1,Kerala,Nelliampathies,2850.0,78.1,29.85,17.91,Robusta,Post Blossom,1650.0,0.5789,23.88,11.94
+2023,1,Kerala,Nelliampathies,2850.0,78.1,29.85,17.91,Robusta,Post Monsoon,1650.0,0.5789,23.88,11.94
+2023,1,Kerala,Travancore,2146.0,133.68,32.13,21.46,Arabica,Post Blossom,650.0,0.3029,26.795,10.67
+2023,1,Kerala,Travancore,2146.0,133.68,32.13,21.46,Arabica,Post Monsoon,900.0,0.4194,26.795,10.67
+2023,1,Kerala,Travancore,11094.0,133.68,32.13,21.46,Robusta,Post Blossom,7000.0,0.631,26.795,10.67
+2023,1,Kerala,Travancore,11094.0,133.68,32.13,21.46,Robusta,Post Monsoon,8150.0,0.7346,26.795,10.67
+2023,1,Kerala,Wayanad,67705.0,71.88,30.3,16.97,Robusta,Post Blossom,59350.0,0.8766,23.635,13.33
+2023,1,Kerala,Wayanad,67705.0,71.88,30.3,16.97,Robusta,Post Monsoon,61950.0,0.915,23.635,13.33
+2023,1,Northeastern Region,Northeastern Region,2882.0,62.8,25.48,12.72,Arabica,Post Blossom,70.0,0.0243,19.1,12.76
+2023,1,Northeastern Region,Northeastern Region,2882.0,62.8,25.48,12.72,Arabica,Post Monsoon,70.0,0.0243,19.1,12.76
+2023,1,Northeastern Region,Northeastern Region,1813.0,62.8,25.48,12.72,Robusta,Post Blossom,80.0,0.0441,19.1,12.76
+2023,1,Northeastern Region,Northeastern Region,1813.0,62.8,25.48,12.72,Robusta,Post Monsoon,90.0,0.0496,19.1,12.76
+2023,1,Tamil Nadu,Anamalais,2270.0,164.54,29.85,17.91,Arabica,Post Blossom,720.0,0.3172,23.88,11.94
+2023,1,Tamil Nadu,Anamalais,2270.0,164.54,29.85,17.91,Arabica,Post Monsoon,800.0,0.3524,23.88,11.94
+2023,1,Tamil Nadu,Anamalais,430.0,164.54,29.85,17.91,Robusta,Post Blossom,470.0,1.093,23.88,11.94
+2023,1,Tamil Nadu,Anamalais,430.0,164.54,29.85,17.91,Robusta,Post Monsoon,550.0,1.2791,23.88,11.94
+2023,1,Tamil Nadu,Nilgiris,3805.0,64.25,30.3,16.97,Arabica,Post Blossom,1100.0,0.2891,23.635,13.33
+2023,1,Tamil Nadu,Nilgiris,3805.0,64.25,30.3,16.97,Arabica,Post Monsoon,1175.0,0.3088,23.635,13.33
+2023,1,Tamil Nadu,Nilgiris,4900.0,64.25,30.3,16.97,Robusta,Post Blossom,4270.0,0.8714,23.635,13.33
+2023,1,Tamil Nadu,Nilgiris,4900.0,64.25,30.3,16.97,Robusta,Post Monsoon,4450.0,0.9082,23.635,13.33
+2023,1,Tamil Nadu,Pulneys,16312.0,49.34,30.69,18.7,Arabica,Post Blossom,7345.0,0.4503,24.695,11.99
+2023,1,Tamil Nadu,Pulneys,16312.0,49.34,30.69,18.7,Arabica,Post Monsoon,7950.0,0.4874,24.695,11.99
+2023,1,Tamil Nadu,Pulneys,882.0,49.34,30.69,18.7,Robusta,Post Blossom,465.0,0.5272,24.695,11.99
+2023,1,Tamil Nadu,Pulneys,882.0,49.34,30.69,18.7,Robusta,Post Monsoon,490.0,0.5556,24.695,11.99
+2023,1,Tamil Nadu,Shevroys,6951.0,33.26,33.16,20.85,Arabica,Post Blossom,3550.0,0.5107,27.005,12.31
+2023,1,Tamil Nadu,Shevroys,6951.0,33.26,33.16,20.85,Arabica,Post Monsoon,3925.0,0.5647,27.005,12.31
+2023,1,Tamil Nadu,Shevroys,102.0,33.26,33.16,20.85,Robusta,Post Blossom,50.0,0.4902,27.005,12.31
+2023,1,Tamil Nadu,Shevroys,102.0,33.26,33.16,20.85,Robusta,Post Monsoon,0.0,0.0,27.005,12.31
+2023,3,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,105595.0,819.35,31.38,24.43,Arabica,Post Blossom,15840.0,0.15,27.905,6.95
+2023,3,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,105595.0,819.35,31.38,24.43,Arabica,Post Monsoon,12690.0,0.1202,27.905,6.95
+2023,3,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,236.0,819.35,31.38,24.43,Robusta,Post Blossom,40.0,0.1695,27.905,6.95
+2023,3,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,236.0,819.35,31.38,24.43,Robusta,Post Monsoon,40.0,0.1695,27.905,6.95
+2023,3,Karnataka,Chikkamagaluru,55225.0,336.63,27.83,20.64,Arabica,Post Blossom,41900.0,0.7587,24.235,7.19
+2023,3,Karnataka,Chikkamagaluru,55225.0,336.63,27.83,20.64,Arabica,Post Monsoon,37150.0,0.6727,24.235,7.19
+2023,3,Karnataka,Chikkamagaluru,42357.0,336.63,27.83,20.64,Robusta,Post Blossom,51150.0,1.2076,24.235,7.19
+2023,3,Karnataka,Chikkamagaluru,42357.0,336.63,27.83,20.64,Robusta,Post Monsoon,45300.0,1.0695,24.235,7.19
+2023,3,Karnataka,Hassan,24400.0,368.6,28.85,20.07,Arabica,Post Blossom,19000.0,0.7787,24.46,8.78
+2023,3,Karnataka,Hassan,24400.0,368.6,28.85,20.07,Arabica,Post Monsoon,15750.0,0.6455,24.46,8.78
+2023,3,Karnataka,Hassan,16847.0,368.6,28.85,20.07,Robusta,Post Blossom,24550.0,1.4572,24.46,8.78
+2023,3,Karnataka,Hassan,16847.0,368.6,28.85,20.07,Robusta,Post Monsoon,21100.0,1.2524,24.46,8.78
+2023,3,Karnataka,Kodagu,27838.0,1116.54,28.09,21.08,Arabica,Post Blossom,21060.0,0.7565,24.585,7.01
+2023,3,Karnataka,Kodagu,27838.0,1116.54,28.09,21.08,Arabica,Post Monsoon,19120.0,0.6868,24.585,7.01
+2023,3,Karnataka,Kodagu,79883.0,1116.54,28.09,21.08,Robusta,Post Blossom,109225.0,1.3673,24.585,7.01
+2023,3,Karnataka,Kodagu,79883.0,1116.54,28.09,21.08,Robusta,Post Monsoon,109600.0,1.372,24.585,7.01
+2023,3,Kerala,Nelliampathies,2085.0,725.8,28.63,20.42,Arabica,Post Blossom,1100.0,0.5276,24.525,8.21
+2023,3,Kerala,Nelliampathies,2085.0,725.8,28.63,20.42,Arabica,Post Monsoon,1100.0,0.5276,24.525,8.21
+2023,3,Kerala,Nelliampathies,2850.0,725.8,28.63,20.42,Robusta,Post Blossom,1650.0,0.5789,24.525,8.21
+2023,3,Kerala,Nelliampathies,2850.0,725.8,28.63,20.42,Robusta,Post Monsoon,1650.0,0.5789,24.525,8.21
+2023,3,Kerala,Travancore,2153.0,1190.47,30.9,23.13,Arabica,Post Blossom,975.0,0.4529,27.015,7.77
+2023,3,Kerala,Travancore,2153.0,1190.47,30.9,23.13,Arabica,Post Monsoon,875.0,0.4064,27.015,7.77
+2023,3,Kerala,Travancore,11131.0,1190.47,30.9,23.13,Robusta,Post Blossom,8050.0,0.7232,27.015,7.77
+2023,3,Kerala,Travancore,11131.0,1190.47,30.9,23.13,Robusta,Post Monsoon,8000.0,0.7187,27.015,7.77
+2023,3,Kerala,Wayanad,67738.0,594.43,28.7,20.2,Robusta,Post Blossom,61050.0,0.9013,24.45,8.5
+2023,3,Kerala,Wayanad,67738.0,594.43,28.7,20.2,Robusta,Post Monsoon,60800.0,0.8976,24.45,8.5
+2023,3,Northeastern Region,Northeastern Region,3417.0,567.45,32.15,24.09,Arabica,Post Blossom,80.0,0.0234,28.12,8.06
+2023,3,Northeastern Region,Northeastern Region,3417.0,567.45,32.15,24.09,Arabica,Post Monsoon,65.0,0.019,28.12,8.06
+2023,3,Northeastern Region,Northeastern Region,2230.0,567.45,32.15,24.09,Robusta,Post Blossom,95.0,0.0426,28.12,8.06
+2023,3,Northeastern Region,Northeastern Region,2230.0,567.45,32.15,24.09,Robusta,Post Monsoon,60.0,0.0269,28.12,8.06
+2023,3,Tamil Nadu,Anamalais,2270.0,2553.84,28.63,20.42,Arabica,Post Blossom,870.0,0.3833,24.525,8.21
+2023,3,Tamil Nadu,Anamalais,2270.0,2553.84,28.63,20.42,Arabica,Post Monsoon,825.0,0.3634,24.525,8.21
+2023,3,Tamil Nadu,Anamalais,430.0,2553.84,28.63,20.42,Robusta,Post Blossom,550.0,1.2791,24.525,8.21
+2023,3,Tamil Nadu,Anamalais,430.0,2553.84,28.63,20.42,Robusta,Post Monsoon,525.0,1.2209,24.525,8.21
+2023,3,Tamil Nadu,Nilgiris,3805.0,521.69,28.7,20.2,Arabica,Post Blossom,1350.0,0.3548,24.45,8.5
+2023,3,Tamil Nadu,Nilgiris,3805.0,521.69,28.7,20.2,Arabica,Post Monsoon,1175.0,0.3088,24.45,8.5
+2023,3,Tamil Nadu,Nilgiris,4900.0,521.69,28.7,20.2,Robusta,Post Blossom,4375.0,0.8929,24.45,8.5
+2023,3,Tamil Nadu,Nilgiris,4900.0,521.69,28.7,20.2,Robusta,Post Monsoon,4420.0,0.902,24.45,8.5
+2023,3,Tamil Nadu,Pulneys,16312.0,167.34,31.63,21.93,Arabica,Post Blossom,6825.0,0.4184,26.78,9.7
+2023,3,Tamil Nadu,Pulneys,16312.0,167.34,31.63,21.93,Arabica,Post Monsoon,7350.0,0.4506,26.78,9.7
+2023,3,Tamil Nadu,Pulneys,882.0,167.34,31.63,21.93,Robusta,Post Blossom,465.0,0.5272,26.78,9.7
+2023,3,Tamil Nadu,Pulneys,882.0,167.34,31.63,21.93,Robusta,Post Monsoon,480.0,0.5442,26.78,9.7
+2023,3,Tamil Nadu,Shevroys,7026.0,185.12,35.62,25.24,Arabica,Post Blossom,4000.0,0.5693,30.43,10.38
+2023,3,Tamil Nadu,Shevroys,7026.0,185.12,35.62,25.24,Arabica,Post Monsoon,3900.0,0.5551,30.43,10.38
+2023,3,Tamil Nadu,Shevroys,60.0,185.12,35.62,25.24,Robusta,Post Blossom,0.0,0.0,30.43,10.38
+2023,3,Tamil Nadu,Shevroys,60.0,185.12,35.62,25.24,Robusta,Post Monsoon,25.0,0.4167,30.43,10.38
+2024,3,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,112479.0,541.72,30.54,24.32,Arabica,Post Blossom,12690.0,0.1128,27.43,6.22
+2024,3,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,112479.0,541.72,30.54,24.32,Arabica,Post Monsoon,12635.0,0.1123,27.43,6.22
+2024,3,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,236.0,541.72,30.54,24.32,Robusta,Post Blossom,40.0,0.1695,27.43,6.22
+2024,3,Andhra Pradesh and Odisha,Andhra Pradesh and Odisha,236.0,541.72,30.54,24.32,Robusta,Post Monsoon,40.0,0.1695,27.43,6.22
+2024,3,Karnataka,Chikkamagaluru,52743.0,539.32,27.08,20.82,Arabica,Post Blossom,37150.0,0.7044,23.95,6.26
+2024,3,Karnataka,Chikkamagaluru,52743.0,539.32,27.08,20.82,Arabica,Post Monsoon,37875.0,0.7181,23.95,6.26
+2024,3,Karnataka,Chikkamagaluru,46857.0,539.32,27.08,20.82,Robusta,Post Blossom,45300.0,0.9668,23.95,6.26
+2024,3,Karnataka,Chikkamagaluru,46857.0,539.32,27.08,20.82,Robusta,Post Monsoon,47280.0,1.009,23.95,6.26
+2024,3,Karnataka,Hassan,24638.0,683.8,28.28,20.24,Arabica,Post Blossom,15750.0,0.6393,24.26,8.04
+2024,3,Karnataka,Hassan,24638.0,683.8,28.28,20.24,Arabica,Post Monsoon,15850.0,0.6433,24.26,8.04
+2024,3,Karnataka,Hassan,16983.0,683.8,28.28,20.24,Robusta,Post Blossom,21100.0,1.2424,24.26,8.04
+2024,3,Karnataka,Hassan,16983.0,683.8,28.28,20.24,Robusta,Post Monsoon,20950.0,1.2336,24.26,8.04
+2024,3,Karnataka,Kodagu,27838.0,1582.76,27.42,21.15,Arabica,Post Blossom,19120.0,0.6868,24.285,6.27
+2024,3,Karnataka,Kodagu,27838.0,1582.76,27.42,21.15,Arabica,Post Monsoon,19220.0,0.6904,24.285,6.27
+2024,3,Karnataka,Kodagu,79883.0,1582.76,27.42,21.15,Robusta,Post Blossom,109600.0,1.372,24.285,6.27
+2024,3,Karnataka,Kodagu,79883.0,1582.76,27.42,21.15,Robusta,Post Monsoon,113400.0,1.4196,24.285,6.27
+2024,3,Kerala,Nelliampathies,2085.0,1174.53,28.07,20.98,Arabica,Post Blossom,1100.0,0.5276,24.525,7.09
+2024,3,Kerala,Nelliampathies,2085.0,1174.53,28.07,20.98,Arabica,Post Monsoon,1100.0,0.5276,24.525,7.09
+2024,3,Kerala,Nelliampathies,2850.0,1174.53,28.07,20.98,Robusta,Post Blossom,1650.0,0.5789,24.525,7.09
+2024,3,Kerala,Nelliampathies,2850.0,1174.53,28.07,20.98,Robusta,Post Monsoon,1650.0,0.5789,24.525,7.09
+2024,3,Kerala,Travancore,2153.0,1115.1,31.1,23.61,Arabica,Post Blossom,875.0,0.4064,27.355,7.49
+2024,3,Kerala,Travancore,2153.0,1115.1,31.1,23.61,Arabica,Post Monsoon,900.0,0.418,27.355,7.49
+2024,3,Kerala,Travancore,11131.0,1115.1,31.1,23.61,Robusta,Post Blossom,8000.0,0.7187,27.355,7.49
+2024,3,Kerala,Travancore,11131.0,1115.1,31.1,23.61,Robusta,Post Monsoon,8150.0,0.7322,27.355,7.49
+2024,3,Kerala,Wayanad,67738.0,885.99,27.6,20.29,Robusta,Post Blossom,60800.0,0.8976,23.945,7.31
+2024,3,Kerala,Wayanad,67738.0,885.99,27.6,20.29,Robusta,Post Monsoon,61950.0,0.9146,23.945,7.31
+2024,3,Northeastern Region,Northeastern Region,3649.0,559.79,31.54,23.82,Arabica,Post Blossom,65.0,0.0178,27.68,7.72
+2024,3,Northeastern Region,Northeastern Region,3649.0,559.79,31.54,23.82,Arabica,Post Monsoon,70.0,0.0192,27.68,7.72
+2024,3,Northeastern Region,Northeastern Region,2443.0,559.79,31.54,23.82,Robusta,Post Blossom,60.0,0.0246,27.68,7.72
+2024,3,Northeastern Region,Northeastern Region,2443.0,559.79,31.54,23.82,Robusta,Post Monsoon,90.0,0.0368,27.68,7.72
+2024,3,Tamil Nadu,Anamalais,2270.0,2876.84,28.07,20.98,Arabica,Post Blossom,825.0,0.3634,24.525,7.09
+2024,3,Tamil Nadu,Anamalais,2270.0,2876.84,28.07,20.98,Arabica,Post Monsoon,800.0,0.3524,24.525,7.09
+2024,3,Tamil Nadu,Anamalais,430.0,2876.84,28.07,20.98,Robusta,Post Blossom,525.0,1.2209,24.525,7.09
+2024,3,Tamil Nadu,Anamalais,430.0,2876.84,28.07,20.98,Robusta,Post Monsoon,550.0,1.2791,24.525,7.09
+2024,3,Tamil Nadu,Nilgiris,3805.0,729.03,27.6,20.29,Arabica,Post Blossom,1175.0,0.3088,23.945,7.31
+2024,3,Tamil Nadu,Nilgiris,3805.0,729.03,27.6,20.29,Arabica,Post Monsoon,1175.0,0.3088,23.945,7.31
+2024,3,Tamil Nadu,Nilgiris,4900.0,729.03,27.6,20.29,Robusta,Post Blossom,4420.0,0.902,23.945,7.31
+2024,3,Tamil Nadu,Nilgiris,4900.0,729.03,27.6,20.29,Robusta,Post Monsoon,4450.0,0.9082,23.945,7.31
+2024,3,Tamil Nadu,Pulneys,16312.0,171.88,30.46,21.76,Arabica,Post Blossom,7350.0,0.4506,26.11,8.7
+2024,3,Tamil Nadu,Pulneys,16312.0,171.88,30.46,21.76,Arabica,Post Monsoon,7950.0,0.4874,26.11,8.7
+2024,3,Tamil Nadu,Pulneys,882.0,171.88,30.46,21.76,Robusta,Post Blossom,480.0,0.5442,26.11,8.7
+2024,3,Tamil Nadu,Pulneys,882.0,171.88,30.46,21.76,Robusta,Post Monsoon,490.0,0.5556,26.11,8.7
+2024,3,Tamil Nadu,Shevroys,7255.0,234.85,35.22,25.53,Arabica,Post Blossom,3900.0,0.5376,30.375,9.69
+2024,3,Tamil Nadu,Shevroys,7255.0,234.85,35.22,25.53,Arabica,Post Monsoon,3925.0,0.541,30.375,9.69
+2024,3,Tamil Nadu,Shevroys,60.0,234.85,35.22,25.53,Robusta,Post Blossom,25.0,0.4167,30.375,9.69
+2024,3,Tamil Nadu,Shevroys,60.0,234.85,35.22,25.53,Robusta,Post Monsoon,0.0,0.0,30.375,9.69
