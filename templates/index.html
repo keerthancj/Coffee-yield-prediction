@@ -1,1434 +1,2299 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>CoffeeAI — Designed in Glass | Yield & Climate Intelligence</title>
 
-    <meta charset="UTF-8">
+  <!-- Google Font: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;650;700&display=swap" rel="stylesheet">
 
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0"
-    >
+  <style>
+    /* =========================================================================
+       CSS RESET & BASE DESIGNED-IN-GLASS TOKENS
+       ========================================================================= */
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
 
-    <title>
-        Coffee Yield Prediction System
-    </title>
+    :root {
+      --bg-pitch: #050507;
+      --glass-face: rgba(23, 23, 27, 0.72);
+      --glass-face-solid: #17171b;
+      --glass-face-card: rgba(18, 18, 22, 0.82);
+      --glass-input-bg: rgba(12, 12, 16, 0.65);
+      --glass-border: rgba(255, 255, 255, 0.08);
+      --glass-border-bright: rgba(255, 255, 255, 0.16);
+      --glass-hairline-rim: rgba(255, 255, 255, 0.22);
+      --lavender-glow: rgba(185, 171, 255, 0.25);
+      --lavender-text: #b9abff;
+      --green-hover: #36d67e;
+      --emerald-glow: rgba(54, 214, 126, 0.2);
+      --text-main: #ffffff;
+      --text-muted: rgba(255, 255, 255, 0.55);
+      --text-subtle: rgba(255, 255, 255, 0.38);
+      --text-faint: rgba(255, 255, 255, 0.22);
+    }
 
-    <link
-        rel="stylesheet"
-        href="{{ url_for('static', filename='style.css') }}"
-    >
+    html, body {
+      width: 100%;
+      min-height: 100%;
+      background-color: var(--bg-pitch);
+      color: var(--text-main);
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      overflow-x: hidden;
+      position: relative;
+    }
 
+    ::selection {
+      background: #3b82f6;
+      color: #ffffff;
+    }
+
+    /* Fixed Background WebGL Canvas */
+    #webgl-bg {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      z-index: 0;
+      pointer-events: none;
+      display: block;
+    }
+
+    /* Soft ambient background gradient glow */
+    .ambient-glow {
+      position: fixed;
+      width: 700px;
+      height: 700px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(66, 58, 98, 0.15) 0%, rgba(5, 5, 7, 0) 70%);
+      top: -200px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 1;
+      pointer-events: none;
+    }
+
+    /* Main Content Wrapper */
+    .app-viewport {
+      position: relative;
+      z-index: 10;
+      width: 100%;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 24px 5.5% 80px;
+      perspective: 1200px;
+    }
+
+    @media (max-width: 768px) {
+      .app-viewport {
+        padding: 16px 16px 60px;
+      }
+    }
+
+    .slab-container {
+      width: 100%;
+      max-width: 1180px;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+      transform-style: preserve-3d;
+    }
+
+    /* =========================================================================
+       1. NAV SLAB (Dark Smoked Glass with hairline rims)
+       ========================================================================= */
+    .nav-slab {
+      width: 100%;
+      height: 64px;
+      background: var(--glass-face);
+      backdrop-filter: blur(28px);
+      -webkit-backdrop-filter: blur(28px);
+      border-radius: 18px;
+      border: 1px solid var(--glass-border);
+      box-shadow: 
+        0 12px 32px -4px rgba(0, 0, 0, 0.6),
+        inset 0 1px 0 var(--glass-hairline-rim),
+        inset 0 -1px 0 rgba(0, 0, 0, 0.5);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 28px;
+      position: relative;
+      overflow: hidden;
+      transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .nav-slab:hover {
+      border-color: var(--glass-border-bright);
+      box-shadow: 
+        0 16px 40px -4px rgba(0, 0, 0, 0.7),
+        0 0 24px var(--lavender-glow),
+        inset 0 1px 0 var(--glass-hairline-rim);
+    }
+
+    .nav-brand {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      color: #fff;
+    }
+
+    /* Geometric Prism Mark */
+    .brand-mark {
+      width: 22px;
+      height: 22px;
+      border: 1.5px solid rgba(255, 255, 255, 0.85);
+      transform: rotate(45deg);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(255, 255, 255, 0.08);
+      position: relative;
+      box-shadow: 0 0 10px rgba(255, 255, 255, 0.15);
+      flex-shrink: 0;
+    }
+
+    .brand-mark::after {
+      content: '';
+      width: 10px;
+      height: 10px;
+      background: #36d67e;
+      border-radius: 2px;
+      box-shadow: 0 0 8px #36d67e;
+    }
+
+    .brand-name {
+      font-size: 16px;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+    }
+
+    .nav-meta {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 13px;
+      color: var(--text-muted);
+      letter-spacing: 0.01em;
+    }
+
+    .nav-meta .dot {
+      color: var(--text-faint);
+    }
+
+    /* Nav Auth Controls */
+    .nav-auth-controls {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .user-chip {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid var(--glass-border);
+      padding: 6px 14px;
+      border-radius: 999px;
+      font-size: 13px;
+      color: #fff;
+      font-weight: 500;
+    }
+
+    .user-chip .user-icon {
+      font-size: 14px;
+      opacity: 0.8;
+    }
+
+    .user-chip .user-name {
+      color: var(--lavender-text);
+      font-weight: 600;
+    }
+
+    .glass-auth-btn {
+      height: 36px;
+      padding: 0 18px;
+      border-radius: 999px;
+      border: 1px solid var(--glass-border-bright);
+      background: rgba(255, 255, 255, 0.08);
+      color: #ffffff;
+      font-family: inherit;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.02em;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+      user-select: none;
+    }
+
+    .glass-auth-btn:hover {
+      background: rgba(255, 255, 255, 0.16);
+      border-color: rgba(255, 255, 255, 0.3);
+      transform: translateY(-1px);
+      box-shadow: 0 0 16px var(--lavender-glow);
+    }
+
+    .glass-auth-btn.sign-in-btn:hover {
+      background: var(--green-hover);
+      color: #050507;
+      border-color: var(--green-hover);
+      box-shadow: 0 0 18px rgba(54, 214, 126, 0.4);
+    }
+
+    .glass-auth-btn.sign-out-btn {
+      background: rgba(255, 60, 70, 0.1);
+      border-color: rgba(255, 60, 70, 0.25);
+      color: #ff999f;
+    }
+
+    .glass-auth-btn.sign-out-btn:hover {
+      background: rgba(255, 60, 70, 0.25);
+      border-color: rgba(255, 60, 70, 0.45);
+      color: #ffffff;
+      box-shadow: 0 0 16px rgba(255, 60, 70, 0.3);
+    }
+
+    @media (max-width: 768px) {
+      .nav-meta {
+        display: none;
+      }
+    }
+
+    /* =========================================================================
+       2. HERO SLAB (Editorial Glass Typography)
+       ========================================================================= */
+    .hero-slab {
+      width: 100%;
+      padding: 44px 36px 36px;
+      background: var(--glass-face);
+      backdrop-filter: blur(28px);
+      -webkit-backdrop-filter: blur(28px);
+      border-radius: 20px;
+      border: 1px solid var(--glass-border);
+      box-shadow: 
+        0 14px 36px -4px rgba(0, 0, 0, 0.6),
+        inset 0 1px 0 var(--glass-hairline-rim);
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      position: relative;
+    }
+
+    .hero-eyebrow {
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.2em;
+      color: var(--text-subtle);
+      text-transform: uppercase;
+    }
+
+    .hero-headline {
+      font-size: clamp(34px, 5.5vw, 68px);
+      font-weight: 500;
+      letter-spacing: -0.045em;
+      line-height: 0.98;
+      background: linear-gradient(180deg, #dcdce0 0%, #bdbdc3 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .hero-sub {
+      font-size: clamp(14px, 1.4vw, 17px);
+      font-weight: 400;
+      line-height: 1.55;
+      color: var(--text-muted);
+      max-width: 620px;
+    }
+
+    /* Shard Divider */
+    .shard-seam {
+      width: 100%;
+      height: 1px;
+      background: linear-gradient(90deg, transparent 0%, var(--glass-border) 20%, var(--glass-hairline-rim) 50%, var(--glass-border) 80%, transparent 100%);
+      margin: 12px 0 4px;
+    }
+
+    /* =========================================================================
+       3. PREDICTION FORM SLAB (Smoked Glass Inputs & Controls)
+       ========================================================================= */
+    .form-slab {
+      width: 100%;
+      padding: 38px 36px;
+      background: var(--glass-face-card);
+      backdrop-filter: blur(32px);
+      -webkit-backdrop-filter: blur(32px);
+      border-radius: 20px;
+      border: 1px solid var(--glass-border);
+      box-shadow: 
+        0 18px 48px -6px rgba(0, 0, 0, 0.7),
+        inset 0 1px 0 var(--glass-hairline-rim);
+      display: flex;
+      flex-direction: column;
+      gap: 28px;
+      transition: border-color 0.3s ease;
+      position: relative;
+    }
+
+    .section-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+      padding-bottom: 18px;
+    }
+
+    .section-title {
+      font-size: 19px;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .section-chip {
+      font-size: 11px;
+      font-weight: 500;
+      letter-spacing: 0.05em;
+      color: var(--text-muted);
+      padding: 4px 10px;
+      border-radius: 6px;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--glass-border);
+    }
+
+    /* Auth Guard Notice Banner */
+    .auth-guard-banner {
+      background: rgba(185, 171, 255, 0.06);
+      border: 1px solid rgba(185, 171, 255, 0.2);
+      border-radius: 12px;
+      padding: 12px 18px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      font-size: 13px;
+      color: var(--lavender-text);
+    }
+
+    .auth-guard-banner .auth-guard-btn {
+      background: rgba(185, 171, 255, 0.2);
+      border: 1px solid rgba(185, 171, 255, 0.4);
+      color: #fff;
+      font-size: 12px;
+      font-weight: 600;
+      padding: 6px 14px;
+      border-radius: 999px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .auth-guard-banner .auth-guard-btn:hover {
+      background: var(--green-hover);
+      color: #050507;
+      border-color: var(--green-hover);
+    }
+
+    /* Form Grid */
+    .form-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+
+    @media (max-width: 992px) {
+      .form-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 600px) {
+      .form-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      position: relative;
+    }
+
+    .form-label {
+      font-size: 12px;
+      font-weight: 500;
+      color: var(--text-muted);
+      letter-spacing: 0.01em;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .form-label .unit {
+      color: var(--text-faint);
+      font-size: 11px;
+    }
+
+    /* Smoked Glass Input Fields */
+    .glass-input, .glass-select {
+      width: 100%;
+      height: 46px;
+      background: var(--glass-input-bg);
+      border: 1px solid var(--glass-border);
+      border-radius: 10px;
+      padding: 0 16px;
+      font-family: inherit;
+      font-size: 14px;
+      color: #ffffff;
+      outline: none;
+      transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+      box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.4);
+    }
+
+    .glass-input::placeholder {
+      color: rgba(255, 255, 255, 0.25);
+    }
+
+    .glass-select {
+      appearance: none;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='rgba(255,255,255,0.45)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 14px center;
+      padding-right: 36px;
+      cursor: pointer;
+    }
+
+    .glass-select option {
+      background: #121216;
+      color: #ffffff;
+      padding: 10px;
+    }
+
+    .glass-input:focus, .glass-select:focus {
+      border-color: rgba(185, 171, 255, 0.6);
+      background: rgba(18, 18, 24, 0.85);
+      box-shadow: 
+        0 0 16px -2px rgba(185, 171, 255, 0.3),
+        inset 0 1px 0 rgba(255, 255, 255, 0.2);
+    }
+
+    .glass-input:disabled {
+      opacity: 0.35;
+      cursor: not-allowed;
+      border-style: dashed;
+    }
+
+    /* Submit Row */
+    .submit-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 8px;
+      padding-top: 20px;
+      border-top: 1px solid rgba(255, 255, 255, 0.06);
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+
+    .submit-meta {
+      font-size: 12px;
+      color: var(--text-subtle);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    /* "Predict Coffee Yield" Light Pill Button -> Turns Green on Hover */
+    .glass-pill-btn {
+      height: 48px;
+      padding: 0 34px;
+      border-radius: 999px;
+      background: #ffffff;
+      color: #050507;
+      border: none;
+      font-family: inherit;
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: -0.01em;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      transition: all 0.28s cubic-bezier(0.16, 1, 0.3, 1);
+      box-shadow: 0 4px 20px rgba(255, 255, 255, 0.2);
+      user-select: none;
+    }
+
+    .glass-pill-btn:hover {
+      background: var(--green-hover);
+      color: #050507;
+      transform: translateY(-2px) scale(1.02);
+      box-shadow: 
+        0 8px 30px var(--emerald-glow),
+        0 0 18px var(--green-hover);
+    }
+
+    .glass-pill-btn:active {
+      transform: translateY(0) scale(0.99);
+    }
+
+    /* =========================================================================
+       4. LOADING & ERROR STATES
+       ========================================================================= */
+    .loading-slab {
+      width: 100%;
+      padding: 48px;
+      background: var(--glass-face);
+      backdrop-filter: blur(28px);
+      border-radius: 20px;
+      border: 1px solid var(--glass-border);
+      box-shadow: 0 14px 36px rgba(0, 0, 0, 0.6);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+      transition: opacity 0.3s ease;
+    }
+
+    .glass-spinner {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      border: 2px solid rgba(255, 255, 255, 0.1);
+      border-top-color: var(--green-hover);
+      border-right-color: var(--lavender-text);
+      animation: spin 0.9s cubic-bezier(0.6, 0.2, 0.4, 0.8) infinite;
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+
+    .loading-text {
+      font-size: 14px;
+      color: var(--text-muted);
+      letter-spacing: 0.02em;
+    }
+
+    .error-slab {
+      width: 100%;
+      padding: 20px 28px;
+      background: rgba(45, 15, 20, 0.7);
+      backdrop-filter: blur(20px);
+      border-radius: 14px;
+      border: 1px solid rgba(255, 90, 100, 0.3);
+      color: #ff999f;
+      font-size: 14px;
+      box-shadow: 0 10px 24px rgba(0, 0, 0, 0.5);
+    }
+
+    .hidden {
+      display: none !important;
+    }
+
+    /* =========================================================================
+       5. PREDICTION RESULTS (Smoked Glass Shard Cards)
+       ========================================================================= */
+    .results-wrapper {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      animation: shardReveal 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    }
+
+    @keyframes shardReveal {
+      from {
+        opacity: 0;
+        transform: translateY(24px) scale(0.98);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+      }
+    }
+
+    /* 4-Shard Metric Grid */
+    .metric-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 14px;
+    }
+
+    @media (max-width: 900px) {
+      .metric-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 500px) {
+      .metric-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .metric-shard {
+      background: var(--glass-face);
+      backdrop-filter: blur(28px);
+      -webkit-backdrop-filter: blur(28px);
+      border-radius: 18px;
+      border: 1px solid var(--glass-border);
+      padding: 26px 22px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 14px;
+      box-shadow: 
+        0 12px 32px rgba(0, 0, 0, 0.5),
+        inset 0 1px 0 var(--glass-hairline-rim);
+      transition: transform 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+    }
+
+    .metric-shard:hover {
+      transform: translateY(-4px);
+      border-color: var(--glass-border-bright);
+      box-shadow: 
+        0 16px 40px rgba(0, 0, 0, 0.6),
+        0 0 20px var(--lavender-glow),
+        inset 0 1px 0 var(--glass-hairline-rim);
+    }
+
+    .metric-shard.highlight {
+      background: linear-gradient(145deg, rgba(23, 35, 28, 0.85) 0%, rgba(18, 22, 20, 0.8) 100%);
+      border-color: rgba(54, 214, 126, 0.3);
+      box-shadow: 
+        0 14px 36px rgba(0, 0, 0, 0.6),
+        0 0 24px rgba(54, 214, 126, 0.15),
+        inset 0 1px 0 rgba(54, 214, 126, 0.35);
+    }
+
+    .metric-shard.highlight:hover {
+      border-color: rgba(54, 214, 126, 0.6);
+      box-shadow: 
+        0 18px 48px rgba(0, 0, 0, 0.7),
+        0 0 36px rgba(54, 214, 126, 0.25),
+        inset 0 1px 0 rgba(54, 214, 126, 0.5);
+    }
+
+    .metric-label {
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--text-muted);
+    }
+
+    .metric-value {
+      font-size: clamp(28px, 3.2vw, 38px);
+      font-weight: 650;
+      letter-spacing: -0.03em;
+      line-height: 1;
+      color: #ffffff;
+    }
+
+    .metric-shard.highlight .metric-value {
+      color: #36d67e;
+      text-shadow: 0 0 18px rgba(54, 214, 126, 0.4);
+    }
+
+    .metric-unit {
+      font-size: 12px;
+      color: var(--text-subtle);
+    }
+
+    /* =========================================================================
+       6. CLIMATE SUITABILITY SECTION
+       ========================================================================= */
+    .suitability-slab {
+      width: 100%;
+      padding: 38px 36px;
+      background: var(--glass-face-card);
+      backdrop-filter: blur(32px);
+      -webkit-backdrop-filter: blur(32px);
+      border-radius: 20px;
+      border: 1px solid var(--glass-border);
+      box-shadow: 
+        0 18px 48px rgba(0, 0, 0, 0.7),
+        inset 0 1px 0 var(--glass-hairline-rim);
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+    }
+
+    /* Score Dial Summary */
+    .score-summary-row {
+      display: flex;
+      align-items: center;
+      gap: 36px;
+      padding-bottom: 28px;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+      flex-wrap: wrap;
+    }
+
+    .dial-wrapper {
+      position: relative;
+      width: 120px;
+      height: 120px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .dial-svg {
+      width: 120px;
+      height: 120px;
+      transform: rotate(-90deg);
+    }
+
+    .dial-bg {
+      fill: none;
+      stroke: rgba(255, 255, 255, 0.08);
+      stroke-width: 8;
+    }
+
+    .dial-fill {
+      fill: none;
+      stroke: #36d67e;
+      stroke-width: 8;
+      stroke-linecap: round;
+      stroke-dasharray: 339;
+      stroke-dashoffset: 339;
+      transition: stroke-dashoffset 1.2s cubic-bezier(0.16, 1, 0.3, 1), stroke 0.5s ease;
+      filter: drop-shadow(0 0 8px rgba(54, 214, 126, 0.5));
+    }
+
+    .dial-content {
+      position: absolute;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .dial-number {
+      font-size: 28px;
+      font-weight: 700;
+      letter-spacing: -0.03em;
+      line-height: 1;
+      color: #fff;
+    }
+
+    .dial-total {
+      font-size: 11px;
+      color: var(--text-subtle);
+    }
+
+    .score-details {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      flex: 1;
+    }
+
+    .suitability-heading {
+      font-size: clamp(22px, 2.5vw, 32px);
+      font-weight: 600;
+      letter-spacing: -0.025em;
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .meta-pills {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin-top: 6px;
+    }
+
+    .meta-pill {
+      font-size: 12px;
+      padding: 6px 14px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid var(--glass-border);
+      color: var(--text-muted);
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .meta-pill strong {
+      color: #ffffff;
+    }
+
+    /* Factors Progress Bars */
+    .factors-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 22px;
+    }
+
+    @media (max-width: 768px) {
+      .factors-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .factor-shard {
+      background: rgba(15, 15, 20, 0.6);
+      border: 1px solid var(--glass-border);
+      border-radius: 14px;
+      padding: 18px 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08);
+    }
+
+    .factor-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 13px;
+      font-weight: 500;
+    }
+
+    .factor-name {
+      color: var(--text-muted);
+    }
+
+    .factor-score {
+      font-weight: 600;
+      color: #ffffff;
+      letter-spacing: -0.01em;
+    }
+
+    .factor-track {
+      width: 100%;
+      height: 6px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.08);
+      overflow: hidden;
+      position: relative;
+    }
+
+    .factor-bar {
+      height: 100%;
+      width: 0%;
+      border-radius: 999px;
+      background: linear-gradient(90deg, #36d67e, #b9abff);
+      transition: width 1s cubic-bezier(0.16, 1, 0.3, 1);
+      box-shadow: 0 0 10px rgba(54, 214, 126, 0.5);
+    }
+
+    .factor-status {
+      font-size: 11px;
+      color: var(--text-subtle);
+    }
+
+    /* Limiting Factors & Recommendations Columns */
+    .advice-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+    }
+
+    @media (max-width: 768px) {
+      .advice-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .advice-shard {
+      background: rgba(15, 15, 20, 0.6);
+      border: 1px solid var(--glass-border);
+      border-radius: 16px;
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08);
+    }
+
+    .advice-title {
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: -0.01em;
+      color: #ffffff;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .advice-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .advice-list li {
+      font-size: 13px;
+      line-height: 1.5;
+      color: var(--text-muted);
+      position: relative;
+      padding-left: 20px;
+    }
+
+    .advice-list li::before {
+      content: '—';
+      position: absolute;
+      left: 0;
+      color: var(--lavender-text);
+      font-weight: 600;
+    }
+
+    /* Footer Slab */
+    .footer-slab {
+      width: 100%;
+      padding: 22px 28px;
+      background: var(--glass-face);
+      backdrop-filter: blur(28px);
+      border-radius: 18px;
+      border: 1px solid var(--glass-border);
+      box-shadow: 
+        0 10px 24px rgba(0, 0, 0, 0.5),
+        inset 0 1px 0 var(--glass-hairline-rim);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 11px;
+      color: var(--text-subtle);
+      letter-spacing: 0.05em;
+    }
+
+    @media (max-width: 600px) {
+      .footer-slab {
+        flex-direction: column;
+        gap: 8px;
+        text-align: center;
+      }
+    }
+
+    /* =========================================================================
+       7. DESIGNED-IN-GLASS AUTH MODAL (Sign In & Register)
+       ========================================================================= */
+    .auth-modal-backdrop {
+      position: fixed;
+      inset: 0;
+      background: rgba(5, 5, 7, 0.85);
+      backdrop-filter: blur(22px);
+      -webkit-backdrop-filter: blur(22px);
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    .auth-modal-backdrop.open {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    .auth-glass-card {
+      width: 100%;
+      max-width: 440px;
+      background: rgba(18, 18, 24, 0.92);
+      backdrop-filter: blur(36px);
+      -webkit-backdrop-filter: blur(36px);
+      border: 1px solid rgba(255, 255, 255, 0.14);
+      border-radius: 22px;
+      padding: 34px 28px;
+      box-shadow: 
+        0 30px 80px rgba(0, 0, 0, 0.9),
+        0 0 30px var(--lavender-glow),
+        inset 0 1px 0 rgba(255, 255, 255, 0.25);
+      position: relative;
+      transform: translateY(20px) scale(0.96);
+      transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+    }
+
+    .auth-modal-backdrop.open .auth-glass-card {
+      transform: translateY(0) scale(1);
+    }
+
+    .modal-close-btn {
+      position: absolute;
+      top: 18px;
+      right: 20px;
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid var(--glass-border);
+      color: #fff;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      font-size: 20px;
+      line-height: 1;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.2s ease;
+    }
+
+    .modal-close-btn:hover {
+      background: rgba(255, 255, 255, 0.16);
+      transform: rotate(90deg);
+    }
+
+    .auth-card-header {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .auth-title {
+      font-size: 18px;
+      font-weight: 600;
+      color: #ffffff;
+      letter-spacing: -0.02em;
+    }
+
+    .auth-subtitle {
+      font-size: 12px;
+      color: var(--text-muted);
+      line-height: 1.4;
+      margin-top: 2px;
+    }
+
+    /* Tabs */
+    .auth-tabs {
+      display: flex;
+      gap: 6px;
+      background: rgba(12, 12, 16, 0.75);
+      border-radius: 12px;
+      padding: 4px;
+      border: 1px solid var(--glass-border);
+    }
+
+    .auth-tab-btn {
+      flex: 1;
+      height: 38px;
+      border: none;
+      background: transparent;
+      color: var(--text-muted);
+      font-size: 13px;
+      font-weight: 500;
+      font-family: inherit;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .auth-tab-btn.active {
+      background: rgba(255, 255, 255, 0.12);
+      color: #fff;
+      font-weight: 600;
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2);
+    }
+
+    /* Alert Banner */
+    .auth-alert {
+      padding: 12px 14px;
+      border-radius: 10px;
+      font-size: 12px;
+      line-height: 1.4;
+    }
+
+    .auth-alert.error {
+      background: rgba(255, 70, 80, 0.15);
+      border: 1px solid rgba(255, 70, 80, 0.35);
+      color: #ff999f;
+    }
+
+    .auth-alert.success {
+      background: rgba(54, 214, 126, 0.15);
+      border: 1px solid rgba(54, 214, 126, 0.35);
+      color: #36d67e;
+    }
+
+    .auth-form-body {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    /* Demo Quick Fill Hint */
+    .demo-account-hint {
+      background: rgba(185, 171, 255, 0.08);
+      border: 1px solid rgba(185, 171, 255, 0.2);
+      border-radius: 10px;
+      padding: 10px 14px;
+      font-size: 12px;
+      color: var(--lavender-text);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .demo-fill-btn {
+      background: rgba(185, 171, 255, 0.25);
+      border: 1px solid rgba(185, 171, 255, 0.4);
+      color: #fff;
+      font-size: 11px;
+      font-weight: 600;
+      padding: 4px 10px;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .demo-fill-btn:hover {
+      background: var(--green-hover);
+      color: #050507;
+      border-color: var(--green-hover);
+    }
+
+    .auth-submit-btn {
+      width: 100%;
+      margin-top: 6px;
+    }
+  </style>
+
+  <!-- Three.js Import Map for Designed in Glass Physics -->
+  <script type="importmap">
+  {
+    "imports": {
+      "three": "https://cdn.jsdelivr.net/npm/three@0.169.0/build/three.module.js",
+      "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.169.0/examples/jsm/"
+    }
+  }
+  </script>
 </head>
-
-
 <body>
 
+  <!-- WebGL Background Canvas (Interactive Smoked Glass Shards & Lavender Cursor Glow) -->
+  <canvas id="webgl-bg"></canvas>
+  <div class="ambient-glow"></div>
 
-<!-- =====================================================
-HEADER
-===================================================== -->
+  <!-- Main Viewport Layout -->
+  <div class="app-viewport">
+    <div class="slab-container" id="slabContainer">
 
-<header>
+      <!-- 1. NAV SLAB -->
+      <header class="nav-slab">
+        <a href="/" class="nav-brand">
+          <div class="brand-mark"></div>
+          <span class="brand-name">CoffeeAI</span>
+        </a>
 
-    <div class="logo">
+        <div class="nav-meta">
+          <span>Smart Yield Prediction</span>
+          <span class="dot">·</span>
+          <span>Climate Suitability</span>
+          <span class="dot">·</span>
+          <span>Disease Impact</span>
+        </div>
 
-        ☕ CoffeeAI
+        <div class="nav-auth-controls" id="navAuthArea">
+          {% if logged_in %}
+          <div class="user-chip">
+            <span class="user-icon">👤</span>
+            <span class="user-name" id="navUsernameDisplay">{{ username }}</span>
+          </div>
+          <button type="button" class="glass-auth-btn sign-out-btn" id="navSignOutBtn">
+            Sign Out
+          </button>
+          {% else %}
+          <button type="button" class="glass-auth-btn sign-in-btn" id="navSignInBtn">
+            <span>🔒</span>
+            <span>Sign In / Register</span>
+          </button>
+          {% endif %}
+        </div>
+      </header>
 
-    </div>
-
-
-    <div class="subtitle">
-
-        Smart Coffee Yield Prediction & Climate Suitability System
-
-    </div>
-
-</header>
-
-
-
-<!-- =====================================================
-MAIN CONTAINER
-===================================================== -->
-
-<div class="container">
-
-
-    <!-- HERO -->
-
-    <section class="hero">
-
-        <h1>
-            Coffee Yield Prediction
-        </h1>
-
-
-        <p>
-
-            Predict coffee yield, production,
-            disease impact and climate suitability
-            using Machine Learning.
-
+      <!-- 2. HERO SLAB (Editorial Glass Header) -->
+      <section class="hero-slab">
+        <div class="hero-eyebrow">REAL-TIME AGRO-CLIMATE STUDIO</div>
+        <h1 class="hero-headline">Designed in glass.<br>Predicted in nature.</h1>
+        <p class="hero-sub">
+          Author yield forecasts, total metric production, disease impact modeling, and climate compatibility in real time. Powered by Random Forest ML with multi-decade meteorological validation.
         </p>
+        <div class="shard-seam"></div>
+      </section>
 
-    </section>
+      <!-- 3. PREDICTION FORM SLAB -->
+      <section class="form-slab">
+        <div class="section-header">
+          <h2 class="section-title">
+            <span>🌱</span>
+            <span>Farm & Climate Parameters</span>
+          </h2>
+          <span class="section-chip">ML Pipeline Transformer</span>
+        </div>
 
-
-
-    <!-- =================================================
-    FORM
-    ================================================= -->
-
-    <section class="prediction-card">
-
-
-        <h2>
-
-            🌱 Farm & Climate Details
-
-        </h2>
-
+        <!-- Auth Guard Notice if not logged in -->
+        <div id="authGuardBanner" class="auth-guard-banner {% if logged_in %}hidden{% endif %}">
+          <span>🔒 <strong>Protected Access:</strong> Please sign in or register to run predictive ML models.</span>
+          <button type="button" class="auth-guard-btn" id="bannerSignInBtn">Sign In</button>
+        </div>
 
         <form id="predictionForm">
-
-
-            <div class="form-grid">
-
-
-                <!-- STATE -->
-
-                <div class="form-group">
-
-                    <label>
-                        State
-                    </label>
-
-
-                    <select
-                        id="state"
-                        name="state"
-                        required
-                    >
-
-                        <option value="">
-
-                            Select State
-
-                        </option>
-
-
-                        {% for state in states %}
-
-                        <option
-                            value="{{ state }}"
-                        >
-
-                            {{ state }}
-
-                        </option>
-
-                        {% endfor %}
-
-                    </select>
-
-                </div>
-
-
-
-                <!-- DISTRICT -->
-
-                <div class="form-group">
-
-                    <label>
-                        District
-                    </label>
-
-
-                    <select
-                        id="district"
-                        name="district"
-                        required
-                    >
-
-                        <option value="">
-
-                            Select State First
-
-                        </option>
-
-                    </select>
-
-                </div>
-
-
-
-                <!-- COFFEE TYPE -->
-
-                <div class="form-group">
-
-                    <label>
-                        Coffee Type
-                    </label>
-
-
-                    <select
-                        name="coffee_type"
-                        required
-                    >
-
-                        <option value="Arabica">
-
-                            Arabica
-
-                        </option>
-
-
-                        <option value="Robusta">
-
-                            Robusta
-
-                        </option>
-
-                    </select>
-
-                </div>
-
-
-
-                <!-- QUARTER -->
-
-                <div class="form-group">
-
-                    <label>
-                        Quarter
-                    </label>
-
-
-                    <select
-                        name="quarter"
-                        required
-                    >
-
-                        <option value="1">
-                            Quarter 1
-                        </option>
-
-
-                        <option value="2">
-                            Quarter 2
-                        </option>
-
-
-                        <option value="3">
-                            Quarter 3
-                        </option>
-
-
-                        <option value="4">
-                            Quarter 4
-                        </option>
-
-                    </select>
-
-                </div>
-
-
-
-                <!-- AREA -->
-
-                <div class="form-group">
-
-                    <label>
-                        Coffee Growing Area
-                    </label>
-
-
-                    <input
-                        type="number"
-                        name="area"
-                        step="0.01"
-                        min="0.01"
-                        placeholder="Enter area"
-                        required
-                    >
-
-                </div>
-
-
-
-                <!-- AREA UNIT -->
-
-                <div class="form-group">
-
-                    <label>
-                        Area Unit
-                    </label>
-
-
-                    <select
-                        name="area_unit"
-                    >
-
-                        <option value="Acre">
-                            Acre
-                        </option>
-
-
-                        <option value="Hectare">
-                            Hectare
-                        </option>
-
-                    </select>
-
-                </div>
-
-
-
-                <!-- RAINFALL -->
-
-                <div class="form-group">
-
-                    <label>
-                        Quarterly Rainfall (mm)
-                    </label>
-
-
-                    <input
-                        type="number"
-                        name="rainfall"
-                        step="0.01"
-                        min="0"
-                        placeholder="Example: 500"
-                        required
-                    >
-
-                </div>
-
-
-
-                <!-- TMAX -->
-
-                <div class="form-group">
-
-                    <label>
-                        Average Maximum Temperature (°C)
-                    </label>
-
-
-                    <input
-                        type="number"
-                        name="tmax"
-                        step="0.1"
-                        placeholder="Example: 30"
-                        required
-                    >
-
-                </div>
-
-
-
-                <!-- TMIN -->
-
-                <div class="form-group">
-
-                    <label>
-                        Average Minimum Temperature (°C)
-                    </label>
-
-
-                    <input
-                        type="number"
-                        name="tmin"
-                        step="0.1"
-                        placeholder="Example: 20"
-                        required
-                    >
-
-                </div>
-
-
-
-                <!-- SEASON -->
-
-                <div class="form-group">
-
-                    <label>
-                        Prediction Season
-                    </label>
-
-
-                    <select
-                        name="prediction_season"
-                    >
-
-                        <option value="Post Blossom">
-
-                            Post Blossom
-
-                        </option>
-
-
-                        <option value="Post Monsoon">
-
-                            Post Monsoon
-
-                        </option>
-
-                    </select>
-
-                </div>
-
-
-
-                <!-- DISEASE -->
-
-                <div class="form-group">
-
-                    <label>
-                        Disease Type
-                    </label>
-
-
-                    <select
-                        id="disease"
-                        name="disease"
-                    >
-
-                        {% for disease in diseases %}
-
-                        <option
-                            value="{{ disease }}"
-                        >
-
-                            {{ disease }}
-
-                        </option>
-
-                        {% endfor %}
-
-                    </select>
-
-                </div>
-
-
-
-                <!-- DISEASE PERCENTAGE -->
-
-                <div
-                    class="form-group"
-                    id="diseasePercentageGroup"
-                >
-
-                    <label>
-                        Crop Affected (%)
-                    </label>
-
-
-                    <input
-                        type="number"
-                        id="disease_percentage"
-                        name="disease_percentage"
-                        min="0"
-                        max="100"
-                        value="0"
-                    >
-
-                </div>
-
-
+          <div class="form-grid">
+
+            <!-- STATE -->
+            <div class="form-group">
+              <label class="form-label" for="state">
+                <span>State</span>
+                <span class="unit">Zone</span>
+              </label>
+              <select id="state" name="state" class="glass-select" required>
+                <option value="">Select State</option>
+                {% for state in states %}
+                <option value="{{ state }}">{{ state }}</option>
+                {% endfor %}
+              </select>
             </div>
 
+            <!-- DISTRICT -->
+            <div class="form-group">
+              <label class="form-label" for="district">
+                <span>District</span>
+                <span class="unit">Regional</span>
+              </label>
+              <select id="district" name="district" class="glass-select" required>
+                <option value="">Select State First</option>
+              </select>
+            </div>
 
+            <!-- COFFEE TYPE -->
+            <div class="form-group">
+              <label class="form-label" for="coffee_type">
+                <span>Coffee Type</span>
+                <span class="unit">Species</span>
+              </label>
+              <select id="coffee_type" name="coffee_type" class="glass-select" required>
+                <option value="Arabica">Arabica</option>
+                <option value="Robusta">Robusta</option>
+              </select>
+            </div>
 
-            <!-- BUTTON -->
+            <!-- QUARTER -->
+            <div class="form-group">
+              <label class="form-label" for="quarter">
+                <span>Quarter</span>
+                <span class="unit">Period</span>
+              </label>
+              <select id="quarter" name="quarter" class="glass-select" required>
+                <option value="1">Quarter 1 (Jan - Mar)</option>
+                <option value="2">Quarter 2 (Apr - Jun)</option>
+                <option value="3">Quarter 3 (Jul - Sep)</option>
+                <option value="4">Quarter 4 (Oct - Dec)</option>
+              </select>
+            </div>
 
-            <button
-                type="submit"
-                id="predictButton"
-            >
+            <!-- AREA -->
+            <div class="form-group">
+              <label class="form-label" for="area">
+                <span>Cultivated Area</span>
+                <span class="unit">Scale</span>
+              </label>
+              <input 
+                type="number" 
+                id="area" 
+                name="area" 
+                class="glass-input" 
+                step="0.01" 
+                min="0.01" 
+                placeholder="e.g. 15.5" 
+                required
+              >
+            </div>
 
-                🚀 Predict Coffee Yield
+            <!-- AREA UNIT -->
+            <div class="form-group">
+              <label class="form-label" for="area_unit">
+                <span>Area Unit</span>
+                <span class="unit">Metric</span>
+              </label>
+              <select id="area_unit" name="area_unit" class="glass-select">
+                <option value="Acre">Acre</option>
+                <option value="Hectare">Hectare</option>
+              </select>
+            </div>
 
+            <!-- RAINFALL -->
+            <div class="form-group">
+              <label class="form-label" for="rainfall">
+                <span>Quarterly Rainfall</span>
+                <span class="unit">mm</span>
+              </label>
+              <input 
+                type="number" 
+                id="rainfall" 
+                name="rainfall" 
+                class="glass-input" 
+                step="0.01" 
+                min="0" 
+                placeholder="e.g. 520" 
+                required
+              >
+            </div>
+
+            <!-- TMAX -->
+            <div class="form-group">
+              <label class="form-label" for="tmax">
+                <span>Avg Max Temperature</span>
+                <span class="unit">°C</span>
+              </label>
+              <input 
+                type="number" 
+                id="tmax" 
+                name="tmax" 
+                class="glass-input" 
+                step="0.1" 
+                placeholder="e.g. 29.5" 
+                required
+              >
+            </div>
+
+            <!-- TMIN -->
+            <div class="form-group">
+              <label class="form-label" for="tmin">
+                <span>Avg Min Temperature</span>
+                <span class="unit">°C</span>
+              </label>
+              <input 
+                type="number" 
+                id="tmin" 
+                name="tmin" 
+                class="glass-input" 
+                step="0.1" 
+                placeholder="e.g. 18.2" 
+                required
+              >
+            </div>
+
+            <!-- PREDICTION SEASON -->
+            <div class="form-group">
+              <label class="form-label" for="prediction_season">
+                <span>Prediction Season</span>
+                <span class="unit">Stage</span>
+              </label>
+              <select id="prediction_season" name="prediction_season" class="glass-select">
+                <option value="Post Blossom">Post Blossom</option>
+                <option value="Post Monsoon">Post Monsoon</option>
+              </select>
+            </div>
+
+            <!-- DISEASE TYPE -->
+            <div class="form-group">
+              <label class="form-label" for="disease">
+                <span>Disease Type</span>
+                <span class="unit">Pathogen</span>
+              </label>
+              <select id="disease" name="disease" class="glass-select">
+                {% for disease in diseases %}
+                <option value="{{ disease }}">{{ disease }}</option>
+                {% endfor %}
+              </select>
+            </div>
+
+            <!-- DISEASE PERCENTAGE -->
+            <div class="form-group" id="diseasePercentageGroup">
+              <label class="form-label" for="disease_percentage">
+                <span>Crop Affected</span>
+                <span class="unit">% Severity</span>
+              </label>
+              <input 
+                type="number" 
+                id="disease_percentage" 
+                name="disease_percentage" 
+                class="glass-input" 
+                min="0" 
+                max="100" 
+                value="0"
+              >
+            </div>
+
+          </div>
+
+          <!-- Submit Button Row -->
+          <div class="submit-row">
+            <div class="submit-meta">
+              <span>✦</span>
+              <span>Random Forest Regression + Climate Suitability Rule Matrix</span>
+            </div>
+
+            <button type="submit" id="predictButton" class="glass-pill-btn">
+              <span>Predict Coffee Yield</span>
+              <span>→</span>
             </button>
-
-
+          </div>
         </form>
-
-
-    </section>
-
-
-
-    <!-- =================================================
-    LOADING
-    ================================================= -->
-
-    <div
-        id="loading"
-        class="loading hidden"
-    >
-
-        <div class="spinner"></div>
-
-        <p>
-
-            Analyzing coffee farm data...
-
-        </p>
-
-    </div>
-
-
-
-    <!-- =================================================
-    ERROR
-    ================================================= -->
-
-    <div
-        id="errorBox"
-        class="error hidden"
-    >
-
-    </div>
-
-
-
-    <!-- =================================================
-    RESULTS
-    ================================================= -->
-
-    <section
-        id="results"
-        class="hidden"
-    >
-
-
-        <h2 class="results-title">
-
-            ☕ Prediction Results
-
-        </h2>
-
-
-
-        <!-- YIELD CARDS -->
-
-        <div class="result-grid">
-
-
-            <div class="result-card">
-
-                <span>
-                    Predicted Yield
-                </span>
-
-
-                <h3
-                    id="predictedYield"
-                >
-                </h3>
-
-
-                <small>
-                    MT / hectare
-                </small>
-
-            </div>
-
-
-
-            <div class="result-card">
-
-                <span>
-                    Total Production
-                </span>
-
-
-                <h3
-                    id="totalProduction"
-                >
-                </h3>
-
-
-                <small>
-                    Metric Tonnes
-                </small>
-
-            </div>
-
-
-
-            <div class="result-card">
-
-                <span>
-                    Disease Loss
-                </span>
-
-
-                <h3
-                    id="diseaseLoss"
-                >
-                </h3>
-
-
-                <small>
-                    Metric Tonnes
-                </small>
-
-            </div>
-
-
-
-            <div class="result-card highlight">
-
-                <span>
-                    Adjusted Production
-                </span>
-
-
-                <h3
-                    id="adjustedProduction"
-                >
-                </h3>
-
-
-                <small>
-                    Metric Tonnes
-                </small>
-
-            </div>
-
+      </section>
+
+      <!-- 4. LOADING STATE -->
+      <div id="loading" class="loading-slab hidden">
+        <div class="glass-spinner"></div>
+        <p class="loading-text">Analyzing farm metrics across regional climate clusters...</p>
+      </div>
+
+      <!-- 5. ERROR STATE -->
+      <div id="errorBox" class="error-slab hidden"></div>
+
+      <!-- 6. RESULTS SECTION (Shattered Shard Cards) -->
+      <div id="results" class="results-wrapper hidden">
+
+        <!-- 4-Shard Metric Cards -->
+        <div class="metric-grid">
+          
+          <div class="metric-shard">
+            <span class="metric-label">Predicted Yield</span>
+            <div class="metric-value" id="predictedYield">—</div>
+            <span class="metric-unit">Metric Tonnes / Hectare</span>
+          </div>
+
+          <div class="metric-shard">
+            <span class="metric-label">Total Production</span>
+            <div class="metric-value" id="totalProduction">—</div>
+            <span class="metric-unit">Metric Tonnes (MT)</span>
+          </div>
+
+          <div class="metric-shard">
+            <span class="metric-label">Disease Loss</span>
+            <div class="metric-value" id="diseaseLoss">—</div>
+            <span class="metric-unit">Metric Tonnes Lost</span>
+          </div>
+
+          <div class="metric-shard highlight">
+            <span class="metric-label">Adjusted Production</span>
+            <div class="metric-value" id="adjustedProduction">—</div>
+            <span class="metric-unit">Actual Harvestable MT</span>
+          </div>
 
         </div>
 
-
-
-        <!-- =================================================
-        SUITABILITY
-        ================================================= -->
-
-        <div class="suitability-section">
-
-
-            <h2>
-
-                🌱 Coffee Growth Suitability Analysis
-
+        <!-- Climate Suitability Slab -->
+        <section class="suitability-slab">
+          <div class="section-header">
+            <h2 class="section-title">
+              <span>🌱</span>
+              <span>Climate Suitability Analysis</span>
             </h2>
+            <span class="section-chip">Agronomic Rule Engine</span>
+          </div>
 
-
-
-            <div class="suitability-summary">
-
-
-                <div class="score-circle">
-
-                    <span
-                        id="suitabilityScore"
-                    >
-                    </span>
-
-
-                    <small>
-                        /100
-                    </small>
-
-                </div>
-
-
-
-                <div>
-
-                    <h3
-                        id="suitabilityResult"
-                    >
-                    </h3>
-
-
-                    <p>
-
-                        Raw Classification:
-
-                        <strong
-                            id="rawSuitability"
-                        >
-                        </strong>
-
-                    </p>
-
-
-                    <p>
-
-                        Climate Risk:
-
-                        <strong
-                            id="climateRisk"
-                        >
-                        </strong>
-
-                    </p>
-
-
-                    <p>
-
-                        Major Limiting Factor:
-
-                        <strong
-                            id="majorFactor"
-                        >
-                        </strong>
-
-                    </p>
-
-                </div>
-
-
+          <!-- Score Dial & Summary -->
+          <div class="score-summary-row">
+            <div class="dial-wrapper">
+              <svg class="dial-svg" viewBox="0 0 120 120">
+                <circle class="dial-bg" cx="60" cy="60" r="54"></circle>
+                <circle class="dial-fill" id="scoreCircle" cx="60" cy="60" r="54"></circle>
+              </svg>
+              <div class="dial-content">
+                <span class="dial-number" id="suitabilityScore">—</span>
+                <span class="dial-total">/ 100</span>
+              </div>
             </div>
 
-
-
-            <!-- FACTORS -->
-
-            <div class="factor-section">
-
-
-                <h3>
-
-                    Factor-Wise Analysis
-
-                </h3>
-
-
-
-                <div class="factor">
-
-                    <div>
-
-                        <span>
-                            Rainfall
-                        </span>
-
-
-                        <span
-                            id="rainfallValue"
-                        >
-                        </span>
-
-                    </div>
-
-
-                    <div class="progress">
-
-                        <div
-                            id="rainfallBar"
-                        ></div>
-
-                    </div>
-
-
-                    <small
-                        id="rainfallStatus"
-                    ></small>
-
+            <div class="score-details">
+              <div class="suitability-heading" id="suitabilityResult">—</div>
+              <div class="meta-pills">
+                <div class="meta-pill">
+                  <span>Classification:</span>
+                  <strong id="rawSuitability">—</strong>
                 </div>
-
-
-
-                <div class="factor">
-
-                    <div>
-
-                        <span>
-                            Maximum Temperature
-                        </span>
-
-
-                        <span
-                            id="tmaxValue"
-                        >
-                        </span>
-
-                    </div>
-
-
-                    <div class="progress">
-
-                        <div
-                            id="tmaxBar"
-                        ></div>
-
-                    </div>
-
-
-                    <small
-                        id="tmaxStatus"
-                    ></small>
-
+                <div class="meta-pill">
+                  <span>Climate Risk:</span>
+                  <strong id="climateRisk">—</strong>
                 </div>
-
-
-
-                <div class="factor">
-
-                    <div>
-
-                        <span>
-                            Minimum Temperature
-                        </span>
-
-
-                        <span
-                            id="tminValue"
-                        >
-                        </span>
-
-                    </div>
-
-
-                    <div class="progress">
-
-                        <div
-                            id="tminBar"
-                        ></div>
-
-                    </div>
-
-
-                    <small
-                        id="tminStatus"
-                    ></small>
-
+                <div class="meta-pill">
+                  <span>Major Limiting Factor:</span>
+                  <strong id="majorFactor">—</strong>
                 </div>
+              </div>
+            </div>
+          </div>
 
+          <!-- Factor Breakdown -->
+          <div>
+            <h3 style="font-size: 15px; font-weight: 600; color: #fff; margin-bottom: 16px;">
+              Factor-Wise Meteorological Weighting
+            </h3>
 
-
-                <div class="factor">
-
-                    <div>
-
-                        <span>
-                            Coffee Type Compatibility
-                        </span>
-
-
-                        <span
-                            id="coffeeValue"
-                        >
-                        </span>
-
-                    </div>
-
-
-                    <div class="progress">
-
-                        <div
-                            id="coffeeBar"
-                        ></div>
-
-                    </div>
-
-
-                    <small
-                        id="coffeeStatus"
-                    ></small>
-
+            <div class="factors-grid">
+              
+              <!-- RAINFALL -->
+              <div class="factor-shard">
+                <div class="factor-header">
+                  <span class="factor-name">Quarterly Rainfall</span>
+                  <span class="factor-score" id="rainfallValue">—</span>
                 </div>
+                <div class="factor-track">
+                  <div class="factor-bar" id="rainfallBar"></div>
+                </div>
+                <span class="factor-status" id="rainfallStatus">—</span>
+              </div>
 
+              <!-- TMAX -->
+              <div class="factor-shard">
+                <div class="factor-header">
+                  <span class="factor-name">Maximum Temperature</span>
+                  <span class="factor-score" id="tmaxValue">—</span>
+                </div>
+                <div class="factor-track">
+                  <div class="factor-bar" id="tmaxBar"></div>
+                </div>
+                <span class="factor-status" id="tmaxStatus">—</span>
+              </div>
+
+              <!-- TMIN -->
+              <div class="factor-shard">
+                <div class="factor-header">
+                  <span class="factor-name">Minimum Temperature</span>
+                  <span class="factor-score" id="tminValue">—</span>
+                </div>
+                <div class="factor-track">
+                  <div class="factor-bar" id="tminBar"></div>
+                </div>
+                <span class="factor-status" id="tminStatus">—</span>
+              </div>
+
+              <!-- COFFEE TYPE -->
+              <div class="factor-shard">
+                <div class="factor-header">
+                  <span class="factor-name">Coffee Type Compatibility</span>
+                  <span class="factor-score" id="coffeeValue">—</span>
+                </div>
+                <div class="factor-track">
+                  <div class="factor-bar" id="coffeeBar"></div>
+                </div>
+                <span class="factor-status" id="coffeeStatus">—</span>
+              </div>
 
             </div>
+          </div>
 
-
-
-            <!-- LIMITING FACTORS -->
-
-            <div class="analysis-grid">
-
-
-                <div>
-
-                    <h3>
-
-                        ⚠ Limiting Factors
-
-                    </h3>
-
-
-                    <ul
-                        id="limitingFactors"
-                    ></ul>
-
-                </div>
-
-
-
-                <!-- RECOMMENDATIONS -->
-
-                <div>
-
-                    <h3>
-
-                        💡 Recommendations
-
-                    </h3>
-
-
-                    <ul
-                        id="recommendations"
-                    ></ul>
-
-                </div>
-
-
+          <!-- Limiting Factors & Recommendations -->
+          <div class="advice-grid">
+            
+            <div class="advice-shard">
+              <h4 class="advice-title">
+                <span style="color: #ff999f;">⚠</span>
+                <span>Limiting Factors</span>
+              </h4>
+              <ul class="advice-list" id="limitingFactors">
+                <li>No limiting factors calculated yet.</li>
+              </ul>
             </div>
 
+            <div class="advice-shard">
+              <h4 class="advice-title">
+                <span style="color: #b9abff;">💡</span>
+                <span>Agronomic Recommendations</span>
+              </h4>
+              <ul class="advice-list" id="recommendations">
+                <li>Submit parameters to generate tailored farming recommendations.</li>
+              </ul>
+            </div>
 
+          </div>
+
+        </section>
+
+      </div>
+
+      <!-- 7. FOOTER SLAB -->
+      <footer class="footer-slab">
+        <span>© Facet Agro Studio · CoffeeAI Intelligence</span>
+        <span>KHR_materials_dispersion · ML v2.4</span>
+      </footer>
+
+    </div>
+  </div>
+
+  <!-- =========================================================================
+       8. DESIGNED-IN-GLASS AUTH MODAL (SIGN IN & REGISTER)
+       ========================================================================= -->
+  <div id="authModal" class="auth-modal-backdrop">
+    <div class="auth-glass-card">
+      <button type="button" class="modal-close-btn" id="closeAuthModal" title="Close">&times;</button>
+      
+      <div class="auth-card-header">
+        <div class="brand-mark"></div>
+        <div>
+          <h3 class="auth-title">CoffeeAI Studio Access</h3>
+          <p class="auth-subtitle">Sign in or register to unlock real-time ML prediction models.</p>
+        </div>
+      </div>
+
+      <!-- Auth Tabs: Sign In / Create Account -->
+      <div class="auth-tabs">
+        <button type="button" class="auth-tab-btn active" id="tabSignInBtn">Sign In</button>
+        <button type="button" class="auth-tab-btn" id="tabRegisterBtn">Create Account</button>
+      </div>
+
+      <!-- Alert Box for Auth Messages -->
+      <div id="authAlert" class="auth-alert hidden"></div>
+
+      <!-- Form 1: SIGN IN -->
+      <form id="signInForm" class="auth-form-body">
+        <div class="form-group">
+          <label class="form-label" for="loginIdentifier">Username or Email</label>
+          <input type="text" id="loginIdentifier" name="identifier" class="glass-input" placeholder="e.g. admin or your email" required autocomplete="username">
         </div>
 
+        <div class="form-group">
+          <label class="form-label" for="loginPassword">Password</label>
+          <input type="password" id="loginPassword" name="password" class="glass-input" placeholder="Enter your password" required autocomplete="current-password">
+        </div>
 
-    </section>
+        <!-- Demo Credentials Helper Banner -->
+        <div class="demo-account-hint">
+          <span>Demo Account: <strong>admin</strong> / <strong>password123</strong></span>
+          <button type="button" class="demo-fill-btn" id="fillDemoBtn">Auto-fill</button>
+        </div>
 
+        <button type="submit" class="glass-pill-btn auth-submit-btn">
+          <span>Sign In to Studio</span>
+          <span>→</span>
+        </button>
+      </form>
 
-</div>
+      <!-- Form 2: CREATE ACCOUNT -->
+      <form id="registerForm" class="auth-form-body hidden">
+        <div class="form-group">
+          <label class="form-label" for="regUsername">Choose Username</label>
+          <input type="text" id="regUsername" name="username" class="glass-input" placeholder="e.g. coffee_grower" minlength="3" required autocomplete="username">
+        </div>
 
+        <div class="form-group">
+          <label class="form-label" for="regEmail">Email Address</label>
+          <input type="email" id="regEmail" name="email" class="glass-input" placeholder="e.g. grower@farm.com" required autocomplete="email">
+        </div>
 
+        <div class="form-group">
+          <label class="form-label" for="regPassword">Password</label>
+          <input type="password" id="regPassword" name="password" class="glass-input" placeholder="Minimum 6 characters" minlength="6" required autocomplete="new-password">
+        </div>
 
-<!-- =====================================================
-JAVASCRIPT
-===================================================== -->
+        <button type="submit" class="glass-pill-btn auth-submit-btn">
+          <span>Create Account</span>
+          <span>→</span>
+        </button>
+      </form>
+    </div>
+  </div>
 
-<script>
+  <!-- =========================================================================
+       THREE.JS DESIGNED-IN-GLASS BACKGROUND ENGINE
+       ========================================================================= -->
+  <script type="module">
+    import * as THREE from 'three';
+    import { RoomEnvironment } from 'three/addons/environments/RoomEnvironment.js';
 
+    const bgCanvas = document.getElementById('webgl-bg');
+    const slabContainer = document.getElementById('slabContainer');
 
-// =========================================================
-// STATE → DISTRICT
-// =========================================================
+    let width = window.innerWidth;
+    let height = window.innerHeight;
 
-const stateSelect = document.getElementById(
-    "state"
-)
+    const renderer = new THREE.WebGLRenderer({
+      canvas: bgCanvas,
+      antialias: true,
+      alpha: true,
+      powerPreference: 'high-performance'
+    });
+    renderer.setClearColor(0x050507, 1);
+    renderer.toneMapping = THREE.ACESFilmicToneMapping;
+    renderer.toneMappingExposure = 1.0;
+    renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
+    renderer.setSize(width, height);
 
+    const scene = new THREE.Scene();
+    const camera = new THREE.PerspectiveCamera(30, width / height, 1, 4000);
+    const D = height / (2 * Math.tan(15 * Math.PI / 180));
+    camera.position.set(0, 0, D);
+    camera.lookAt(0, 0, 0);
 
-const districtSelect = document.getElementById(
-    "district"
-)
+    // PMREM Room Environment
+    const pmremGenerator = new THREE.PMREMGenerator(renderer);
+    pmremGenerator.compileEquirectangularShader();
+    const roomEnv = new RoomEnvironment();
+    scene.environment = pmremGenerator.fromScene(roomEnv).texture;
+    scene.environmentIntensity = 0.42;
 
+    // Key Light
+    const keyLight = new THREE.DirectionalLight(0xe4edff, 2.2);
+    keyLight.position.set(-width * 0.5, height * 0.6, 500);
+    scene.add(keyLight);
 
-stateSelect.addEventListener(
+    const ambientLight = new THREE.AmbientLight(0x0d0d12, 0.9);
+    scene.add(ambientLight);
 
-    "change",
+    // Floating Glass Shard Meshes
+    const shardGroup = new THREE.Group();
+    scene.add(shardGroup);
 
-    async function() {
+    // Custom Glass Shader Injection for Lavender Cursor Glow
+    const glassUniforms = {
+      uPointerWorld: { value: new THREE.Vector3(0, 0, 0) },
+      uPointerRadius: { value: 320 },
+      uPointerIntensity: { value: 0.0 }
+    };
 
+    function createSmokedGlassMaterial(iridescenceVal = 0.55) {
+      const mat = new THREE.MeshPhysicalMaterial({
+        color: 0x17171b,
+        roughness: 0.36,
+        metalness: 0.03,
+        clearcoat: 0.7,
+        clearcoatRoughness: 0.12,
+        specularIntensity: 0.7,
+        specularColor: 0xffffff,
+        iridescence: iridescenceVal,
+        iridescenceIOR: 1.3,
+        iridescenceThicknessRange: [250, 650],
+        envMapIntensity: 1.0
+      });
 
-        const state = stateSelect.value
+      mat.onBeforeCompile = (shader) => {
+        shader.uniforms.uPointerWorld = glassUniforms.uPointerWorld;
+        shader.uniforms.uPointerRadius = glassUniforms.uPointerRadius;
+        shader.uniforms.uPointerIntensity = glassUniforms.uPointerIntensity;
 
+        shader.vertexShader = `
+          varying vec3 vWorldPositionCustom;
+          ${shader.vertexShader}
+        `.replace(
+          '#include <worldpos_vertex>',
+          `
+          #include <worldpos_vertex>
+          vWorldPositionCustom = (modelMatrix * vec4(transformed, 1.0)).xyz;
+          `
+        );
 
-        districtSelect.innerHTML =
+        shader.fragmentShader = `
+          uniform vec3 uPointerWorld;
+          uniform float uPointerRadius;
+          uniform float uPointerIntensity;
+          varying vec3 vWorldPositionCustom;
+          ${shader.fragmentShader}
+        `.replace(
+          '#include <dithering_fragment>',
+          `
+          #include <dithering_fragment>
+          float dGlow = length(vWorldPositionCustom.xy - uPointerWorld.xy);
+          float normDGlow = dGlow / max(uPointerRadius, 1.0);
+          float glowFac = 0.16 * exp(-1.6 * normDGlow * normDGlow) * uPointerIntensity;
+          gl_FragColor.rgb += vec3(0.42, 0.37, 0.62) * glowFac;
+          `
+        );
+      };
 
-            "<option>Loading...</option>"
+      return mat;
+    }
 
+    // Helper to generate floating shards around the viewport edges
+    const shards = [];
+    const shardCount = 8;
+    for (let i = 0; i < shardCount; i++) {
+      const shape = new THREE.Shape();
+      const w = 180 + Math.random() * 220;
+      const h = 140 + Math.random() * 180;
+      
+      shape.moveTo(-w / 2, -h / 2);
+      shape.lineTo(w / 2 + (Math.random() - 0.5) * 40, -h / 2);
+      shape.lineTo(w / 2 + (Math.random() - 0.5) * 30, h / 2);
+      shape.lineTo(-w / 2 + (Math.random() - 0.5) * 40, h / 2);
+      shape.closePath();
 
-        if (!state) {
+      const geom = new THREE.ExtrudeGeometry(shape, {
+        depth: 14,
+        bevelEnabled: true,
+        bevelThickness: 3,
+        bevelSize: 3,
+        bevelSegments: 3
+      });
 
-            districtSelect.innerHTML =
+      const mat = createSmokedGlassMaterial(0.45 + Math.random() * 0.3);
+      const mesh = new THREE.Mesh(geom, mat);
 
-                "<option value=''>Select State First</option>"
+      // Distribute shards around edges
+      const angle = (i / shardCount) * Math.PI * 2;
+      const radiusX = (width * 0.45) + (Math.random() - 0.5) * 150;
+      const radiusY = (height * 0.45) + (Math.random() - 0.5) * 150;
+      const posX = Math.cos(angle) * radiusX;
+      const posY = Math.sin(angle) * radiusY;
+      const posZ = -120 + Math.random() * 80;
 
-            return
+      mesh.position.set(posX, posY, posZ);
+      mesh.rotation.set(
+        (Math.random() - 0.5) * 0.6,
+        (Math.random() - 0.5) * 0.6,
+        (Math.random() - 0.5) * 1.0
+      );
 
+      shardGroup.add(mesh);
+      shards.push({
+        mesh,
+        baseX: posX,
+        baseY: posY,
+        baseZ: posZ,
+        speedX: 0.15 + Math.random() * 0.25,
+        speedY: 0.18 + Math.random() * 0.25,
+        rotSpeed: 0.1 + Math.random() * 0.2,
+        phase: Math.random() * Math.PI * 2
+      });
+    }
+
+    // Pointer Tracking & Interactive 3D Slab Tilt
+    const pointer = { x: 0, y: 0, normX: 0, normY: 0, isInside: false };
+    const tilt = { rotX: 0, rotY: 0, targetRotX: 0, targetRotY: 0 };
+
+    window.addEventListener('mousemove', (e) => {
+      pointer.x = e.clientX;
+      pointer.y = e.clientY;
+      pointer.normX = (e.clientX / width) * 2 - 1;
+      pointer.normY = -(e.clientY / height) * 2 + 1;
+      pointer.isInside = true;
+
+      // Slab tilt: rotateY = x·3.5° - 0.6°, rotateX = -y·2.8° + 0.4°
+      tilt.targetRotY = (pointer.normX * 3.5 - 0.6) * (Math.PI / 180);
+      tilt.targetRotX = (-pointer.normY * 2.8 + 0.4) * (Math.PI / 180);
+
+      // Raycast pointer to z = 0 for lavender glow
+      const ray = new THREE.Vector3(pointer.normX, pointer.normY, 0.5).unproject(camera);
+      ray.sub(camera.position).normalize();
+      const dist = -camera.position.z / ray.z;
+      const worldPos = camera.position.clone().add(ray.multiplyScalar(dist));
+      glassUniforms.uPointerWorld.value.copy(worldPos);
+    });
+
+    window.addEventListener('mouseleave', () => {
+      pointer.isInside = false;
+      tilt.targetRotX = 0;
+      tilt.targetRotY = 0;
+    });
+
+    window.addEventListener('resize', () => {
+      width = window.innerWidth;
+      height = window.innerHeight;
+      camera.aspect = width / height;
+      camera.position.z = height / (2 * Math.tan(15 * Math.PI / 180));
+      camera.updateProjectionMatrix();
+      renderer.setSize(width, height);
+      renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
+    });
+
+    // Render Loop
+    let lastTime = performance.now();
+    function animate(now) {
+      requestAnimationFrame(animate);
+      const dt = Math.min((now - lastTime) / 1000, 0.033);
+      lastTime = now;
+
+      // Tilt smooth exponential
+      tilt.rotX += (tilt.targetRotX - tilt.rotX) * (1.0 - Math.exp(-dt / 0.3));
+      tilt.rotY += (tilt.targetRotY - tilt.rotY) * (1.0 - Math.exp(-dt / 0.3));
+      slabContainer.style.transform = `rotateX(${(tilt.rotX * 180 / Math.PI).toFixed(2)}deg) rotateY(${(tilt.rotY * 180 / Math.PI).toFixed(2)}deg)`;
+
+      // Cursor glow intensity
+      const targetGlow = pointer.isInside ? 1.0 : 0.0;
+      glassUniforms.uPointerIntensity.value += (targetGlow - glassUniforms.uPointerIntensity.value) * (1.0 - Math.exp(-dt / 0.15));
+
+      // Shards slow organic drift
+      const t = now / 1000;
+      shards.forEach(s => {
+        s.mesh.position.x = s.baseX + Math.sin(t * s.speedX + s.phase) * 24;
+        s.mesh.position.y = s.baseY + Math.cos(t * s.speedY + s.phase) * 20;
+        s.mesh.rotation.z += dt * s.rotSpeed * 0.15;
+      });
+
+      renderer.render(scene, camera);
+    }
+    requestAnimationFrame(animate);
+  </script>
+
+  <!-- =========================================================================
+       APPLICATION DATA & AUTHENTICATION LOGIC
+       ========================================================================= -->
+  <script>
+    // Global User State
+    let currentUser = {
+      isLoggedIn: {% if logged_in %}true{% else %}false{% endif %},
+      username: "{{ username or '' }}"
+    };
+
+    // =========================================================================
+    // AUTH MODAL & CONTROLS
+    // =========================================================================
+    const authModal = document.getElementById("authModal");
+    const closeAuthModal = document.getElementById("closeAuthModal");
+    const tabSignInBtn = document.getElementById("tabSignInBtn");
+    const tabRegisterBtn = document.getElementById("tabRegisterBtn");
+    const signInForm = document.getElementById("signInForm");
+    const registerForm = document.getElementById("registerForm");
+    const authAlert = document.getElementById("authAlert");
+    const fillDemoBtn = document.getElementById("fillDemoBtn");
+    const navAuthArea = document.getElementById("navAuthArea");
+    const authGuardBanner = document.getElementById("authGuardBanner");
+
+    function openModal(defaultTab = 'login', customAlert = null) {
+      authAlert.classList.add("hidden");
+      if (customAlert) {
+        showAuthAlert(customAlert, 'error');
+      }
+
+      if (defaultTab === 'register') {
+        tabRegisterBtn.classList.add("active");
+        tabSignInBtn.classList.remove("active");
+        registerForm.classList.remove("hidden");
+        signInForm.classList.add("hidden");
+      } else {
+        tabSignInBtn.classList.add("active");
+        tabRegisterBtn.classList.remove("active");
+        signInForm.classList.remove("hidden");
+        registerForm.classList.add("hidden");
+      }
+
+      authModal.classList.add("open");
+    }
+
+    function closeModal() {
+      authModal.classList.remove("open");
+    }
+
+    function showAuthAlert(message, type = 'error') {
+      authAlert.innerText = message;
+      authAlert.className = `auth-alert ${type}`;
+      authAlert.classList.remove("hidden");
+    }
+
+    // Modal Triggers
+    document.addEventListener("click", (e) => {
+      if (e.target.closest("#navSignInBtn") || e.target.closest("#bannerSignInBtn")) {
+        openModal('login');
+      }
+      if (e.target.closest("#closeAuthModal")) {
+        closeModal();
+      }
+      if (e.target === authModal) {
+        closeModal();
+      }
+    });
+
+    // Tab Switch
+    tabSignInBtn.addEventListener("click", () => {
+      tabSignInBtn.classList.add("active");
+      tabRegisterBtn.classList.remove("active");
+      signInForm.classList.remove("hidden");
+      registerForm.classList.add("hidden");
+      authAlert.classList.add("hidden");
+    });
+
+    tabRegisterBtn.addEventListener("click", () => {
+      tabRegisterBtn.classList.add("active");
+      tabSignInBtn.classList.remove("active");
+      registerForm.classList.remove("hidden");
+      signInForm.classList.add("hidden");
+      authAlert.classList.add("hidden");
+    });
+
+    // Auto-fill Demo Account
+    fillDemoBtn.addEventListener("click", () => {
+      document.getElementById("loginIdentifier").value = "admin";
+      document.getElementById("loginPassword").value = "password123";
+      showAuthAlert("Demo credentials filled! Click 'Sign In to Studio'.", "success");
+    });
+
+    // Sign In Submission
+    signInForm.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      authAlert.classList.add("hidden");
+
+      const identifier = document.getElementById("loginIdentifier").value.trim();
+      const password = document.getElementById("loginPassword").value;
+
+      try {
+        const formData = new FormData();
+        formData.append("identifier", identifier);
+        formData.append("password", password);
+
+        const res = await fetch("/login", {
+          method: "POST",
+          body: formData
+        });
+
+        const data = await res.json();
+        if (!data.success) {
+          throw new Error(data.error || "Login failed.");
         }
 
-
-        const response = await fetch(
-
-            `/districts?state=${encodeURIComponent(state)}`
-
-        )
-
-
-        const districts = await response.json()
-
-
-        districtSelect.innerHTML =
-
-            "<option value=''>Select District</option>"
-
-
-        districts.forEach(
-
-            district => {
-
-                districtSelect.innerHTML +=
-
-                    `<option value="${district}">
-
-                        ${district}
-
-                    </option>`
-
-            }
-
-        )
-
-    }
-
-)
-
-
-// =========================================================
-// DISEASE
-// =========================================================
-
-const diseaseSelect = document.getElementById(
-    "disease"
-)
-
-
-const diseasePercentageGroup =
-    document.getElementById(
-        "diseasePercentageGroup"
-    )
-
-
-const diseasePercentage =
-    document.getElementById(
-        "disease_percentage"
-    )
-
-
-function updateDiseaseInput() {
-
-    if (
-
-        diseaseSelect.value ===
-        "No Disease"
-
-    ) {
-
-        diseasePercentage.value = 0
-
-        diseasePercentage.disabled = true
-
-    }
-
-    else {
-
-        diseasePercentage.disabled = false
-
-    }
-
-}
-
-
-diseaseSelect.addEventListener(
-
-    "change",
-
-    updateDiseaseInput
-
-)
-
-
-updateDiseaseInput()
-
-
-
-// =========================================================
-// FORM SUBMIT
-// =========================================================
-
-const form = document.getElementById(
-    "predictionForm"
-)
-
-
-const loading = document.getElementById(
-    "loading"
-)
-
-
-const results = document.getElementById(
-    "results"
-)
-
-
-const errorBox = document.getElementById(
-    "errorBox"
-)
-
-
-form.addEventListener(
-
-    "submit",
-
-    async function(event) {
-
-
-        event.preventDefault()
-
-
-        results.classList.add(
-            "hidden"
-        )
-
-
-        errorBox.classList.add(
-            "hidden"
-        )
-
-
-        loading.classList.remove(
-            "hidden"
-        )
-
-
+        updateAuthState(true, data.username);
+        showAuthAlert("Signed in successfully! Unlocking prediction studio...", "success");
+        setTimeout(closeModal, 800);
+      } catch (err) {
+        showAuthAlert(err.message, "error");
+      }
+    });
+
+    // Register Submission
+    registerForm.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      authAlert.classList.add("hidden");
+
+      const username = document.getElementById("regUsername").value.trim();
+      const email = document.getElementById("regEmail").value.trim();
+      const password = document.getElementById("regPassword").value;
+
+      try {
+        const formData = new FormData();
+        formData.append("username", username);
+        formData.append("email", email);
+        formData.append("password", password);
+
+        const res = await fetch("/register", {
+          method: "POST",
+          body: formData
+        });
+
+        const data = await res.json();
+        if (!data.success) {
+          throw new Error(data.error || "Registration failed.");
+        }
+
+        updateAuthState(true, data.username);
+        showAuthAlert("Account created successfully! Unlocking prediction studio...", "success");
+        setTimeout(closeModal, 800);
+      } catch (err) {
+        showAuthAlert(err.message, "error");
+      }
+    });
+
+    // Sign Out
+    document.addEventListener("click", async (e) => {
+      if (e.target.closest("#navSignOutBtn")) {
         try {
-
-
-            const formData = new FormData(
-                form
-            )
-
-
-            const response = await fetch(
-
-                "/predict",
-
-                {
-
-                    method: "POST",
-
-                    body: formData
-
-                }
-
-            )
-
-
-            const data =
-                await response.json()
-
-
-            loading.classList.add(
-                "hidden"
-            )
-
-
-            if (!data.success) {
-
-                throw new Error(
-                    data.error
-                )
-
-            }
-
-
-            displayResults(
-                data
-            )
-
-
+          await fetch("/logout", {
+            method: "POST",
+            headers: { "X-Requested-With": "XMLHttpRequest" }
+          });
+          updateAuthState(false, "");
+        } catch (err) {
+          window.location.reload();
         }
+      }
+    });
 
-        catch (error) {
+    // Update Nav & Form Lock UI dynamically
+    function updateAuthState(isLoggedIn, username) {
+      currentUser.isLoggedIn = isLoggedIn;
+      currentUser.username = username;
 
-
-            loading.classList.add(
-                "hidden"
-            )
-
-
-            errorBox.innerText =
-                error.message
-
-
-            errorBox.classList.remove(
-                "hidden"
-            )
-
-        }
-
-
+      if (isLoggedIn) {
+        navAuthArea.innerHTML = `
+          <div class="user-chip">
+            <span class="user-icon">👤</span>
+            <span class="user-name" id="navUsernameDisplay">${username}</span>
+          </div>
+          <button type="button" class="glass-auth-btn sign-out-btn" id="navSignOutBtn">
+            Sign Out
+          </button>
+        `;
+        authGuardBanner.classList.add("hidden");
+      } else {
+        navAuthArea.innerHTML = `
+          <button type="button" class="glass-auth-btn sign-in-btn" id="navSignInBtn">
+            <span>🔒</span>
+            <span>Sign In / Register</span>
+          </button>
+        `;
+        authGuardBanner.classList.remove("hidden");
+      }
     }
 
-)
-
-
-
-// =========================================================
-// DISPLAY RESULTS
-// =========================================================
-
-function displayResults(data) {
-
-
-    const y = data.yield
-
-    const d = data.disease
-
-    const a =
-        data.adjusted_production
-
-    const s =
-        data.suitability
-
-
-
-    // YIELD
-
-    document.getElementById(
-        "predictedYield"
-    ).innerText =
-        y.predicted_yield
-
-
-    document.getElementById(
-        "totalProduction"
-    ).innerText =
-        y.predicted_production_mt
-
-
-    document.getElementById(
-        "diseaseLoss"
-    ).innerText =
-        d.loss_mt
-
-
-    document.getElementById(
-        "adjustedProduction"
-    ).innerText =
-        a.mt
-
-
-
-    // SUITABILITY
-
-    document.getElementById(
-        "suitabilityScore"
-    ).innerText =
-        s.total_score
-
-
-    document.getElementById(
-        "suitabilityResult"
-    ).innerText =
-        s.suitability
-
-
-    document.getElementById(
-        "rawSuitability"
-    ).innerText =
-        s.raw_suitability
-
-
-    document.getElementById(
-        "climateRisk"
-    ).innerText =
-        s.climate_risk_level
-
-
-    document.getElementById(
-        "majorFactor"
-    ).innerText =
-        s.major_limiting_factor
-
-
-
-    // FACTORS
-
-    updateFactor(
-
-        "rainfall",
-
-        s.rainfall_score,
-
-        30,
-
-        s.rainfall_status
-
-    )
-
-
-    updateFactor(
-
-        "tmax",
-
-        s.tmax_score,
-
-        25,
-
-        s.tmax_status
-
-    )
-
-
-    updateFactor(
-
-        "tmin",
-
-        s.tmin_score,
-
-        25,
-
-        s.tmin_status
-
-    )
-
-
-    updateFactor(
-
-        "coffee",
-
-        s.coffee_type_score,
-
-        20,
-
-        s.coffee_type_status
-
-    )
-
-
-
-    // LIMITING FACTORS
-
-    const limitingList =
-        document.getElementById(
-            "limitingFactors"
-        )
-
-
-    limitingList.innerHTML = ""
-
-
-    if (
-
-        s.limiting_factors.length === 0
-
-    ) {
-
-        limitingList.innerHTML =
-
-            "<li>No major limiting factors found.</li>"
-
+    // =========================================================================
+    // APPLICATION LOGIC (Districts, Predict, Results)
+    // =========================================================================
+    const stateSelect = document.getElementById("state");
+    const districtSelect = document.getElementById("district");
+
+    stateSelect.addEventListener("change", async function() {
+      const state = stateSelect.value;
+      districtSelect.innerHTML = "<option>Loading districts...</option>";
+
+      if (!state) {
+        districtSelect.innerHTML = "<option value=''>Select State First</option>";
+        return;
+      }
+
+      try {
+        const response = await fetch(`/districts?state=${encodeURIComponent(state)}`);
+        const districts = await response.json();
+        districtSelect.innerHTML = "<option value=''>Select District</option>";
+        districts.forEach(d => {
+          districtSelect.innerHTML += `<option value="${d}">${d}</option>`;
+        });
+      } catch (err) {
+        districtSelect.innerHTML = "<option value=''>Error loading districts</option>";
+      }
+    });
+
+    const diseaseSelect = document.getElementById("disease");
+    const diseasePercentage = document.getElementById("disease_percentage");
+
+    function updateDiseaseInput() {
+      if (diseaseSelect.value === "No Disease") {
+        diseasePercentage.value = 0;
+        diseasePercentage.disabled = true;
+      } else {
+        diseasePercentage.disabled = false;
+        if (diseasePercentage.value === "0") diseasePercentage.value = 15;
+      }
     }
 
-    else {
+    diseaseSelect.addEventListener("change", updateDiseaseInput);
+    updateDiseaseInput();
 
+    const form = document.getElementById("predictionForm");
+    const loading = document.getElementById("loading");
+    const results = document.getElementById("results");
+    const errorBox = document.getElementById("errorBox");
 
-        s.limiting_factors.forEach(
+    form.addEventListener("submit", async function(e) {
+      e.preventDefault();
 
-            factor => {
+      // Check if logged in before submitting
+      if (!currentUser.isLoggedIn) {
+        openModal('login', "Please sign in or register an account to run coffee yield forecasts.");
+        return;
+      }
 
-                limitingList.innerHTML +=
+      results.classList.add("hidden");
+      errorBox.classList.add("hidden");
+      loading.classList.remove("hidden");
 
-                    `<li>${factor}</li>`
+      try {
+        const formData = new FormData(form);
+        const response = await fetch("/predict", {
+          method: "POST",
+          body: formData
+        });
 
-            }
-
-        )
-
-    }
-
-
-
-    // RECOMMENDATIONS
-
-    const recommendationList =
-        document.getElementById(
-            "recommendations"
-        )
-
-
-    recommendationList.innerHTML = ""
-
-
-    s.recommendations.forEach(
-
-        recommendation => {
-
-            recommendationList.innerHTML +=
-
-                `<li>${recommendation}</li>`
-
+        if (response.status === 401) {
+          updateAuthState(false, "");
+          throw new Error("Authentication required. Please sign in or register.");
         }
 
-    )
+        const data = await response.json();
+        loading.classList.add("hidden");
 
+        if (!data.success) {
+          throw new Error(data.error || "Prediction request failed.");
+        }
 
+        displayResults(data);
+      } catch (error) {
+        loading.classList.add("hidden");
+        if (error.message.includes("Authentication required")) {
+          openModal('login', error.message);
+        } else {
+          errorBox.innerText = error.message;
+          errorBox.classList.remove("hidden");
+        }
+      }
+    });
 
-    results.classList.remove(
-        "hidden"
-    )
+    function displayResults(data) {
+      const y = data.yield;
+      const d = data.disease;
+      const a = data.adjusted_production;
+      const s = data.suitability;
 
+      document.getElementById("predictedYield").innerText = Number(y.predicted_yield).toFixed(2);
+      document.getElementById("totalProduction").innerText = Number(y.predicted_production_mt).toFixed(2);
+      document.getElementById("diseaseLoss").innerText = Number(d.loss_mt).toFixed(2);
+      document.getElementById("adjustedProduction").innerText = Number(a.mt).toFixed(2);
 
-    results.scrollIntoView({
+      const score = Math.round(s.total_score);
+      document.getElementById("suitabilityScore").innerText = score;
+      document.getElementById("suitabilityResult").innerText = s.suitability;
 
-        behavior: "smooth"
+      const circle = document.getElementById("scoreCircle");
+      const radius = 54;
+      const circumference = 2 * Math.PI * radius;
+      const offset = circumference - (score / 100) * circumference;
+      circle.style.strokeDasharray = `${circumference}`;
+      circle.style.strokeDashoffset = `${offset}`;
 
-    })
+      if (score >= 80) circle.style.stroke = "#36d67e";
+      else if (score >= 60) circle.style.stroke = "#b9abff";
+      else if (score >= 40) circle.style.stroke = "#f59e0b";
+      else circle.style.stroke = "#ef4444";
 
-}
+      document.getElementById("rawSuitability").innerText = s.raw_suitability;
+      document.getElementById("climateRisk").innerText = s.climate_risk_level;
+      document.getElementById("majorFactor").innerText = s.major_limiting_factor;
 
+      updateFactor("rainfall", s.rainfall_score, 30, s.rainfall_status);
+      updateFactor("tmax", s.tmax_score, 25, s.tmax_status);
+      updateFactor("tmin", s.tmin_score, 25, s.tmin_status);
+      updateFactor("coffee", s.coffee_type_score, 20, s.coffee_type_status);
 
+      const limitingList = document.getElementById("limitingFactors");
+      limitingList.innerHTML = "";
+      if (!s.limiting_factors || s.limiting_factors.length === 0) {
+        limitingList.innerHTML = "<li>No critical meteorological limiting factors detected.</li>";
+      } else {
+        s.limiting_factors.forEach(f => {
+          limitingList.innerHTML += `<li>${f}</li>`;
+        });
+      }
 
-// =========================================================
-// UPDATE FACTOR
-// =========================================================
+      const recommendationList = document.getElementById("recommendations");
+      recommendationList.innerHTML = "";
+      if (s.recommendations && s.recommendations.length > 0) {
+        s.recommendations.forEach(r => {
+          recommendationList.innerHTML += `<li>${r}</li>`;
+        });
+      } else {
+        recommendationList.innerHTML = "<li>Maintain optimal seasonal irrigation and canopy shade cover.</li>";
+      }
 
-function updateFactor(
+      results.classList.remove("hidden");
+      results.scrollIntoView({ behavior: "smooth" });
+    }
 
-    name,
-
-    score,
-
-    max,
-
-    status
-
-) {
-
-
-    document.getElementById(
-
-        `${name}Value`
-
-    ).innerText =
-
-        `${score} / ${max}`
-
-
-
-    document.getElementById(
-
-        `${name}Status`
-
-    ).innerText =
-        status
-
-
-
-    const percentage =
-
-        (score / max) * 100
-
-
-
-    document.getElementById(
-
-        `${name}Bar`
-
-    ).style.width =
-
-        `${percentage}%`
-
-}
-
-
-</script>
-
-
+    function updateFactor(name, score, max, status) {
+      document.getElementById(`${name}Value`).innerText = `${Number(score).toFixed(1)} / ${max}`;
+      document.getElementById(`${name}Status`).innerText = status;
+      const pct = Math.min(100, Math.max(0, (score / max) * 100));
+      document.getElementById(`${name}Bar`).style.width = `${pct}%`;
+    }
+  </script>
 </body>
-
 </html>

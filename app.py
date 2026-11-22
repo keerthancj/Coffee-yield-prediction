@@ -1,4 +1,7 @@
-from flask import Flask, render_template, request, jsonify
+from flask import Flask, render_template, request, jsonify, session, redirect, url_for
+from werkzeug.security import generate_password_hash, check_password_hash
+import sqlite3
+import os
 
 import pandas as pd
 import joblib
@@ -7,10 +10,42 @@ from suitability import calculate_suitability
 
 
 # ============================================================
-# FLASK APP
+# FLASK APP & AUTHENTICATION CONFIG
 # ============================================================
 
 app = Flask(__name__)
+app.secret_key = os.environ.get("FLASK_SECRET_KEY", "facet_coffee_yield_glass_key_2026")
+
+DB_FILE = "users.db"
+
+def get_db():
+    conn = sqlite3.connect(DB_FILE)
+    conn.row_factory = sqlite3.Row
+    return conn
+
+def init_db():
+    conn = get_db()
+    c = conn.cursor()
+    c.execute("""
+        CREATE TABLE IF NOT EXISTS users (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            username TEXT UNIQUE NOT NULL,
+            email TEXT UNIQUE NOT NULL,
+            password_hash TEXT NOT NULL,
+            created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        )
+    """)
+    # Pre-seed demo user if not exists
+    c.execute("SELECT id FROM users WHERE username = 'admin'")
+    if not c.fetchone():
+        c.execute(
+            "INSERT INTO users (username, email, password_hash) VALUES (?, ?, ?)",
+            ("admin", "admin@facetcoffee.ai", generate_password_hash("password123"))
+        )
+    conn.commit()
+    conn.close()
+
+init_db()
 
 
 # ============================================================
@@ -80,16 +115,121 @@ def home():
         .tolist()
     )
 
+    logged_in = "user_id" in session
+    username = session.get("username", "")
+
     return render_template(
-
         "index.html",
-
         states=states,
-
-        diseases=list(
-            DISEASE_IMPACT.keys()
-        )
+        diseases=list(DISEASE_IMPACT.keys()),
+        logged_in=logged_in,
+        username=username
     )
+
+
+# ============================================================
+# AUTHENTICATION ROUTES (REGISTER, LOGIN, LOGOUT, STATUS)
+# ============================================================
+
+@app.route("/register", methods=["POST"])
+def register():
+    try:
+        data = request.form if request.form else request.get_json(silent=True) or {}
+        username = str(data.get("username", "")).strip()
+        email = str(data.get("email", "")).strip().lower()
+        password = str(data.get("password", "")).strip()
+
+        if not username or not email or not password:
+            return jsonify({"success": False, "error": "Username, email, and password are required."}), 400
+
+        if len(username) < 3:
+            return jsonify({"success": False, "error": "Username must be at least 3 characters."}), 400
+
+        if len(password) < 6:
+            return jsonify({"success": False, "error": "Password must be at least 6 characters."}), 400
+
+        conn = get_db()
+        c = conn.cursor()
+
+        c.execute("SELECT id FROM users WHERE username = ?", (username,))
+        if c.fetchone():
+            conn.close()
+            return jsonify({"success": False, "error": "Username is already registered."}), 400
+
+        c.execute("SELECT id FROM users WHERE email = ?", (email,))
+        if c.fetchone():
+            conn.close()
+            return jsonify({"success": False, "error": "Email is already registered."}), 400
+
+        pw_hash = generate_password_hash(password)
+        c.execute(
+            "INSERT INTO users (username, email, password_hash) VALUES (?, ?, ?)",
+            (username, email, pw_hash)
+        )
+        user_id = c.lastrowid
+        conn.commit()
+        conn.close()
+
+        session["user_id"] = user_id
+        session["username"] = username
+
+        return jsonify({
+            "success": True,
+            "message": "Account created successfully!",
+            "username": username
+        })
+    except Exception as error:
+        return jsonify({"success": False, "error": str(error)}), 500
+
+
+@app.route("/login", methods=["POST"])
+def login():
+    try:
+        data = request.form if request.form else request.get_json(silent=True) or {}
+        identifier = str(data.get("identifier", "")).strip()
+        password = str(data.get("password", "")).strip()
+
+        if not identifier or not password:
+            return jsonify({"success": False, "error": "Please enter your username/email and password."}), 400
+
+        conn = get_db()
+        c = conn.cursor()
+        c.execute(
+            "SELECT id, username, password_hash FROM users WHERE username = ? OR email = ?",
+            (identifier, identifier.lower())
+        )
+        user = c.fetchone()
+        conn.close()
+
+        if not user or not check_password_hash(user["password_hash"], password):
+            return jsonify({"success": False, "error": "Invalid username or password."}), 401
+
+        session["user_id"] = user["id"]
+        session["username"] = user["username"]
+
+        return jsonify({
+            "success": True,
+            "message": "Signed in successfully!",
+            "username": user["username"]
+        })
+    except Exception as error:
+        return jsonify({"success": False, "error": str(error)}), 500
+
+
+@app.route("/logout", methods=["GET", "POST"])
+def logout():
+    session.clear()
+    if request.is_json or request.headers.get("X-Requested-With") == "XMLHttpRequest":
+        return jsonify({"success": True, "message": "Logged out successfully."})
+    return redirect(url_for("home"))
+
+
+@app.route("/user/status")
+def user_status():
+    return jsonify({
+        "logged_in": "user_id" in session,
+        "username": session.get("username", "")
+    })
 
 
 # ============================================================
@@ -134,6 +274,15 @@ def get_districts():
 def predict():
 
     try:
+
+        # ----------------------------------------------------
+        # CHECK AUTHENTICATION
+        # ----------------------------------------------------
+        if "user_id" not in session:
+            return jsonify({
+                "success": False,
+                "error": "Authentication required. Please sign in or register to run predictions."
+            }), 401
 
         # ----------------------------------------------------
         # GET FORM DATA
@@ -593,11 +742,11 @@ def predict():
 
 if __name__ == "__main__":
 
+    port = int(os.environ.get("PORT", 5001))
+    print(f"\n☕ Starting CoffeeAI Studio on http://127.0.0.1:{port}\n")
+
     app.run(
-
         debug=True,
-
         host="127.0.0.1",
-
-        port=5000
+        port=port
     )
